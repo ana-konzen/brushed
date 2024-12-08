@@ -319,183 +319,91 @@
   ],
   "sections": [
     {
-      "explanation": "The opening lines where the setting is introduced as a party scene, and there is a shift to introspective lyrics about relationships.",
-      "mood": [
-        "playful",
-        "contemplative"
-      ],
+      "explanation": "The first verse starts with a playful invitation to a party, introducing themes of closeness and intimacy.",
+      "mood": ["playful", "intimate"],
       "chaos_level": 0.4,
       "energy": 0.6,
       "texture": 0.5,
-      "colors": [
-        "#FF7F50",
-        "#FFD700",
-        "#8B0000",
-        "#FF8C00",
-        "#FFA500"
-      ],
+      "colors": ["#FFC0CB", "#FFA07A", "#FAFAD2", "#D8BFD8", "#F0E68C"],
       "harmony": 0.7,
       "start": 0.25,
-      "duration": 18.23
+      "duration": 24.62
     },
     {
-      "explanation": "The first chorus with upbeat and catchy lyrics about connection and conversations, expressing joy and intimacy.",
-      "mood": [
-        "joyful",
-        "romantic"
-      ],
-      "chaos_level": 0.3,
+      "explanation": "The chorus emphasizes connection and communication in a relationship.",
+      "mood": ["romantic", "intimate"],
+      "chaos_level": 0.5,
       "energy": 0.8,
       "texture": 0.6,
-      "colors": [
-        "#FF69B4",
-        "#FF1493",
-        "#FF4500",
-        "#FFA07A",
-        "#F08080"
-      ],
-      "harmony": 0.9,
-      "start": 18.48,
-      "duration": 16.39
-    },
-    {
-      "explanation": "A verse with more intimate and whimsical lyrics, mentioning languages and communication, adding a playful tone.",
-      "mood": [
-        "playful",
-        "intimate"
-      ],
-      "chaos_level": 0.3,
-      "energy": 0.7,
-      "texture": 0.5,
-      "colors": [
-        "#FFD700",
-        "#FF6347",
-        "#FF69B4",
-        "#FFA500",
-        "#FF4500"
-      ],
+      "colors": ["#FFB6C1", "#DC143C", "#FFE4E1", "#FA8072", "#FFDAB9"],
       "harmony": 0.8,
-      "start": 34.93,
-      "duration": 26.55
+      "start": 24.87,
+      "duration": 20.61
     },
     {
-      "explanation": "An energetic and repetitive section focusing on the multilingual phrase 'Talk to me in French, Spanish,' emphasizing the playful nature of language.",
-      "mood": [
-        "playful",
-        "energetic"
-      ],
-      "chaos_level": 0.3,
+      "explanation": "The second verse expands on romantic themes with an international flair, showcasing a multilingual approach.",
+      "mood": ["passionate", "cosmopolitan"],
+      "chaos_level": 0.6,
+      "energy": 0.7,
+      "texture": 0.7,
+      "colors": ["#FF6347", "#4682B4", "#FF4500", "#EE82EE", "#FFFF00"],
+      "harmony": 0.7,
+      "start": 45.48,
+      "duration": 42.32
+    },
+    {
+      "explanation": "The next chorus reiterates the connection between the characters through a multilingual and universal communication.",
+      "mood": ["romantic", "intimate"],
+      "chaos_level": 0.5,
       "energy": 0.9,
       "texture": 0.6,
-      "colors": [
-        "#FF7F50",
-        "#FFD700",
-        "#FFA07A",
-        "#FF4500",
-        "#FF8C00"
-      ],
+      "colors": ["#FFB6C1", "#DC143C", "#FFE4E1", "#FA8072", "#FFDAB9"],
       "harmony": 0.8,
-      "start": 67.8,
-      "duration": 18.6
+      "start": 87.8,
+      "duration": 23.2
     },
     {
-      "explanation": "A reflective bridge section with a slower pace, introspection, and more focused lyrics about connection and memories.",
-      "mood": [
-        "reflective",
-        "introspective"
-      ],
-      "chaos_level": 0.2,
+      "explanation": "A bridge focusing on passion and carrying the international and intimate themes.",
+      "mood": ["passionate", "intimate"],
+      "chaos_level": 0.6,
+      "energy": 0.7,
+      "texture": 0.7,
+      "colors": ["#FF6347", "#4682B4", "#FF4500", "#EE82EE", "#FFFF00"],
+      "harmony": 0.7,
+      "start": 111,
+      "duration": 28.94
+    },
+    {
+      "explanation": "The outro shifts to a reflective mood, with a sense of concluding the wild party and reaffirming the connection.",
+      "mood": ["reflective", "fond"],
+      "chaos_level": 0.4,
       "energy": 0.5,
       "texture": 0.4,
-      "colors": [
-        "#F0E68C",
-        "#FFD700",
-        "#FFA500",
-        "#FF8C00",
-        "#FF4500"
-      ],
-      "harmony": 0.85,
-      "start": 80.6,
-      "duration": 20.7
-    },
-    {
-      "explanation": "The second chorus with more emphasis on the joy of connection and the repetition of previous themes, building towards the end.",
-      "mood": [
-        "joyful",
-        "romantic"
-      ],
-      "chaos_level": 0.3,
-      "energy": 0.8,
-      "texture": 0.6,
-      "colors": [
-        "#FF69B4",
-        "#FF4500",
-        "#FFA07A",
-        "#FFD700",
-        "#F08080"
-      ],
-      "harmony": 0.9,
-      "start": 101.3,
-      "duration": 21.45
-    },
-    {
-      "explanation": "The final section with a party-like atmosphere and a reflective conclusion in French and Spanish, tying back to the song's theme.",
-      "mood": [
-        "playful",
-        "reflective"
-      ],
-      "chaos_level": 0.3,
-      "energy": 0.7,
-      "texture": 0.5,
-      "colors": [
-        "#FFD700",
-        "#FF4500",
-        "#FF6347",
-        "#FFA500",
-        "#F0E68C"
-      ],
-      "harmony": 0.85,
-      "start": 165.06,
-      "duration": 8.13
+      "colors": ["#FFD700", "#FF69B4", "#87CEEB", "#FFFFFF", "#FDF5E6"],
+      "harmony": 0.6,
+      "start": 139.94,
+      "duration": 33.25
     }
   ],
   "song_start": {
-    "explanation": "The song begins with an introduction featuring voices and a greeting, setting the tone for a party atmosphere.",
-    "mood": [
-      "inviting",
-      "engaging"
-    ],
-    "chaos_level": 0.2,
+    "explanation": "The song begins with an introductory segment, establishing the mood of a party and casual intimacy.",
+    "mood": ["party", "fun", "intimate"],
+    "chaos_level": 0.3,
     "energy": 0.5,
-    "texture": 0.3,
-    "colors": [
-      "#FFD700",
-      "#FF69B4",
-      "#FF4500",
-      "#FF6347",
-      "#F0E68C"
-    ],
-    "harmony": 0.8,
+    "texture": 0.4,
+    "colors": ["#FFD700", "#FF69B4", "#87CEEB", "#FFFFFF", "#FDF5E6"],
+    "harmony": 0.6,
     "start": 0,
     "duration": 0.25
   },
   "song_end": {
-    "explanation": "The song concludes with a repeating line, emphasizing the cyclical and enduring nature of the themes in the song.",
-    "mood": [
-      "playful",
-      "lingering"
-    ],
+    "explanation": "The song ends with reflective lyrics and a fade-out, concluding the narrative of the party and romance.",
+    "mood": ["reflective", "sublime"],
     "chaos_level": 0.2,
     "energy": 0.5,
     "texture": 0.3,
-    "colors": [
-      "#FFD700",
-      "#FF69B4",
-      "#FF4500",
-      "#FFA07A",
-      "#F08080"
-    ],
-    "harmony": 0.8,
+    "colors": ["#FFD700", "#FF69B4", "#87CEEB", "#FFFFFF", "#87CEEB"],
+    "harmony": 0.7,
     "start": 173.19,
     "duration": 0.0018369999999947595
   },
