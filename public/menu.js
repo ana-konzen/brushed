@@ -3,6 +3,8 @@ const songMenu = document.querySelector("#song-menu");
 const uploadMenu = document.querySelector("#upload-menu");
 const loadingBuffer = document.querySelector("#loading-buffer");
 const loadButton = document.getElementById("load");
+const audioInput = document.getElementById("audio-input");
+const audioPlayer = document.getElementById("audio-player");
 
 songMenu.style.display = "none";
 uploadMenu.style.display = "none";
@@ -79,11 +81,16 @@ document.querySelector("#load").addEventListener("click", () => {
 
 document.querySelector("#painting-menu button.back").addEventListener("click", () => {
   songMenu.style.display = "flex";
+  uploadMenu.classList.remove("inactive-back");
+  uploadMenu.classList.add("inactive-next");
   document.querySelector("video").style.display = "block";
   document.querySelector("video").src = "fly.mp4";
   document.querySelector("video").play();
   document.querySelector("canvas").style.opacity = "0";
   document.querySelector("#painting-menu").style.opacity = "0";
+  //remove files from audio file input
+  audioInput.value = "";
+  audioPlayer.src = "";
 
   setTimeout(() => {
     songMenu.classList.remove("inactive-back");

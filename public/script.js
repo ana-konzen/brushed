@@ -1,10 +1,7 @@
 const songTitle = document.getElementById("song-title");
 const artistName = document.getElementById("artist-name");
-const audioInput = document.getElementById("audio-input");
 
 const sendButton = document.getElementById("send");
-
-const audioPlayer = document.getElementById("audio-player");
 
 let songData;
 let audioUrl;

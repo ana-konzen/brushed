@@ -10,4 +10,11 @@ export async function saveMusic(musicData) {
       .toLowerCase()}.json`,
     JSON.stringify(musicData, null, 2)
   );
+
+  const musicFolder = await Deno.readDir("src/saved-music");
+  const musicFiles = [];
+  for await (const file of musicFolder) {
+    musicFiles.push(file.name);
+  }
+  await Deno.writeTextFile("src/saved-music/file-paths.json", JSON.stringify(musicFiles, null, 2));
 }
