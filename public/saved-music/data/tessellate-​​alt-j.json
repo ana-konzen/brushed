@@ -1,0 +1,234 @@
+{
+  "incomplete": true,
+  "artists": "​​alt-J",
+  "title": "Tessellate",
+  "duration": 188.107755,
+  "lyrics": null,
+  "lyricsAnnotations": [
+    {
+      "lyrics": "[Chorus]",
+      "annotation": [
+        "Alt-J is the keyboard function for triangle on a computer, as there are many nods to triangles throughout the chorus and verse"
+      ]
+    },
+    {
+      "lyrics": "Bite chunks out of me\n You’re a shark and I’m swimming\n My heart still thumps as I bleed\n And all your friends come sniffing",
+      "annotation": [
+        "The first stanza is about a serious argument, quite possibly about the third party in this love triangle. In the midst or the aftermath of the argument, either she complains to her friends or they were observers, so they were sniffing around.\n\nThe subtext is one of real physical pain.  He sings with a yearning masochism.  She makes him thrilled and afraid, like a swimmer who sees a shark’s fin, yet he commands her to “bite chunks out of [him]” and when she does, his heart beats as he bleeds. It’s the idea of passion through pain.\n\nIt’s also interesting to note that a shark’s approach is signified by a Triangle shaped dorsal fin."
+      ]
+    },
+    {
+      "lyrics": "Chunks of you will sink down to seals\n Blubber rich in mourning\n They’ll nosh you up, yes, they’ll nosh the love away\n But it’s fair to say, you will still haunt me",
+      "annotation": [
+        "This seems to continue the shark metaphor from earlier in the song. The “seals” eat up the debris from their fight – perhaps representative of the subject’s future suitors, who cause her to forget him, but he doesn’t forget her."
+      ]
+    },
+    {
+      "lyrics": "Search the graves while the camera spins",
+      "annotation": [
+        "Another The Good, The Bad, And The Ugly reference, where the characters are searching graves for hidden treasure.\n\nIn films, the camera is often used to symbolize the head of a character, like in POV scenes, for example. In other words, when the camera spins his head spins. This signifies the confusion which is bound to stem from a love triangle."
+      ]
+    },
+    {
+      "lyrics": "Three guns and one goes off\n One’s empty, one’s not quick enough\n One burn, one red, one grin",
+      "annotation": [
+        "Alt-J introduce another triangle; in this case, a Mexican standoff. This line and the next are referencing The Good, the Bad, and the Ugly, when the three characters face off in a graveyard, each hoping to search the graves to find buried treasure.  After the camera spins from face to face for several minutes, one character shoots another, who isn’t quick enough, and the third’s gun is empty.\n\nhttp://www.youtube.com/watch?v=XP9cfQx2OZY&t=4m23s\n\nIt seems that he is comparing love to a battlefield. Where each point of the love triangle is represented as a gun.\n\nOne of the guns (his current girlfriend) makes its move while the other one (himself) is empty inside, and hasn’t made a choice of which of the two to stay with. The last one (his ex-girlfriend) doesn’t act quickly enough.\n\nOne burns with love and passion. One is red with romance. The last is green with jealousy."
+      ]
+    },
+    {
+      "lyrics": "Wild green stones, alone, my lover\n And keep us on my heart",
+      "annotation": [
+        "Green with envy as she leaves (for she will probably end up with the other guy in the love triangle), he still keeps what they were in his heart.\n\n\n\nTessellate is about the lingering of an old flame and the physical intimacy shared with that particular individual.\n\nThe line, ‘and keep us on my heart’ suggests that he still holds memories of their relationship close to his heart, where she still has a place – the relationship has not ceased despite there being another lover in the picture for her."
+      ]
+    },
+    {
+      "lyrics": "Go alone, my flower\n And keep my whole lovely you",
+      "annotation": [
+        "She should leave now while he still remembers her for what he’s loved, not this distorted vile being."
+      ]
+    },
+    {
+      "lyrics": "Toe to toe, back to back, let’s go\n My love, it’s very late\n ’Til morning comes\n Let’s tessellate",
+      "annotation": [
+        "Tessellation is the process of creating a two-dimensional plane using the repetition of a geometric shape with no overlaps and no gaps, everything fits neatly into each other.\n\nHe wants to end the arguing and get in bed “toe to toe, back to back”, and tessellate – i.e. make-up sex. Perhaps getting intimate with her, will help him get over his ex-lover (the third party in this love triangle).\n\n\n\nDrummer Thom Green had this to say about the song in an interview:\n\nWell, obviously, in maths tessellating is when things fit together and the song is basically about sex."
+      ]
+    },
+    {
+      "lyrics": "Triangles are my favourite shape\n Three points where two lines meet",
+      "annotation": [
+        "Newman is referring to a love triangle, wherein each point is a person – generally, one person is the target of the affections of two others, who resent each other. The band explained in their track-by-track interview with DIY:\n\n“Tessellate” is about getting over a girl. Then, at the same time, getting intimate with another girl, and maybe that being a good way to get over the experience of the previous girl; by meeting a new girl and tessellating to her.\n\nTriangles are one of the shapes that naturally tessellate, along with squares, hexagons and odd shaped pentagons.\n\nThis can also be interpreted as a reference to the band’s name. The capital delta sign, ∆, is essentially a triangle. However, according to an interview they did, the writing of “Tessellate” took place prior to their name-change to “∆.”"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "explanation": "The first verse begins, introducing the shark metaphor and the concept of a tense and painful relationship.",
+      "mood": [
+        "intense",
+        "emotional",
+        "painful"
+      ],
+      "chaos_level": 0.4,
+      "energy": 0.5,
+      "texture": 0.6,
+      "colors": [
+        "#331919",
+        "#553232",
+        "#774B4B",
+        "#996464",
+        "#BB7D7D"
+      ],
+      "harmony": 0.7,
+      "start": 0,
+      "duration": 30
+    },
+    {
+      "explanation": "The chorus emphasizes the triangle metaphor, comparing love and relationships to geometric and mathematical principles.",
+      "mood": [
+        "philosophical",
+        "reflective",
+        "enigmatic"
+      ],
+      "chaos_level": 0.3,
+      "energy": 0.6,
+      "texture": 0.5,
+      "colors": [
+        "#3A2B2B",
+        "#5C4242",
+        "#7E5959",
+        "#A07070",
+        "#C28787"
+      ],
+      "harmony": 0.8,
+      "start": 30,
+      "duration": 20
+    },
+    {
+      "explanation": "The second verse expands on the shark metaphor, discussing the aftermath of an emotional confrontation.",
+      "mood": [
+        "somber",
+        "contemplative",
+        "emotional"
+      ],
+      "chaos_level": 0.3,
+      "energy": 0.4,
+      "texture": 0.5,
+      "colors": [
+        "#2C2623",
+        "#4B403C",
+        "#6A5A56",
+        "#897470",
+        "#A88E8A"
+      ],
+      "harmony": 0.7,
+      "start": 50,
+      "duration": 40
+    },
+    {
+      "explanation": "A bridge section with a change in tone, using metaphors of guns and a standoff to represent the love triangle.",
+      "mood": [
+        "tense",
+        "conflicted",
+        "intense"
+      ],
+      "chaos_level": 0.5,
+      "energy": 0.7,
+      "texture": 0.6,
+      "colors": [
+        "#202A30",
+        "#33434A",
+        "#476054",
+        "#5A7C66",
+        "#6D9978"
+      ],
+      "harmony": 0.6,
+      "start": 90,
+      "duration": 30
+    },
+    {
+      "explanation": "A reflective and emotional passage, expressing lingering feelings and memories.",
+      "mood": [
+        "nostalgic",
+        "heartfelt",
+        "resigned"
+      ],
+      "chaos_level": 0.2,
+      "energy": 0.5,
+      "texture": 0.4,
+      "colors": [
+        "#2A1C1E",
+        "#473838",
+        "#645454",
+        "#826F70",
+        "#9E8B8C"
+      ],
+      "harmony": 0.8,
+      "start": 120,
+      "duration": 30
+    },
+    {
+      "explanation": "The outro revisits the chorus, emphasizing the theme of tessellation and closure.",
+      "mood": [
+        "resolute",
+        "philosophical",
+        "reflective"
+      ],
+      "chaos_level": 0.2,
+      "energy": 0.4,
+      "texture": 0.5,
+      "colors": [
+        "#23252C",
+        "#3C3F4B",
+        "#525A6A",
+        "#6A7390",
+        "#818CB5"
+      ],
+      "harmony": 0.9,
+      "start": 150,
+      "duration": 38
+    }
+  ],
+  "song_start": {
+    "explanation": "The song opens with a haunting and atmospheric instrumental introduction, setting the tone for the complex and metaphorical lyrics to come.",
+    "mood": [
+      "mysterious",
+      "atmospheric",
+      "anticipatory"
+    ],
+    "chaos_level": 0.2,
+    "energy": 0.3,
+    "texture": 0.4,
+    "colors": [
+      "#1A1F3A",
+      "#2F415E",
+      "#445880",
+      "#586B9F",
+      "#6C7EC0"
+    ],
+    "harmony": 0.8,
+    "start": 0,
+    "duration": 0
+  },
+  "song_end": {
+    "explanation": "The song ends with an instrumental fade-out, leaving a lingering, reflective mood.",
+    "mood": [
+      "reflective",
+      "melancholic",
+      "serene"
+    ],
+    "chaos_level": 0.1,
+    "energy": 0.2,
+    "texture": 0.3,
+    "colors": [
+      "#121212",
+      "#2A2A2A",
+      "#424242",
+      "#5C5C5C",
+      "#767676"
+    ],
+    "harmony": 0.9,
+    "start": 188,
+    "duration": 0.10775499999999738
+  },
+  "mp3_file": "tessellate-​​alt-j.mp3"
+}
