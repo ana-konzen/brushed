@@ -251,11 +251,11 @@ function analyzeSection() {
 
   energy = (Number(currentSection.energy) + overallEnergy) / 2;
 
-  pressure = map(energy, 0, 1, 4, 15, true);
+  pressure = map(energy, 0, 1, 2, 15, true);
 
-  density = map(Number(currentSection.texture), 0, 1, 20, 0, true);
+  density = map(Number(currentSection.texture), 0, 1, 20, 1, true);
   const harmony = map(Number(currentSection.harmony), 0, 1, 1, 0, true);
-  chaosLevel = ((Number(currentSection.chaos_level) + harmony) / 2) * 100;
+  chaosLevel = ((Number(currentSection.chaos_level) + harmony) / 2) * 150;
 }
 
 function drawBrushCanvas() {
