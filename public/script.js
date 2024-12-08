@@ -3,7 +3,6 @@ const artistName = document.getElementById("artist-name");
 const audioInput = document.getElementById("audio-input");
 
 const sendButton = document.getElementById("send");
-const loadButton = document.getElementById("load");
 
 const audioPlayer = document.getElementById("audio-player");
 
@@ -101,10 +100,4 @@ function secondsToMinutes(seconds) {
 function selectMusic(option) {
   deselectAll(document.querySelectorAll(".song-option"));
   option.classList.add("selected");
-}
-
-function deselectAll(buttons) {
-  Object.values(buttons).forEach((button) => {
-    button.classList.remove("selected");
-  });
 }

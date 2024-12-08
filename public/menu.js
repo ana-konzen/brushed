@@ -2,8 +2,7 @@ const startMenu = document.querySelector("#start-menu");
 const songMenu = document.querySelector("#song-menu");
 const uploadMenu = document.querySelector("#upload-menu");
 const loadingBuffer = document.querySelector("#loading-buffer");
-const musicOptions = document.querySelectorAll(".song-option");
-console.log(musicOptions);
+const loadButton = document.getElementById("load");
 
 songMenu.style.display = "none";
 uploadMenu.style.display = "none";
@@ -27,6 +26,9 @@ document.querySelector("#go-to-upload-button").addEventListener("click", () => {
   }, 100);
   setTimeout(() => {
     songMenu.style.display = "none";
+    loadButton.disabled = true;
+    loadButton.classList.add("disabled");
+    deselectAll(document.querySelectorAll(".song-option"));
   }, 1000);
 });
 
@@ -92,3 +94,9 @@ document.querySelector("#painting-menu button.back").addEventListener("click", (
     document.querySelector("#painting-menu").style.display = "none";
   }, 1000);
 });
+
+function deselectAll(buttons) {
+  Object.values(buttons).forEach((button) => {
+    button.classList.remove("selected");
+  });
+}
