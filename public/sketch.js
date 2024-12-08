@@ -1,7 +1,7 @@
 const margin = 80;
 const bufferSize = 1024;
-const dryInterval = 500;
-const dryDuration = 100;
+const dryInterval = 600;
+const dryDuration = 150;
 const threshold = 0.05;
 const decayRate = 0.95;
 
@@ -33,6 +33,8 @@ let brushCanvas;
 let cnv;
 
 let palette = [];
+
+const palettes = [];
 
 let triggerLevel = 0;
 let ellapsedTime = 0;
@@ -77,6 +79,7 @@ function draw() {
 
   if (soundLoaded) {
     currentSection = songData.song_start;
+    palette = palettes[0].colors;
     if (sound.isPlaying()) {
       if (frameCount % 200 === 0) {
         select("#painting-menu").style("opacity", "0");
@@ -89,6 +92,15 @@ function draw() {
       songData.sections.forEach((section) => {
         updateSection(section);
       });
+
+      if (songData.sections.indexOf(currentSection) >= 0) {
+        console.log(songData.sections.indexOf(currentSection));
+        console.log(palettes[songData.sections.indexOf(currentSection) + 1]);
+        console.log(palettes[songData.sections.indexOf(currentSection) + 1].blendPalettes);
+        palette = palettes[songData.sections.indexOf(currentSection) + 1].blendPalettes;
+        console.log(palette);
+      }
+
       analyzeSection();
 
       drawFields();
@@ -128,6 +140,25 @@ function togglePlay(s) {
 }
 
 function setState() {
+  palettes.length = 0;
+
+  palettes[0] = { colors: songData.song_start.colors };
+
+  songData.sections.forEach((section, i) => {
+    const blendPalettes = [];
+    const previousPalette = palettes[i].colors;
+    const nextPalette =
+      i === songData.sections.length - 1 ? songData.song_end.colors : songData.sections[i + 1].colors;
+    nextPalette.forEach((color, j) => {
+      blendPalettes[j] = spectral.palette(previousPalette[j], color, 10, spectral.RGBA);
+    });
+    palettes[i + 1] = {
+      blendPalettes,
+      colors: nextPalette,
+    };
+  });
+  console.log(palettes);
+
   document.querySelector("#start").style.display = "none";
   select("#painting-menu").style("display", "block");
   select("canvas").style("display", "block");
@@ -190,16 +221,28 @@ function drawBrush(pitch, field, brushWidth, prop, round = false) {
 }
 
 function setColor(field) {
-  const c = color(palette[field.index]);
+  const blendPaletteIndex = floor(
+    map(sound.currentTime(), currentSection.start, currentSection.start + currentSection.duration, 0, 5)
+  );
+  console.log(palette);
+  console.log(palette[field.index]?.[blendPaletteIndex]);
+  console.log(palette[field.index]);
+
+  const c =
+    songData.sections.indexOf(currentSection) >= 0
+      ? color(palette[field.index][blendPaletteIndex])
+      : color(palette[field.index]);
+  console.log(c);
   const colorJitter = 5;
-  r = constrain(c.levels[0] + random(-colorJitter, colorJitter), 0, 255);
-  g = constrain(c.levels[1] + random(-colorJitter, colorJitter), 0, 255);
-  b = constrain(c.levels[2] + random(-colorJitter, colorJitter), 0, 255);
-  const c2 = color(r, g, b);
+  const r = constrain(c.levels[0] + random(-colorJitter, colorJitter), 0, 255);
+  const g = constrain(c.levels[1] + random(-colorJitter, colorJitter), 0, 255);
+  const b = constrain(c.levels[2] + random(-colorJitter, colorJitter), 0, 255);
+  const a = map(energy, 0, 1, 1, 8);
+  const c2 = color(r, g, b, a);
   return c2;
 }
 
-function getIndex(arr, chaosLevel) {
+function getPosIndex(arr, chaosLevel) {
   const index = floor(
     map(
       sound.currentTime(),
@@ -209,7 +252,9 @@ function getIndex(arr, chaosLevel) {
       arr.length - 1
     )
   );
-  return floor(abs(index + arr.length / 2 + random(-chaosLevel, chaosLevel)) % arr.length);
+  return floor(
+    abs(index + arr.length / 2 + random(-(chaosLevel * energy) * 2, chaosLevel * energy * 2)) % arr.length
+  );
 }
 
 function resetPositions() {
@@ -233,7 +278,7 @@ function setPositions() {
 }
 
 function getPositions(field, chaosLevel) {
-  const index = getIndex(field.positions, chaosLevel);
+  const index = getPosIndex(field.positions, chaosLevel);
   return field.positions[index];
 }
 
@@ -246,7 +291,6 @@ function createVoronoi() {
 }
 
 function analyzeSection() {
-  palette = currentSection.colors;
   overallEnergy = songData.incomplete ? Number(currentSection.energy) : Number(songData.energy);
 
   energy = (Number(currentSection.energy) + overallEnergy) / 2;
@@ -302,9 +346,9 @@ function drawFields() {
 
   setPositions();
 
-  drawBrush(bass, fields.bass, 40, 2.5, true);
+  drawBrush(bass, fields.bass, 35, 2.8, true);
   drawBrush(treble, fields.treble, 60, 1.5);
   drawBrush(highMid, fields.highMid, 60, 1.5);
-  drawBrush(mid, fields.mid, 45, 2.5);
-  drawBrush(lowMid, fields.lowMid, 40, 2.5, true);
+  drawBrush(mid, fields.mid, 40, 2.8);
+  drawBrush(lowMid, fields.lowMid, 35, 2.8, true);
 }

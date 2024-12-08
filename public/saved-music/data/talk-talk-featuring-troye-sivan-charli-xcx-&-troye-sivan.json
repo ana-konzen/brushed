@@ -319,93 +319,152 @@
   ],
   "sections": [
     {
-      "explanation": "The first verse starts with a playful invitation to a party, introducing themes of closeness and intimacy.",
-      "mood": ["playful", "intimate"],
-      "chaos_level": 0.4,
-      "energy": 0.6,
-      "texture": 0.5,
-      "colors": ["#FFC0CB", "#FFA07A", "#FAFAD2", "#D8BFD8", "#F0E68C"],
-      "harmony": 0.7,
-      "start": 0.25,
-      "duration": 24.62
-    },
-    {
-      "explanation": "The chorus emphasizes connection and communication in a relationship.",
-      "mood": ["romantic", "intimate"],
-      "chaos_level": 0.5,
-      "energy": 0.8,
-      "texture": 0.6,
-      "colors": ["#FFB6C1", "#DC143C", "#FFE4E1", "#FA8072", "#FFDAB9"],
-      "harmony": 0.8,
-      "start": 24.87,
-      "duration": 20.61
-    },
-    {
-      "explanation": "The second verse expands on romantic themes with an international flair, showcasing a multilingual approach.",
-      "mood": ["passionate", "cosmopolitan"],
-      "chaos_level": 0.6,
-      "energy": 0.7,
-      "texture": 0.7,
-      "colors": ["#FF6347", "#4682B4", "#FF4500", "#EE82EE", "#FFFF00"],
-      "harmony": 0.7,
-      "start": 45.48,
-      "duration": 42.32
-    },
-    {
-      "explanation": "The next chorus reiterates the connection between the characters through a multilingual and universal communication.",
-      "mood": ["romantic", "intimate"],
-      "chaos_level": 0.5,
-      "energy": 0.9,
-      "texture": 0.6,
-      "colors": ["#FFB6C1", "#DC143C", "#FFE4E1", "#FA8072", "#FFDAB9"],
-      "harmony": 0.8,
-      "start": 87.8,
-      "duration": 23.2
-    },
-    {
-      "explanation": "A bridge focusing on passion and carrying the international and intimate themes.",
-      "mood": ["passionate", "intimate"],
-      "chaos_level": 0.6,
-      "energy": 0.7,
-      "texture": 0.7,
-      "colors": ["#FF6347", "#4682B4", "#FF4500", "#EE82EE", "#FFFF00"],
-      "harmony": 0.7,
-      "start": 111,
-      "duration": 28.94
-    },
-    {
-      "explanation": "The outro shifts to a reflective mood, with a sense of concluding the wild party and reaffirming the connection.",
-      "mood": ["reflective", "fond"],
+      "explanation": "The first verse establishes the intimate and conversational tone of the song.",
+      "mood": [
+        "intimate",
+        "conversational",
+        "reflective"
+      ],
       "chaos_level": 0.4,
       "energy": 0.5,
+      "texture": 0.3,
+      "colors": [
+        "#F39C93",
+        "#F5A623",
+        "#FFE6C9",
+        "#C8E6C9",
+        "#FFEB3B"
+      ],
+      "harmony": 0.7,
+      "start": 7.52,
+      "duration": 11.96
+    },
+    {
+      "explanation": "The chorus emphasizes the catchy, repetitive elements and the multilingual communication.",
+      "mood": [
+        "playful",
+        "multilingual",
+        "catchy"
+      ],
+      "chaos_level": 0.6,
+      "energy": 0.8,
       "texture": 0.4,
-      "colors": ["#FFD700", "#FF69B4", "#87CEEB", "#FFFFFF", "#FDF5E6"],
-      "harmony": 0.6,
-      "start": 139.94,
-      "duration": 33.25
+      "colors": [
+        "#E57373",
+        "#FF8A65",
+        "#FFCC80",
+        "#B3E5FC",
+        "#D81B60"
+      ],
+      "harmony": 0.9,
+      "start": 24.87,
+      "duration": 21.83
+    },
+    {
+      "explanation": "The second verse reinforces themes of connection and intimacy.",
+      "mood": [
+        "intimate",
+        "romantic",
+        "dreamy"
+      ],
+      "chaos_level": 0.4,
+      "energy": 0.5,
+      "texture": 0.3,
+      "colors": [
+        "#FFCDD2",
+        "#FFF9C4",
+        "#CE93D8",
+        "#80CBC4",
+        "#CFD8DC"
+      ],
+      "harmony": 0.8,
+      "start": 46.7,
+      "duration": 17.13
+    },
+    {
+      "explanation": "The bridge introduces a narrative shift, focusing on future plans and connections.",
+      "mood": [
+        "anticipatory",
+        "romantic",
+        "excited"
+      ],
+      "chaos_level": 0.5,
+      "energy": 0.6,
+      "texture": 0.4,
+      "colors": [
+        "#F8BBD0",
+        "#FF8A80",
+        "#FFD740",
+        "#29B6F6",
+        "#8E24AA"
+      ],
+      "harmony": 0.9,
+      "start": 64.66,
+      "duration": 23.88
+    },
+    {
+      "explanation": "The final chorus intensifies the repetition and multilingual interaction, ending with a reflective outro.",
+      "mood": [
+        "reflective",
+        "multilingual",
+        "festive"
+      ],
+      "chaos_level": 0.7,
+      "energy": 0.9,
+      "texture": 0.5,
+      "colors": [
+        "#FF7043",
+        "#C1C8E4",
+        "#F5E8CD",
+        "#F9B77E",
+        "#FF5252"
+      ],
+      "harmony": 0.85,
+      "start": 120.6,
+      "duration": 53.19
     }
   ],
   "song_start": {
-    "explanation": "The song begins with an introductory segment, establishing the mood of a party and casual intimacy.",
-    "mood": ["party", "fun", "intimate"],
+    "explanation": "The song starts with an ethereal introduction, setting the mood with laid-back vocals and a party invitation.",
+    "mood": [
+      "inviting",
+      "ethereal",
+      "exciting"
+    ],
     "chaos_level": 0.3,
-    "energy": 0.5,
-    "texture": 0.4,
-    "colors": ["#FFD700", "#FF69B4", "#87CEEB", "#FFFFFF", "#FDF5E6"],
-    "harmony": 0.6,
+    "energy": 0.4,
+    "texture": 0.2,
+    "colors": [
+      "#FFDDC1",
+      "#FFD700",
+      "#FF5733",
+      "#EA5C76",
+      "#F9A602"
+    ],
+    "harmony": 0.8,
     "start": 0,
-    "duration": 0.25
+    "duration": 7.52
   },
   "song_end": {
-    "explanation": "The song ends with reflective lyrics and a fade-out, concluding the narrative of the party and romance.",
-    "mood": ["reflective", "sublime"],
-    "chaos_level": 0.2,
+    "explanation": "The song ends with a reflective and calm outro, summarizing the celebratory themes.",
+    "mood": [
+      "calm",
+      "reflective",
+      "celebratory"
+    ],
+    "chaos_level": 0.3,
     "energy": 0.5,
-    "texture": 0.3,
-    "colors": ["#FFD700", "#FF69B4", "#87CEEB", "#FFFFFF", "#87CEEB"],
-    "harmony": 0.7,
-    "start": 173.19,
-    "duration": 0.0018369999999947595
+    "texture": 0.2,
+    "colors": [
+      "#FFE0B2",
+      "#FFCC80",
+      "#CFD8DC",
+      "#B2EBF2",
+      "#C8E6C9"
+    ],
+    "harmony": 0.9,
+    "start": 173.79,
+    "duration": -0.5981629999999996
   },
   "mp3_file": "talk-talk-featuring-troye-sivan-charli-xcx-&-troye-sivan.mp3"
 }

@@ -56,9 +56,11 @@ export async function getMusicAnalysis(artistName, songTitle, duration) {
     },
     colors: {
       type: "array",
-      description: `An array of 5 colors in HEX that represent the mood of the section, as well as the overall style, genre, time period, and aesthetic of the song and artist. For example, if the section is angry, choose reds but with variety, for visual interest.
+      description: `An array of 5 colors in HEX that represent the mood, energy, and chaos of the section, as well as the overall style, genre, time period, and aesthetic of the song, artist, and album. For example, if the section is angry, choose reds but with variety, for visual interest.
       If the style of the song is 80s, choose colors that are reminiscent of that era. Or if it's an emo song, choose emo colors.
-      Consider also the level of energy and chaos of the section. Have a varied color palette that tells a story to the viewer.`,
+      Consider also the level of energy and chaos of the section. Have a varied color palette that tells a story to the viewer.
+      Try not to have the same hue repeated, but have a variety of colors that complement each other.
+      If the lyrics mention a color, consider using that color in the palette.`,
       items: {
         type: "string",
       },

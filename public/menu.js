@@ -58,7 +58,7 @@ document.querySelector("#send").addEventListener("click", () => {
     uploadMenu.style.display = "none";
     document.querySelector("video").style.display = "none";
     document.querySelector("video").pause();
-    document.querySelector("video").src = "";
+    // document.querySelector("video").src = "";
   }, 1000);
 });
 
@@ -75,7 +75,7 @@ document.querySelector("#load").addEventListener("click", () => {
     songMenu.style.display = "none";
     document.querySelector("video").style.display = "none";
     document.querySelector("video").pause();
-    document.querySelector("video").src = "";
+    // document.querySelector("video").src = "";
   }, 1000);
 });
 
@@ -84,7 +84,7 @@ document.querySelector("#painting-menu button.back").addEventListener("click", (
   uploadMenu.classList.remove("inactive-back");
   uploadMenu.classList.add("inactive-next");
   document.querySelector("video").style.display = "block";
-  document.querySelector("video").src = "fly.mp4";
+  // document.querySelector("video").src = "fly.mp4";
   document.querySelector("video").play();
   document.querySelector("canvas").style.opacity = "0";
   document.querySelector("#painting-menu").style.opacity = "0";

@@ -285,125 +285,125 @@
   ],
   "sections": [
     {
-      "explanation": "The verse builds a narrative of betrayal and self-examination.",
+      "explanation": "This section introduces the story of her breakup and the emotional impact.",
       "mood": [
-        "introspective",
-        "betrayed"
+        "hurt",
+        "confused"
       ],
       "chaos_level": 0.3,
       "energy": 0.4,
       "texture": 0.3,
       "colors": [
-        "#D9E1F2",
-        "#A3AFC2",
-        "#6D88A1",
-        "#8297B3",
-        "#C3D3E4"
+        "#4682B4",
+        "#556B2F",
+        "#008080",
+        "#483D8B",
+        "#2F4F4F"
       ],
-      "harmony": 0.6,
+      "harmony": 0.7,
       "start": 0.16,
-      "duration": 74.35
+      "duration": 56.7
     },
     {
-      "explanation": "The song transitions to the pre-chorus, introducing a buildup with an emotional heartbeat.",
+      "explanation": "The chorus begins, expressing the desire for closure and starting over.",
       "mood": [
-        "anxious",
-        "yearning"
+        "longing",
+        "hopeful"
       ],
-      "chaos_level": 0.4,
-      "energy": 0.5,
-      "texture": 0.4,
-      "colors": [
-        "#C4CAD9",
-        "#7A869D",
-        "#5C6A87",
-        "#A8B8CC",
-        "#D1DBE8"
-      ],
-      "harmony": 0.6,
-      "start": 74.95,
-      "duration": 62.17
-    },
-    {
-      "explanation": "The chorus explodes in energy, expressing a desire for closure and liberty.",
-      "mood": [
-        "hopeful",
-        "energetic"
-      ],
-      "chaos_level": 0.6,
+      "chaos_level": 0.5,
       "energy": 0.8,
       "texture": 0.5,
       "colors": [
-        "#B2D1E0",
-        "#6A9DB3",
-        "#5082A2",
-        "#90B7C8",
-        "#D3E3F1"
+        "#32CD32",
+        "#00FF00",
+        "#ADFF2F",
+        "#9ACD32",
+        "#66CDAA"
       ],
-      "harmony": 0.8,
-      "start": 137.12,
-      "duration": 53.87
+      "harmony": 0.9,
+      "start": 56.86,
+      "duration": 74.47
     },
     {
-      "explanation": "The repetition of the chorus with slight variations reinforces the emotional themes.",
+      "explanation": "Continues the themes of heartbreak while exploring more of the narrator's emotions.",
       "mood": [
-        "hopeful",
-        "urgent"
+        "reflective",
+        "pensive"
       ],
-      "chaos_level": 0.6,
-      "energy": 0.85,
-      "texture": 0.5,
+      "chaos_level": 0.4,
+      "energy": 0.6,
+      "texture": 0.4,
       "colors": [
-        "#ADD8F0",
-        "#6DAFCB",
-        "#4E91B6",
-        "#94C4DC",
-        "#D5EBF7"
+        "#4682B4",
+        "#556B2F",
+        "#6A5ACD",
+        "#8A2BE2",
+        "#2F4F4F"
       ],
       "harmony": 0.8,
-      "start": 190.22,
-      "duration": 37.81
+      "start": 131.33,
+      "duration": 53.8
+    },
+    {
+      "explanation": "Closing repetitions of the chorus with a triumph-like undertone.",
+      "mood": [
+        "resilient",
+        "assertive"
+      ],
+      "chaos_level": 0.6,
+      "energy": 0.9,
+      "texture": 0.6,
+      "colors": [
+        "#32CD32",
+        "#7FFF00",
+        "#ADFF2F",
+        "#9ACD32",
+        "#66CDAA"
+      ],
+      "harmony": 0.85,
+      "start": 195.13,
+      "duration": 39.86
     }
   ],
   "song_start": {
-    "explanation": "The song begins with a slow, introspective mood, where the protagonist reflects on a past relationship.",
+    "explanation": "The song starts with an introductory verse, setting up the narrative of heartbreak, betrayal, and longing.",
     "mood": [
-      "reflective",
-      "melancholic"
+      "melancholic",
+      "reflective"
     ],
     "chaos_level": 0.2,
     "energy": 0.3,
     "texture": 0.2,
     "colors": [
-      "#E0D7F6",
-      "#94B0C2",
-      "#738FA7",
-      "#B2C7C8",
-      "#A5B8B6"
+      "#4682B4",
+      "#5F9EA0",
+      "#6A5ACD",
+      "#8A2BE2",
+      "#9370DB"
     ],
-    "harmony": 0.7,
+    "harmony": 0.8,
     "start": 0,
     "duration": 0.16
   },
   "song_end": {
-    "explanation": "The song concludes with repeated longing for liberation, the music fades.",
+    "explanation": "The song quiets down, ending on a reflective note.",
     "mood": [
-      "longing",
-      "resigned"
+      "melancholic",
+      "peaceful"
     ],
     "chaos_level": 0.2,
-    "energy": 0.4,
-    "texture": 0.3,
+    "energy": 0.3,
+    "texture": 0.2,
     "colors": [
-      "#D8E8F7",
-      "#98BCD4",
-      "#78A5C2",
-      "#AECDE3",
-      "#DFEAF5"
+      "#4682B4",
+      "#5F9EA0",
+      "#6A5ACD",
+      "#8A2BE2",
+      "#9370DB"
     ],
-    "harmony": 0.7,
-    "start": 228.03,
-    "duration": 6.967550999999986
+    "harmony": 0.9,
+    "start": 234.99,
+    "duration": 0.007550999999978103
   },
   "mp3_file": "green-light-lorde.mp3"
 }

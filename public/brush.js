@@ -1,7 +1,7 @@
 // simple brush texture library
 
 class Line {
-  constructor(brushCanvas, yMean, x, nPoints, sHeight, c, alpha = 5) {
+  constructor(brushCanvas, yMean, x, nPoints, sHeight, c) {
     this.yMean = yMean;
     this.x = x;
     this.nPoints = nPoints;
@@ -15,7 +15,7 @@ class Line {
     this.red = c.levels[0] + random(-colorJitter, colorJitter);
     this.green = c.levels[1] + random(-colorJitter, colorJitter);
     this.blue = c.levels[2] + random(-colorJitter, colorJitter);
-    this.color = color(this.red, this.green, this.blue, alpha);
+    this.color = color(this.red, this.green, this.blue, c.levels[3]);
   }
   set() {
     let sigma = this.height / 4;
