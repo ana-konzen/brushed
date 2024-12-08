@@ -90,8 +90,8 @@ export async function getMusicAnalysis(artistName, songTitle, duration) {
       },
       { role: "user", content: prompt },
     ],
-    temperature: 0.8,
-    max_tokens: 1000,
+    temperature: 0.9,
+    max_tokens: 2000,
     model: "gpt-4o-2024-11-20",
     // seed: 256,
     response_format: {
@@ -110,7 +110,8 @@ export async function getMusicAnalysis(artistName, songTitle, duration) {
             },
             sections: {
               type: "array",
-              description: "An array with for each section of the song.",
+              description:
+                "An array with for each section of the song. The song is divided into 5-10 significan5 sections, based on shifts in music, mood, emotion, etc.",
               items: {
                 type: "object",
                 properties: sectionProperties,

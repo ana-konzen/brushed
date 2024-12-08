@@ -152,7 +152,9 @@
     },
     {
       "lyrics": "Drink up one more time and I’ll make you mine",
-      "annotation": ["I imagine a glass of whisky whispering this to Elliott in a bar."]
+      "annotation": [
+        "I imagine a glass of whisky whispering this to Elliott in a bar."
+      ]
     },
     {
       "lyrics": "Drink up, baby, look at the stars\n I’ll kiss you again, between the bars\n Where I’m seeing you there, with your hands in the air\n Waiting to finally be caught",
@@ -181,71 +183,146 @@
   ],
   "sections": [
     {
-      "explanation": "The first verse introduces the theme of the struggle and solace found in alcohol.",
-      "mood": ["somber", "introspective", "vulnerable"],
+      "explanation": "First verse introduces the narrative voice and its comforting encouragement.",
+      "mood": [
+        "warm",
+        "seductive",
+        "melancholic"
+      ],
       "chaos_level": 0.2,
-      "energy": 0.2,
-      "texture": 0.2,
-      "colors": ["#6b8e23", "#708090", "#556b2f", "#4682b4", "#2f4f4f"],
+      "energy": 0.15,
+      "texture": 0.3,
+      "colors": [
+        "#7A9EAE",
+        "#9DBECD",
+        "#BECED8",
+        "#D0DCE3",
+        "#E3EEF4"
+      ],
       "harmony": 0.8,
       "start": 11.19,
-      "duration": 14
+      "duration": 19.19
     },
     {
-      "explanation": "The chorus emphasizes the repetitive and haunting nature of the singer's reliance on alcohol.",
-      "mood": ["haunting", "captivating", "contemplative"],
+      "explanation": "The themes of memory, conflict, and solace are explored in this section.",
+      "mood": [
+        "somber",
+        "reflective"
+      ],
       "chaos_level": 0.25,
-      "energy": 0.25,
-      "texture": 0.3,
-      "colors": ["#708090", "#2f4f4f", "#556b2f", "#4682b4", "#808080"],
-      "harmony": 0.85,
-      "start": 52.26,
-      "duration": 17.19
+      "energy": 0.18,
+      "texture": 0.4,
+      "colors": [
+        "#558B97",
+        "#6EA3B1",
+        "#87B8C8",
+        "#A0CFDF",
+        "#B9E0F2"
+      ],
+      "harmony": 0.7,
+      "start": 30.38,
+      "duration": 21.88
     },
     {
-      "explanation": "The second verse dives deeper into the imagery of alcohol as a comforting yet isolating force.",
-      "mood": ["reflective", "despairing", "intimate"],
-      "chaos_level": 0.23,
-      "energy": 0.22,
-      "texture": 0.23,
-      "colors": ["#556b2f", "#708090", "#6b8e23", "#2f4f4f", "#4682b4"],
+      "explanation": "The mood deepens, revisiting previous themes with new imagery.",
+      "mood": [
+        "wistful",
+        "emotive"
+      ],
+      "chaos_level": 0.3,
+      "energy": 0.2,
+      "texture": 0.5,
+      "colors": [
+        "#4D7584",
+        "#6795A3",
+        "#819DBB",
+        "#9DB5D2",
+        "#B7CBE9"
+      ],
+      "harmony": 0.75,
+      "start": 52.26,
+      "duration": 22.9
+    },
+    {
+      "explanation": "The imagery becomes more intimate and celestial.",
+      "mood": [
+        "romantic",
+        "introspective"
+      ],
+      "chaos_level": 0.35,
+      "energy": 0.25,
+      "texture": 0.5,
+      "colors": [
+        "#376E77",
+        "#4D828B",
+        "#638EA0",
+        "#79A4B4",
+        "#90B9C9"
+      ],
       "harmony": 0.8,
       "start": 74.18,
       "duration": 22.06
     },
     {
-      "explanation": "The final chorus restates the cyclical and inescapable nature of the singer's addiction.",
-      "mood": ["resigned", "contemplative", "haunting"],
-      "chaos_level": 0.3,
-      "energy": 0.3,
-      "texture": 0.25,
-      "colors": ["#2f4f4f", "#556b2f", "#708090", "#6b8e23", "#4682b4"],
-      "harmony": 0.75,
-      "start": 116.24,
-      "duration": 22.31
+      "explanation": "The song concludes with a repeated message of solace and numbness, a cyclical nature.",
+      "mood": [
+        "somber",
+        "resolute"
+      ],
+      "chaos_level": 0.2,
+      "energy": 0.15,
+      "texture": 0.3,
+      "colors": [
+        "#61818A",
+        "#7AA0B0",
+        "#93BAC7",
+        "#AECFE0",
+        "#C7E4F9"
+      ],
+      "harmony": 0.7,
+      "start": 100.12,
+      "duration": 38.09
     }
   ],
   "song_start": {
-    "explanation": "The song begins with a calm yet melancholic introduction, setting the mood for the reflective and somber lyrics to come.",
-    "mood": ["melancholic", "reflective", "introspective"],
-    "chaos_level": 0.2,
+    "explanation": "The song begins with a gentle acoustic guitar arpeggio, establishing a soft, melancholic, and contemplative mood.",
+    "mood": [
+      "melancholic",
+      "introspective"
+    ],
+    "chaos_level": 0.1,
     "energy": 0.1,
-    "texture": 0.15,
-    "colors": ["#394b59", "#6b8e23", "#808080", "#2f4f4f", "#556b2f"],
+    "texture": 0.2,
+    "colors": [
+      "#8B8B8B",
+      "#A9A9A9",
+      "#708090",
+      "#808080",
+      "#505050"
+    ],
     "harmony": 0.9,
     "start": 0,
     "duration": 11.19
   },
   "song_end": {
-    "explanation": "The song ends on a melancholic note, encapsulating the themes of addiction and the cyclical nature of reliance on alcohol.",
-    "mood": ["melancholic", "introspective", "somber"],
-    "chaos_level": 0.2,
+    "explanation": "The song ends softly, with the music fading out.",
+    "mood": [
+      "reflective",
+      "introspective"
+    ],
+    "chaos_level": 0.1,
     "energy": 0.1,
     "texture": 0.2,
-    "colors": ["#394b59", "#6b8e23", "#808080", "#2f4f4f", "#556b2f"],
+    "colors": [
+      "#526F70",
+      "#6D9193",
+      "#86A8A9",
+      "#A0BDC0",
+      "#B9D3D6"
+    ],
     "harmony": 0.9,
-    "start": 138.54999999999998,
-    "duration": -0.33612199999998893
+    "start": 138.21,
+    "duration": 0.0038779999999860593
   },
   "mp3_file": "between-the-bars-elliott-smith.mp3"
 }

@@ -4,6 +4,8 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
   height: 25em;
   width: 50em;
   left: 50vw;
@@ -19,6 +21,10 @@
   background: rgba(104, 104, 104, 0.069);
   font-family: "Spectral", serif;
   transition: opacity 500ms, transform 500ms;
+}
+
+.menu::-webkit-scrollbar {
+  display: none;
 }
 
 .menu p {
