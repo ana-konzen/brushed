@@ -1,4 +1,4 @@
-const margin = 100;
+const margin = 80;
 const bufferSize = 1024;
 const dryInterval = 500;
 const dryDuration = 100;
@@ -59,13 +59,23 @@ function setup() {
   select("#play-button").mousePressed(() => {
     togglePlay(sound);
   });
+
+  select("#painting-menu button.back").mousePressed(() => {
+    clear();
+    brushCanvas.clear();
+    sound.pause();
+    sound.jump(0);
+    soundData = null;
+    soundLoaded = false;
+    dataLoaded = false;
+  });
 }
 
 function draw() {
   brushCanvas.clear();
 
   if (frameCount % 200 === 0) {
-    select("#menu").style("opacity", "0");
+    select("#painting-menu").style("opacity", "0");
   }
 
   if (soundLoaded) {
@@ -102,22 +112,24 @@ function mousePressed() {
 
 function mouseMoved() {
   if (soundLoaded) {
-    select("#menu").style("opacity", "1");
+    select("#painting-menu").style("opacity", "1");
   }
 }
 
 function togglePlay(s) {
   if (s.isPlaying()) {
     s.pause();
-    select("#play-button").html("play");
+    select("#play-button").html("⏵︎");
   } else {
     s.play();
-    select("#play-button").html("pause");
+    select("#play-button").html("⏸︎");
   }
 }
 
 function setState() {
   document.querySelector("#start").style.display = "none";
+  select("canvas").style("display", "block");
+  select("canvas").style("opacity", "1");
   createVoronoi();
   const seed = floor(random(99999));
   randomSeed(seed);

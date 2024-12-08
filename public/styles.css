@@ -18,6 +18,7 @@ video {
   opacity: 0.6;
   transition: opacity 800ms;
 }
+
 label {
   font-family: sans-serif;
   font-size: 14px;
@@ -29,17 +30,15 @@ canvas {
   left: 50vw;
   transform: translate(-50%, -50%);
   display: none;
+  transition: opacity 500ms;
   z-index: 0;
 }
 
-#audioPlayer {
+#audio-player {
   display: none;
-  position: fixed;
-  bottom: 10px;
-  left: 10px;
 }
 
-#menu {
+#painting-menu {
   opacity: 0;
   transition: 500ms;
 }
@@ -80,8 +79,12 @@ canvas {
 }
 
 #play-button {
-  left: 20px;
-  width: 80px;
+  background: transparent;
+  font-family: "Spectral", serif;
+  font-size: 1.2em;
+  color: rgb(63, 63, 63);
+
+ 
 }
 
 #start-button {
@@ -145,6 +148,3 @@ canvas {
   }
 }
 
-#audio-player {
-  display: none;
-}

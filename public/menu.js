@@ -74,3 +74,19 @@ document.querySelector("#load").addEventListener("click", () => {
     document.querySelector("video").src = "";
   }, 1000);
 });
+
+document.querySelector("#painting-menu button.back").addEventListener("click", () => {
+  songMenu.style.display = "flex";
+  document.querySelector("video").style.display = "block";
+  document.querySelector("video").src = "fly.mp4";
+  document.querySelector("video").play();
+  document.querySelector("canvas").style.opacity = "0";
+  document.querySelector("#painting-menu").style.opacity = "0";
+  setTimeout(() => {
+    songMenu.classList.remove("inactive-back");
+    document.querySelector("video").style.opacity = 1;
+  }, 100);
+  setTimeout(() => {
+    document.querySelector("canvas").style.display = "none";
+  }, 1000);
+});

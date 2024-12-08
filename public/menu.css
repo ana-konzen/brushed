@@ -175,6 +175,8 @@ h1 {
   color: rgb(63, 63, 63);
   background: transparent;
   transition: 500ms;
+  cursor: pointer;
+  z-index: 2;
 }
 
 .arrow-button.next {
