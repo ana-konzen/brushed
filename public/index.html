@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Brushed</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/addons/p5.sound.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="menu.css" />
+  </head>
+  <body>
+    <div id="main-cont">
+      <video src="fly.mp4" autoplay muted loop></video>
+      <div id="start-menu" class="menu">
+        <h1>brushed</h1>
+        <p>Create a painting based on a song's audio features and lyrics.</p>
+        <button class="arrow-button next">get started</button>
+      </div>
+
+      <div id="song-menu" class="menu inactive-next">
+        <h1>Choose your song</h1>
+        <button id="go-to-upload-button" class="sub-button">or upload your own</button>
+        <div id="song-list">
+          <div class="headers">
+            <div>artist(s)</div>
+            <div>song title</div>
+            <div>duration</div>
+          </div>
+          <div class="content"></div>
+        </div>
+        <button id="load" class="arrow-button next disabled" disabled="true">next</button>
+      </div>
+      <div id="upload-menu" class="menu inactive-next">
+        <h1>Upload song</h1>
+        <button class="arrow-button back">back</button>
+        <div class="form-cont">
+          <label for="artist-name">Artist Name</label>
+          <input id="artist-name" type="text" placeholder="Frank Sinatra" />
+
+          <label for="song-title">Song title</label>
+          <input id="song-title" type="text" placeholder="Fly Me to the Moon" />
+
+          <label for="audio-input">Audio file</label>
+          <input type="file" id="audio-input" name="audio-input" accept="audio/mpeg" /><br /><br />
+          <button id="send" class="arrow-button next">send</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="loading-buffer" class="inactive-next">
+      <div id="loading-message">loading</div>
+      <div id="loading-bar"></div>
+    </div>
+    <div id="start">click anywhere to start</div>
+
+    <div id="menu">
+      <button id="save-button" class="menu-button">save painting</button>
+      <button id="play-button" class="menu-button">pause</button>
+      <div id="info">
+        <div id="artist">artist</div>
+        <div id="title">title</div>
+        <div id="time">time</div>
+        <div id="seed">seed</div>
+      </div>
+    </div>
+
+    <audio id="audio-player"></audio>
+
+    <script src="loading.js"></script>
+    <script src="menu.js"></script>
+    <script src="script.js"></script>
+    <script src="brush.js"></script>
+    <script src="sketch.js"></script>
+  </body>
+</html>

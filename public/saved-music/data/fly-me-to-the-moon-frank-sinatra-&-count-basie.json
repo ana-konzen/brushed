@@ -1,0 +1,171 @@
+{
+  "incomplete": true,
+  "artists": "Frank Sinatra & Count Basie",
+  "title": "Fly Me to the Moon",
+  "duration": 147.552,
+  "mp3_file": "fly-me-to-the-moon-frank-sinatra-&-count-basie.mp3",
+  "lyrics": [
+    {
+      "timeStamp": 6.21,
+      "lyrics": "Fly me to the moon"
+    },
+    {
+      "timeStamp": 11.17,
+      "lyrics": "Let me play up there with those stars"
+    },
+    {
+      "timeStamp": 15.83,
+      "lyrics": "Let me see what life is like"
+    },
+    {
+      "timeStamp": 19.88,
+      "lyrics": "On Jupiter and Mars"
+    },
+    {
+      "timeStamp": 23.71,
+      "lyrics": "In other words, hold my hand"
+    },
+    {
+      "timeStamp": 31.84,
+      "lyrics": "In other words, darling, kiss me"
+    },
+    {
+      "timeStamp": 39.92,
+      "lyrics": "Fill my heart with song"
+    },
+    {
+      "timeStamp": 43.11,
+      "lyrics": "Let me swing for ever more"
+    },
+    {
+      "timeStamp": 47.96,
+      "lyrics": "You are all I long for"
+    },
+    {
+      "timeStamp": 51.16,
+      "lyrics": "All I worship and adore"
+    },
+    {
+      "timeStamp": 55.95,
+      "lyrics": "In other words, please be true"
+    },
+    {
+      "timeStamp": 63.91,
+      "lyrics": "In other words, I love you"
+    },
+    {
+      "timeStamp": 104.57,
+      "lyrics": "You fill my heart with song"
+    },
+    {
+      "timeStamp": 107.32,
+      "lyrics": "Let me sing for ever more because"
+    },
+    {
+      "timeStamp": 112.79,
+      "lyrics": "You are all I worship"
+    },
+    {
+      "timeStamp": 117.93,
+      "lyrics": "All I long for and adore"
+    },
+    {
+      "timeStamp": 121.92,
+      "lyrics": "In other words, please be true"
+    },
+    {
+      "timeStamp": 128.87,
+      "lyrics": "In other words, in other words"
+    },
+    {
+      "timeStamp": 137.39,
+      "lyrics": "I love you!"
+    },
+    {
+      "timeStamp": 146.8,
+      "lyrics": ""
+    }
+  ],
+  "lyricsAnnotations": [
+    {
+      "lyrics": "Fill my heart with song\n And let me sing forevermore\n You are all I long for\n All I worship and adore\n In other words, please be true\n In other words, I love you",
+      "annotation": [
+        "Kaye Ballard recorded this song first. Her recording was released by Decca Records in 1954.  Billboard (magazine) said that it was “A love song sung with feeling…” in a brief review published on 8 May 1954.\n\n\n\nThe girl fills him with a joy he has never had in his life before. She fills him with love and other powerful emotions he has never had and it makes him happy. He longs only to be her one and only, not her to be his. It’s true love."
+      ]
+    },
+    {
+      "lyrics": "And let me see what spring is like\n On a-Jupiter and Mars",
+      "annotation": [
+        "Frank Sinatra’s 1964 recording was played by the astronauts of Apollo 10 on their lunar-orbital mission and again on the moon itself by the astronaut Buzz Aldrin during the Apollo 11 landing.\n\nhttps://youtu.be/UITwhy5-Vas"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "explanation": "The first verse begins with 'Fly me to the moon', introducing the romantic and dreamy theme of the song.",
+      "mood": ["romantic", "dreamy", "optimistic"],
+      "chaos_level": 0.2,
+      "energy": 0.3,
+      "texture": 0.3,
+      "colors": ["#1E90FF", "#87CEEB", "#FFD700", "#DAA520", "#FFC0CB"],
+      "harmony": 0.9,
+      "start": 6.21,
+      "duration": 33.71
+    },
+    {
+      "explanation": "The chorus begins with 'Fill my heart with song', increasing the intensity of the song.",
+      "mood": ["passionate", "joyful", "expressive"],
+      "chaos_level": 0.4,
+      "energy": 0.5,
+      "texture": 0.5,
+      "colors": ["#FF4500", "#FFD700", "#FFFFFF", "#FF69B4", "#32CD32"],
+      "harmony": 0.8,
+      "start": 39.92,
+      "duration": 24.12
+    },
+    {
+      "explanation": "The second verse commences, mirroring the sentiments of the first verse.",
+      "mood": ["romantic", "dreamy", "hopeful"],
+      "chaos_level": 0.3,
+      "energy": 0.4,
+      "texture": 0.4,
+      "colors": ["#1E90FF", "#FFD700", "#32CD32", "#FF69B4", "#87CEEB"],
+      "harmony": 0.85,
+      "start": 104.57,
+      "duration": 33.36
+    },
+    {
+      "explanation": "The second chorus echoes the sentiments of the first chorus, reiterating the song's theme.",
+      "mood": ["passionate", "intense", "affectionate"],
+      "chaos_level": 0.4,
+      "energy": 0.6,
+      "texture": 0.5,
+      "colors": ["#FF4500", "#FFFFFF", "#FFD700", "#FF69B4", "#32CD32"],
+      "harmony": 0.8,
+      "start": 121.92,
+      "duration": 24.08
+    }
+  ],
+  "song_start": {
+    "explanation": "The song starts with a soft, jazzy instrumental introduction.",
+    "mood": ["romantic", "dreamy", "calm"],
+    "chaos_level": 0.3,
+    "energy": 0.2,
+    "texture": 0.2,
+    "colors": ["#1E90FF", "#FFFFFF", "#FFD700", "#32CD32", "#FF69B4"],
+    "harmony": 0.8,
+    "start": 0,
+    "duration": 6.21
+  },
+  "song_end": {
+    "explanation": "The song concludes with a diminuendo, emphasizing the final lyrics 'I love you!'",
+    "mood": ["tender", "resolute", "romantic"],
+    "chaos_level": 0.2,
+    "energy": 0.3,
+    "texture": 0.2,
+    "colors": ["#1E90FF", "#FF69B4", "#FFD700", "#32CD32", "#FFFFFF"],
+    "harmony": 0.95,
+    "start": 146,
+    "duration": 1.5519999999999925
+  }
+}

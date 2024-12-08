@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  background: rgb(230, 230, 230);
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+video {
+  position: fixed;
+  z-index: -1;
+  display: block;
+  width: 102vw;
+  height: 100vh;
+  object-fit: cover;
+  opacity: 0.6;
+  transition: opacity 800ms;
+}
+label {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+canvas {
+  position: fixed;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  display: none;
+  z-index: 0;
+}
+
+#audioPlayer {
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+}
+
+#menu {
+  opacity: 0;
+  transition: 500ms;
+}
+
+#info {
+  display: flex;
+  position: fixed;
+  bottom: 20px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  z-index: 2;
+}
+
+#info div {
+  margin: 0 50px;
+  font-family: "Spectral", serif;
+  font-size: 1em;
+}
+
+.menu-button {
+  position: fixed;
+  top: 20px;
+  font-family: "Spectral", serif;
+  border-radius: 0.5em;
+  padding: 0.25em 0.5em;
+  font-size: 1em;
+  z-index: 2;
+  backdrop-filter: blur(10px);
+  background: rgba(104, 104, 104, 0.069);
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(54, 54, 54, 0.188);
+}
+
+#save-button {
+  right: 20px;
+}
+
+#play-button {
+  left: 20px;
+  width: 80px;
+}
+
+#start-button {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 4;
+  padding: 20px;
+  display: none;
+}
+
+#loading-buffer {
+  display: none;
+  font-family: "Spectral", serif;
+  font-size: 1.2em;
+  position: fixed;
+  width: 300px;
+  top: 35vh;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#loading-message {
+  width: 100%;
+  text-align: center;
+}
+
+#loading-bar {
+  width: 0;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  margin-top: 20px;
+  background: black;
+  animation: loading 2s infinite;
+}
+
+#start {
+  display: none;
+  font-family: "Spectral", serif;
+  font-size: 1.2em;
+  position: fixed;
+  text-align: center;
+  top: 45vh;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@keyframes loading {
+  0% {
+    width: 0;
+    left: 0;
+  }
+  50% {
+    width: 100%;
+    left: 0;
+  }
+  100% {
+    width: 0;
+    left: 100%;
+  }
+}
+
+#audio-player {
+  display: none;
+}

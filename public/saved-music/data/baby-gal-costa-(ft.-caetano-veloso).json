@@ -1,0 +1,213 @@
+{
+  "incomplete": true,
+  "artists": "Gal Costa (Ft. Caetano Veloso)",
+  "title": "Baby",
+  "duration": 215.066122,
+  "lyrics": null,
+  "lyricsAnnotations": [
+    {
+      "lyrics": "Leia na minha camisa",
+      "annotation": [
+        "Maria Bethânia, irmã de Caetano, encomendou a composição e pediu que a música contivesse esses dizeres como o último verso"
+      ]
+    },
+    {
+      "lyrics": "Baby, baby\n I love you\n Baby, baby",
+      "annotation": [
+        "Gal Costa’s voice here is a final representation of how relaxed the song is suppose to make you feel."
+      ]
+    },
+    {
+      "lyrics": "Você precisa aprender inglês",
+      "annotation": [
+        "Sarcastic/ironic remark about the need to learn English in order to “be somebody”"
+      ]
+    },
+    {
+      "lyrics": "Você precisa tomar um sorvete\n Na lanchonete",
+      "annotation": [
+        "You have to have ice cream\nAt the cafeteria\n\nThis line like many others throughout the song seems to reference the upper class lifestyle in almost a parodic form."
+      ]
+    },
+    {
+      "lyrics": "Ouvir aquela canção do Roberto",
+      "annotation": [
+        "Listen to the song by Roberto Carlos\n\nIt doesn’t reference a specific song but the way people talked, for example: “Have you heard that new Roberto Carlos song?”\n\nRoberto Carlos is considered one of the most influential artists in Brazil during the 1960s, being cited as a source of inspiration by many artists and bands up to the 1980s. He was called the king and was often a topic of conversation."
+      ]
+    },
+    {
+      "lyrics": "Não sei, comigo vai tudo azul\n Contigo vai tudo em paz",
+      "annotation": [
+        "I know with me comes everything blue, with you comes everything in peace."
+      ]
+    },
+    {
+      "lyrics": "Vivemos na melhor cidade\n Da América do Sul\n Da América do Sul",
+      "annotation": [
+        "We live in the best city in South America. – This line is referring to Rio de Janeiro."
+      ]
+    },
+    {
+      "lyrics": "Eu sei que é assim",
+      "annotation": [
+        "I know that’s the way it is"
+      ]
+    },
+    {
+      "lyrics": "Você precisa saber de mim",
+      "annotation": [
+        "You have to know more about me"
+      ]
+    },
+    {
+      "lyrics": "Da gasolina",
+      "annotation": [
+        "About Gasoline"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "explanation": "First verse introduces themes of personal freedom and introspection.",
+      "mood": [
+        "light",
+        "peaceful"
+      ],
+      "chaos_level": 0.3,
+      "energy": 0.4,
+      "texture": 0.3,
+      "colors": [
+        "#C9D6E4",
+        "#AFC2D6",
+        "#A4B6C8",
+        "#8FA2B3",
+        "#7B8FA1"
+      ],
+      "harmony": 0.8,
+      "start": 10,
+      "duration": 40
+    },
+    {
+      "explanation": "Chorus emphasizes love and tranquility.",
+      "mood": [
+        "romantic",
+        "serene"
+      ],
+      "chaos_level": 0.2,
+      "energy": 0.5,
+      "texture": 0.3,
+      "colors": [
+        "#D1E3F0",
+        "#BCD5EB",
+        "#ACC5E0",
+        "#96B0D0",
+        "#7D9ABF"
+      ],
+      "harmony": 0.9,
+      "start": 50,
+      "duration": 30
+    },
+    {
+      "explanation": "Second verse delves into cultural ironies and humor.",
+      "mood": [
+        "humorous",
+        "ironic"
+      ],
+      "chaos_level": 0.4,
+      "energy": 0.4,
+      "texture": 0.4,
+      "colors": [
+        "#CEDDE7",
+        "#B8CDE1",
+        "#AABED2",
+        "#94A8BD",
+        "#7B90A1"
+      ],
+      "harmony": 0.7,
+      "start": 80,
+      "duration": 40
+    },
+    {
+      "explanation": "Climactic part of the song with more dynamic vocals.",
+      "mood": [
+        "energetic",
+        "bright"
+      ],
+      "chaos_level": 0.5,
+      "energy": 0.7,
+      "texture": 0.5,
+      "colors": [
+        "#D6E8F5",
+        "#C4DAF1",
+        "#AFC9E3",
+        "#94B0CF",
+        "#7994B5"
+      ],
+      "harmony": 0.8,
+      "start": 120,
+      "duration": 50
+    },
+    {
+      "explanation": "Outro where the mood calms again, focusing on personal connections.",
+      "mood": [
+        "reflective",
+        "calm"
+      ],
+      "chaos_level": 0.2,
+      "energy": 0.3,
+      "texture": 0.2,
+      "colors": [
+        "#C8D8E4",
+        "#B2C2D2",
+        "#A2B2C2",
+        "#8799A8",
+        "#6F7A91"
+      ],
+      "harmony": 0.9,
+      "start": 170,
+      "duration": 45
+    }
+  ],
+  "song_start": {
+    "explanation": "The song begins softly with gentle instrumentation.",
+    "mood": [
+      "soft",
+      "calm",
+      "introspective"
+    ],
+    "chaos_level": 0.2,
+    "energy": 0.3,
+    "texture": 0.2,
+    "colors": [
+      "#C8D8E4",
+      "#B2C2D2",
+      "#A2B2C2",
+      "#8799A8",
+      "#6F7A91"
+    ],
+    "harmony": 0.8,
+    "start": 0,
+    "duration": 10
+  },
+  "song_end": {
+    "explanation": "The song closes on a tender note.",
+    "mood": [
+      "calm",
+      "peaceful"
+    ],
+    "chaos_level": 0.1,
+    "energy": 0.2,
+    "texture": 0.1,
+    "colors": [
+      "#C1D3E0",
+      "#AFC2D2",
+      "#9EB0C2",
+      "#8999A8",
+      "#6F7A91"
+    ],
+    "harmony": 1,
+    "start": 215,
+    "duration": 0.06612200000000712
+  },
+  "mp3_file": "baby-gal-costa-(ft.-caetano-veloso).mp3"
+}

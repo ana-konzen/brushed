@@ -1,0 +1,511 @@
+{
+  "key": "4",
+  "mode": "0",
+  "valence": "0.437",
+  "danceability": "0.566",
+  "energy": "0.664",
+  "tempo": "128.945",
+  "genre": "singer-songwriter",
+  "artists": "Hozier",
+  "title": "Take Me to Church",
+  "duration": 240.352653,
+  "lyrics": [
+    {
+      "timeStamp": 1.08,
+      "lyrics": "My lover's got humour"
+    },
+    {
+      "timeStamp": 3.55,
+      "lyrics": "She's the giggle at a funeral"
+    },
+    {
+      "timeStamp": 6.45,
+      "lyrics": "Knows everybody's disapproval"
+    },
+    {
+      "timeStamp": 9.27,
+      "lyrics": "They should've worshipped her sooner"
+    },
+    {
+      "timeStamp": 12.22,
+      "lyrics": "If the heavens ever did speak"
+    },
+    {
+      "timeStamp": 15.11,
+      "lyrics": "She's the last true mouthpiece"
+    },
+    {
+      "timeStamp": 18.01,
+      "lyrics": "Every Sunday's getting more bleak"
+    },
+    {
+      "timeStamp": 20.84,
+      "lyrics": "A fresh poison each week"
+    },
+    {
+      "timeStamp": 23.66,
+      "lyrics": "\"We were born sick\""
+    },
+    {
+      "timeStamp": 25.52,
+      "lyrics": "You heard them say it"
+    },
+    {
+      "timeStamp": 27.52,
+      "lyrics": "My church offers no absolutes"
+    },
+    {
+      "timeStamp": 30.43,
+      "lyrics": "She tells me, \"Worship in the bedroom\""
+    },
+    {
+      "timeStamp": 33.11,
+      "lyrics": "The only heaven I'll be sent to"
+    },
+    {
+      "timeStamp": 35.97,
+      "lyrics": "Is when I'm alone with you"
+    },
+    {
+      "timeStamp": 38.62,
+      "lyrics": "I was born sick, but I love it"
+    },
+    {
+      "timeStamp": 42.43,
+      "lyrics": "Command me to be well"
+    },
+    {
+      "timeStamp": 45.13,
+      "lyrics": "A-a-a-a-a-a-a, amen, amen, amen"
+    },
+    {
+      "timeStamp": 56.88,
+      "lyrics": "Take me to church"
+    },
+    {
+      "timeStamp": 58.55,
+      "lyrics": "I'll worship like a dog at the shrine of your lies"
+    },
+    {
+      "timeStamp": 62.29,
+      "lyrics": "I'll tell you my sins, and you can sharpen your knife"
+    },
+    {
+      "timeStamp": 65.95,
+      "lyrics": "Offer me that deathless death"
+    },
+    {
+      "timeStamp": 68.79,
+      "lyrics": "Oh, good God, let me give you my life"
+    },
+    {
+      "timeStamp": 71.77,
+      "lyrics": "Take me to church"
+    },
+    {
+      "timeStamp": 73.28,
+      "lyrics": "I'll worship like a dog at the shrine of your lies"
+    },
+    {
+      "timeStamp": 76.98,
+      "lyrics": "I'll tell you my sins, and you can sharpen your knife"
+    },
+    {
+      "timeStamp": 80.9,
+      "lyrics": "Offer me that deathless death"
+    },
+    {
+      "timeStamp": 83.53,
+      "lyrics": "Oh, good God, let me give you my life"
+    },
+    {
+      "timeStamp": 88.67,
+      "lyrics": "If I'm a pagan of the good times"
+    },
+    {
+      "timeStamp": 91.06,
+      "lyrics": "My lover's the sunlight"
+    },
+    {
+      "timeStamp": 93.96,
+      "lyrics": "To keep the goddess on my side"
+    },
+    {
+      "timeStamp": 96.61,
+      "lyrics": "She demands a sacrifice"
+    },
+    {
+      "timeStamp": 99.34,
+      "lyrics": "Drain the whole sea"
+    },
+    {
+      "timeStamp": 101.22,
+      "lyrics": "Get something shiny"
+    },
+    {
+      "timeStamp": 103.07,
+      "lyrics": "Something meaty for the main course"
+    },
+    {
+      "timeStamp": 106.01,
+      "lyrics": "That's a fine looking high horse"
+    },
+    {
+      "timeStamp": 108.85,
+      "lyrics": "What you got in the stable?"
+    },
+    {
+      "timeStamp": 111.68,
+      "lyrics": "We've a lot of starving faithful"
+    },
+    {
+      "timeStamp": 114.43,
+      "lyrics": "That looks tasty"
+    },
+    {
+      "timeStamp": 116.19,
+      "lyrics": "That looks plenty"
+    },
+    {
+      "timeStamp": 117.95,
+      "lyrics": "This is hungry work"
+    },
+    {
+      "timeStamp": 120.26,
+      "lyrics": "Take me to church"
+    },
+    {
+      "timeStamp": 121.81,
+      "lyrics": "I'll worship like a dog at the shrine of your lies"
+    },
+    {
+      "timeStamp": 125.68,
+      "lyrics": "I'll tell you my sins so you can sharpen your knife"
+    },
+    {
+      "timeStamp": 129.47,
+      "lyrics": "Offer me my deathless death"
+    },
+    {
+      "timeStamp": 132.19,
+      "lyrics": "Oh, good God, let me give you my life"
+    },
+    {
+      "timeStamp": 135.01,
+      "lyrics": "Take me to church"
+    },
+    {
+      "timeStamp": 136.71,
+      "lyrics": "I'll worship like a dog at the shrine of your lies"
+    },
+    {
+      "timeStamp": 140.52,
+      "lyrics": "I'll tell you my sins so you can sharpen your knife"
+    },
+    {
+      "timeStamp": 144.29,
+      "lyrics": "Offer me my deathless death"
+    },
+    {
+      "timeStamp": 146.76,
+      "lyrics": "Oh, good God, let me give you my life"
+    },
+    {
+      "timeStamp": 151.82,
+      "lyrics": "No masters or kings when the ritual begins"
+    },
+    {
+      "timeStamp": 158.03,
+      "lyrics": "There is no sweeter innocence than our gentle sin"
+    },
+    {
+      "timeStamp": 166.05,
+      "lyrics": "In the madness and soil of that sad earthly scene"
+    },
+    {
+      "timeStamp": 173.4,
+      "lyrics": "Only then, I am human"
+    },
+    {
+      "timeStamp": 176.71,
+      "lyrics": "Only then, I am clean"
+    },
+    {
+      "timeStamp": 182.94,
+      "lyrics": "Oh, oh, amen, amen, amen"
+    },
+    {
+      "timeStamp": 189.32,
+      "lyrics": ""
+    },
+    {
+      "timeStamp": 197.7,
+      "lyrics": "Take me to church"
+    },
+    {
+      "timeStamp": 199.24,
+      "lyrics": "I'll worship like a dog at the shrine of your lies"
+    },
+    {
+      "timeStamp": 202.92,
+      "lyrics": "I'll tell you my sins, and you can sharpen your knife"
+    },
+    {
+      "timeStamp": 206.67,
+      "lyrics": "Offer me that deathless death"
+    },
+    {
+      "timeStamp": 209.21,
+      "lyrics": "Oh, good God, let me give you my life"
+    },
+    {
+      "timeStamp": 212.33,
+      "lyrics": "Take me to church"
+    },
+    {
+      "timeStamp": 213.92,
+      "lyrics": "I'll worship like a dog at the shrine of your lies"
+    },
+    {
+      "timeStamp": 217.63,
+      "lyrics": "I'll tell you my sins, and you can sharpen your knife"
+    },
+    {
+      "timeStamp": 221.41,
+      "lyrics": "Offer me that deathless death"
+    },
+    {
+      "timeStamp": 224.24,
+      "lyrics": "Oh, good God, let me give you my life"
+    },
+    {
+      "timeStamp": 226.24,
+      "lyrics": ""
+    }
+  ],
+  "lyricsAnnotations": [
+    {
+      "lyrics": "[Verse 1]",
+      "annotation": [
+        "That Rick Rubin annotation below is a super glowing endorsement. That’s really, really special. Thank you. His work with Johnny Cash I still go back to a lot of times, the American albums. I’m thrilled to hear that.\n\nA lot of the Johnny Cash stuff went over my head growing up, but it was around the time of the American albums I started to listen to him a bit more. Rob Kirwan, who produced my first album, is a big fan of the stuff he did with Rick Rubin, which is mixed with Andrew Scheps and which is one of the reasons we started working with Andrew Scheps.\n\nOne of my favorites is Johnny Cash’s version of ‘I See A Darkness’ – it’s absolutely gorgeously produced and recorded. It’s a Bonnie ‘Prince’ Billy track.”"
+      ]
+    },
+    {
+      "lyrics": "I was born sick, but I love it\n Command me to be well",
+      "annotation": [
+        "Here, Hozier seems to have given in to popular belief that homosexuality is a sickness (or maybe he’s mocking?) but concludes that he loves the sickness because in it he found someone with whom to share a deeply loving and intimate relationship. He goes on to criticise society by saying that it is ignorant and tries to forcefully change him, but it won’t work because he has found love."
+      ]
+    },
+    {
+      "lyrics": "A, amen\n Amen, amen",
+      "annotation": [
+        "The words are moaned showing pleasure. These words are followed by “take me to church”. Church is often viewed by many as an earthly paradise so the positioning of these words with amen shows that he’s being taken to “paradise”."
+      ]
+    },
+    {
+      "lyrics": "Somethin’ meaty for the main course\n That’s a fine lookin’ high horse\n What you got in the stable?",
+      "annotation": [
+        "These lines may be a double entendre, both cussing out those who look down their noses at gay people and a description of his lover. “Meat” is the slang word often used in reference to the male genetalia. “That’s a fine looking high horse” describes the physical appearance as a strong muscular man. The question that follows is one directed to his bedmate. It’s meant to be said in a seductive way as they do in the movies when asking rhetorical questions about a partner’s body. The next four lines are emphasising his feelings about the bedmate."
+      ]
+    },
+    {
+      "lyrics": "If I’m a pagan of the good times\n My lover’s the sunlight",
+      "annotation": [
+        "“a pagan of good times” could be a reference to when people were not judged for sodomy and it was actually viewed with more respect than vaginal sex since it was believed to be an activity celebrated by the pagan gods and elders."
+      ]
+    },
+    {
+      "lyrics": "No masters or kings when the ritual begins\n There is no sweeter innocence than our gentle sin",
+      "annotation": [
+        "Here, Hozier makes a pun on gentle and gentile. A gentile is a pagan/heathen. He says that nothing is of sweeter innocence than the pagan sin he has committed with his lover, implying that the behaviour is that of pagans as they were known to engage in sodomy on Christmas and at many other festivals. This may be a confession in fulfilment of his promise “I’ll tell you my sins.”"
+      ]
+    },
+    {
+      "lyrics": "[Produced by Hozier and Rob Kirwan]",
+      "annotation": [
+        "Still a struggling musician, Hozier penned the lyrics to “Take Me to Church” while living at his parents' home in Bray, County Wicklow, Ireland. He recorded a demo, he told The New York Times, “in my attic at 2 o'clock in the morning.” Someone at Rubyworks heard that version, which Hozier has called “a real homemade job.” The label paired him with producer Rob Kirwan, who helped overdub live instrumentation on the track, but encouraged Hozier to leave the powerful, original demo vocals."
+      ]
+    },
+    {
+      "lyrics": "[Video directed by Brendan Canty and Conal Thomson]",
+      "annotation": [
+        "Created by Feel Good Lost Productions, the “Take Me To Church” video released on September 25, 2013, went viral, and launched Hozier’s commercial success. “I remember someone texting me to say it was getting 10,000 views an hour,” the musician told Rolling Stone.\n\nHozier does not appear in the video, which was shot in grayscale around Ireland. It tells the story of two men, a same-sex couple, who face violence spurred by community homophobia.\n\nHozier said:\n\nThe song was always about humanity at its most natural and how that is undermined ceaselessly by religious organisations and those who would have us believe they act in its interests. What has been seen growing in Russia is no less than nightmarish, I proposed bringing these themes into the story and Brendan liked the idea."
+      ]
+    },
+    {
+      "lyrics": "Offer me that deathless death",
+      "annotation": [
+        "This line could also be referencing baptisms, in the church. When a person is baptized they are known as born again. Tying in to “deathless death” because metaphorically your old self has died and a new one emerges."
+      ]
+    },
+    {
+      "lyrics": "[Verse 1]",
+      "annotation": [
+        "It’s a classic, great song. Just the way it makes me feel. It’s a guitar-based song that is acceptable in today’s world. That’s interesting. I love the dynamics in it. The lyrics are dark, but spiritual.\n\nIt’s one of the songs where if Johnny was alive, we might try that one. It’s a weighty song."
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "explanation": "The first verse sets up the theme of questioning organized religion while expressing reverence for love and a personal connection.",
+      "mood": [
+        "contemplative",
+        "reverent"
+      ],
+      "chaos_level": 0.3,
+      "energy": 0.4,
+      "texture": 0.3,
+      "colors": [
+        "#4682B4",
+        "#5F9EA0",
+        "#6495ED",
+        "#708090",
+        "#2E8B57"
+      ],
+      "harmony": 0.8,
+      "start": 1.08,
+      "duration": 44
+    },
+    {
+      "explanation": "The first chorus builds in intensity, emphasizing the plea of the song's protagonist for connection and truth.",
+      "mood": [
+        "pleading",
+        "intense"
+      ],
+      "chaos_level": 0.5,
+      "energy": 0.7,
+      "texture": 0.5,
+      "colors": [
+        "#483D8B",
+        "#6A5ACD",
+        "#8A2BE2",
+        "#7B68EE",
+        "#4A708B"
+      ],
+      "harmony": 0.7,
+      "start": 56.88,
+      "duration": 14
+    },
+    {
+      "explanation": "The second verse adds more complexity to the narrative, exploring the contradictions of love and societal judgment.",
+      "mood": [
+        "reflective",
+        "intense"
+      ],
+      "chaos_level": 0.4,
+      "energy": 0.5,
+      "texture": 0.4,
+      "colors": [
+        "#5F9EA0",
+        "#4682B4",
+        "#6495ED",
+        "#6B8E23",
+        "#556B2F"
+      ],
+      "harmony": 0.8,
+      "start": 88.67,
+      "duration": 27
+    },
+    {
+      "explanation": "The second chorus repeats the intensity of the earlier chorus sections, solidifying the song's emotional plea.",
+      "mood": [
+        "pleading",
+        "emotional"
+      ],
+      "chaos_level": 0.5,
+      "energy": 0.7,
+      "texture": 0.5,
+      "colors": [
+        "#483D8B",
+        "#6A5ACD",
+        "#8A2BE2",
+        "#7B68EE",
+        "#4A708B"
+      ],
+      "harmony": 0.7,
+      "start": 120.26,
+      "duration": 12
+    },
+    {
+      "explanation": "The bridge section is a reflective moment, a lament about humanity, innocence, and the complexity of human relationships.",
+      "mood": [
+        "melancholic",
+        "hopeful"
+      ],
+      "chaos_level": 0.3,
+      "energy": 0.5,
+      "texture": 0.4,
+      "colors": [
+        "#708090",
+        "#2E8B57",
+        "#4682B4",
+        "#556B2F",
+        "#4B0082"
+      ],
+      "harmony": 0.9,
+      "start": 151.82,
+      "duration": 23
+    },
+    {
+      "explanation": "A final repetition of the chorus, driving the song to its emotional conclusion.",
+      "mood": [
+        "pleading",
+        "resolute"
+      ],
+      "chaos_level": 0.5,
+      "energy": 0.7,
+      "texture": 0.5,
+      "colors": [
+        "#483D8B",
+        "#6A5ACD",
+        "#8A2BE2",
+        "#7B68EE",
+        "#4A708B"
+      ],
+      "harmony": 0.7,
+      "start": 197.7,
+      "duration": 42
+    }
+  ],
+  "song_start": {
+    "explanation": "The song opens with a stripped-down arrangement featuring just the vocals and subtle instrumentation. The lyrics introduce the thematic elements of the song.",
+    "mood": [
+      "introspective",
+      "emotional"
+    ],
+    "chaos_level": 0.2,
+    "energy": 0.3,
+    "texture": 0.2,
+    "colors": [
+      "#B0C4DE",
+      "#4682B4",
+      "#778899",
+      "#4169E1",
+      "#5F9EA0"
+    ],
+    "harmony": 0.9,
+    "start": 0,
+    "duration": 1.08
+  },
+  "song_end": {
+    "explanation": "The song concludes with the instrumental fading out, leaving a reflective silence.",
+    "mood": [
+      "contemplative",
+      "resolved"
+    ],
+    "chaos_level": 0.1,
+    "energy": 0.2,
+    "texture": 0.1,
+    "colors": [
+      "#B0C4DE",
+      "#4682B4",
+      "#778899",
+      "#4169E1",
+      "#5F9EA0"
+    ],
+    "harmony": 0.9,
+    "start": 239.7,
+    "duration": 0.652653000000015
+  },
+  "mp3_file": "take-me-to-church-hozier.mp3"
+}
