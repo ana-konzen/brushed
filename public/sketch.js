@@ -57,7 +57,7 @@ function setup() {
   });
 
   select("#play-button").mousePressed(() => {
-    togglePlay(sound);
+    if (soundLoaded) togglePlay(sound);
   });
 
   select("#painting-menu button.back").mousePressed(() => {
@@ -74,13 +74,13 @@ function setup() {
 function draw() {
   brushCanvas.clear();
 
-  if (frameCount % 200 === 0) {
-    select("#painting-menu").style("opacity", "0");
-  }
-
   if (soundLoaded) {
     currentSection = songData.song_start;
     if (sound.isPlaying()) {
+      if (frameCount % 200 === 0) {
+        select("#painting-menu").style("opacity", "0");
+      }
+
       select("#time").html(
         `${secondsToMinutes(sound.currentTime())} / ${secondsToMinutes(songData.duration)}`
       );

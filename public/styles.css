@@ -39,24 +39,49 @@ canvas {
 }
 
 #painting-menu {
-  opacity: 0;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  opacity: 1;
+  z-index: 1;
   transition: 500ms;
 }
 
 #info {
   display: flex;
-  position: fixed;
+  position: absolute;
   bottom: 20px;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   width: 100%;
   z-index: 2;
 }
 
 #info div {
-  margin: 0 50px;
+  margin: 0 25px;
   font-family: "Spectral", serif;
   font-size: 1em;
+}
+
+#info div.half {
+  width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#info div.half:nth-child(4) {
+  justify-content: flex-start;
+}
+
+#play-button {
+  background: transparent;
+  font-family: "Spectral", serif;
+  font-size: 1.2em;
+  margin: 0 -25px;
+  color: rgb(63, 63, 63);
 }
 
 .menu-button {
@@ -78,14 +103,7 @@ canvas {
   right: 20px;
 }
 
-#play-button {
-  background: transparent;
-  font-family: "Spectral", serif;
-  font-size: 1.2em;
-  color: rgb(63, 63, 63);
 
- 
-}
 
 #start-button {
   position: fixed;
