@@ -68,7 +68,7 @@ document.querySelector("#load").addEventListener("click", () => {
   }, 100);
   setTimeout(() => {
     loadingBuffer.classList.add("loading-active");
-    uploadMenu.style.display = "none";
+    songMenu.style.display = "none";
     document.querySelector("video").style.display = "none";
     document.querySelector("video").pause();
     document.querySelector("video").src = "";
@@ -82,11 +82,13 @@ document.querySelector("#painting-menu button.back").addEventListener("click", (
   document.querySelector("video").play();
   document.querySelector("canvas").style.opacity = "0";
   document.querySelector("#painting-menu").style.opacity = "0";
+
   setTimeout(() => {
     songMenu.classList.remove("inactive-back");
     document.querySelector("video").style.opacity = 1;
   }, 100);
   setTimeout(() => {
     document.querySelector("canvas").style.display = "none";
+    document.querySelector("#painting-menu").style.display = "none";
   }, 1000);
 });

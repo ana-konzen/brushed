@@ -61,10 +61,11 @@ function setup() {
   });
 
   select("#painting-menu button.back").mousePressed(() => {
-    clear();
-    brushCanvas.clear();
     sound.pause();
     sound.jump(0);
+    sound.amp(0);
+    clear();
+    brushCanvas.clear();
     soundData = null;
     soundLoaded = false;
     dataLoaded = false;
@@ -128,6 +129,7 @@ function togglePlay(s) {
 
 function setState() {
   document.querySelector("#start").style.display = "none";
+  select("#painting-menu").style("display", "block");
   select("canvas").style("display", "block");
   select("canvas").style("opacity", "1");
   createVoronoi();
