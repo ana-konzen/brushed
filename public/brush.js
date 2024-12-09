@@ -56,7 +56,7 @@ class Line {
 }
 
 class Brush {
-  constructor(brushCanvas, nLines = 10, pressure = 15, texture = 5) {
+  constructor(brushCanvas, nLines = 15, pressure = 15, texture = 8) {
     this.pressure = pressure;
     this.nLines = nLines;
     this.texture = texture;

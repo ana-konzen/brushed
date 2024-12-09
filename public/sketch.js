@@ -78,7 +78,9 @@ function draw() {
   brushCanvas.clear();
 
   if (soundLoaded) {
-    currentSection = songData.song_start;
+    if (songData.sections.indexOf(currentSection) >= 0) {
+      currentSection = songData.sections[songData.sections.indexOf(currentSection)];
+    }
     palette = palettes[0].colors;
     if (sound.isPlaying()) {
       if (frameCount % 200 === 0) {
@@ -94,11 +96,7 @@ function draw() {
       });
 
       if (songData.sections.indexOf(currentSection) >= 0) {
-        console.log(songData.sections.indexOf(currentSection));
-        console.log(palettes[songData.sections.indexOf(currentSection) + 1]);
-        console.log(palettes[songData.sections.indexOf(currentSection) + 1].blendPalettes);
         palette = palettes[songData.sections.indexOf(currentSection) + 1].blendPalettes;
-        console.log(palette);
       }
 
       analyzeSection();
@@ -147,17 +145,17 @@ function setState() {
   songData.sections.forEach((section, i) => {
     const blendPalettes = [];
     const previousPalette = palettes[i].colors;
+    const colorSteps = map((section.energy + section.chaos_level) / 2, 0, 1, 20, 5, true);
     const nextPalette =
       i === songData.sections.length - 1 ? songData.song_end.colors : songData.sections[i + 1].colors;
     nextPalette.forEach((color, j) => {
-      blendPalettes[j] = spectral.palette(previousPalette[j], color, 10, spectral.RGBA);
+      blendPalettes[j] = spectral.palette(previousPalette[j], color, colorSteps, spectral.RGBA);
     });
     palettes[i + 1] = {
       blendPalettes,
       colors: nextPalette,
     };
   });
-  console.log(palettes);
 
   document.querySelector("#start").style.display = "none";
   select("#painting-menu").style("display", "block");
@@ -222,23 +220,29 @@ function drawBrush(pitch, field, brushWidth, prop, round = false) {
 
 function setColor(field) {
   const blendPaletteIndex = floor(
-    map(sound.currentTime(), currentSection.start, currentSection.start + currentSection.duration, 0, 5)
+    map(
+      sound.currentTime(),
+      currentSection.start,
+      currentSection.start + currentSection.duration,
+      0,
+      palette.length
+    )
   );
-  console.log(palette);
-  console.log(palette[field.index]?.[blendPaletteIndex]);
-  console.log(palette[field.index]);
+
+  if (palette[field.index]?.[blendPaletteIndex] === undefined) {
+    console.warn("No color found");
+  }
 
   const c =
     songData.sections.indexOf(currentSection) >= 0
       ? color(palette[field.index][blendPaletteIndex])
       : color(palette[field.index]);
-  console.log(c);
   const colorJitter = 5;
   const r = constrain(c.levels[0] + random(-colorJitter, colorJitter), 0, 255);
   const g = constrain(c.levels[1] + random(-colorJitter, colorJitter), 0, 255);
   const b = constrain(c.levels[2] + random(-colorJitter, colorJitter), 0, 255);
-  const a = map(energy, 0, 1, 1, 8);
-  const c2 = color(r, g, b, a);
+  // const a = map(energy, 0, 1, 3, 8);
+  const c2 = color(r, g, b, 8);
   return c2;
 }
 
@@ -295,7 +299,7 @@ function analyzeSection() {
 
   energy = (Number(currentSection.energy) + overallEnergy) / 2;
 
-  pressure = map(energy, 0, 1, 2, 15, true);
+  pressure = map(energy, 0, 1, 1, 15, true);
 
   density = map(Number(currentSection.texture), 0, 1, 20, 1, true);
   const harmony = map(Number(currentSection.harmony), 0, 1, 1, 0, true);
@@ -316,7 +320,10 @@ function drawBrushCanvas() {
 }
 
 function updateSection(section) {
-  if (
+  if (sound.currentTime() < Number(songData.sections[0].start)) {
+    currentSection = songData.song_start;
+    resetPositions();
+  } else if (
     sound.currentTime() >= Number(section.start) &&
     sound.currentTime() <= Number(section.start) + Number(section.duration)
   ) {
@@ -328,9 +335,6 @@ function updateSection(section) {
       Number(songData.sections[songData.sections.length - 1].duration)
   ) {
     currentSection = songData.song_end;
-    resetPositions();
-  } else if (sound.currentTime() < Number(songData.sections[0].start)) {
-    currentSection = songData.song_start;
     resetPositions();
   }
 }

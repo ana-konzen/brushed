@@ -25,8 +25,8 @@ export async function getMusicAnalysis(artistName, songTitle, duration) {
     Here are the annotations for the lyrics, as a JSON object:
     ${JSON.stringify(musicData.lyricsAnnotations, null, 2)};
 
-    Based on the information provided and whatever else you know about the song, provide structured data for the song, dividing it into 5 to 10 significant sections (like the chorus,
-    where signifcant shifts in music or mood happen, etc).`;
+    Based on the information provided, whatever else you know about the song, and the song's structure, provide structured data for the song, dividing it into 5 to 10 significant sections (like the chorus,
+    where signifcant shifts in music or mood happen, etc). Avoid repeading color palettes.`;
 
   const songProperties = {
     explanation: {
@@ -57,10 +57,11 @@ export async function getMusicAnalysis(artistName, songTitle, duration) {
     colors: {
       type: "array",
       description: `An array of 5 colors in HEX that represent the mood, energy, and chaos of the section, as well as the overall style, genre, time period, and aesthetic of the song, artist, and album. For example, if the section is angry, choose reds but with variety, for visual interest.
-      If the style of the song is 80s, choose colors that are reminiscent of that era. Or if it's an emo song, choose emo colors.
+      If the style of the song is 80s, choose colors that are reminiscent of that era. Or if it's an emo song, choose emo colors. If it's a grundge or indie song, choose colors that are reminiscent of that genre like dirty and muted dark-ish browns, olive greens, and burnt oranges.
       Consider also the level of energy and chaos of the section. Have a varied color palette that tells a story to the viewer.
-      Try not to have the same hue repeated, but have a variety of colors that complement each other.
-      If the lyrics mention a color, consider using that color in the palette.`,
+      Avoid repeating the same hues/colors, but have a variety of colors that complement each other.
+      If the lyrics mention a color, consider using that color in the palette. Avoid repeading color palettes.
+      Consider the "darkness" of the lyrics and how that can be represented in the colors. If the lyrics are dark, consider using darker colors.`,
       items: {
         type: "string",
       },
@@ -85,9 +86,8 @@ export async function getMusicAnalysis(artistName, songTitle, duration) {
       {
         role: "system",
         content: dedent`You are a graphic designer specialized in music visualization. 
-          You analyze songs based on Oliver Sack's Musicophilia.
-          The user will give youa lot of information about a specific song. Your job is to break the song into different sections, 
-          based on the information. The sections will be utilized for further processing for a music visualization project.
+          The user will give you a lot of information about a specific song. Your job is to break the song into different sections, 
+          based on the information. The sections will be utilized for further processing for a music visualization project--creating a painitng based on the song data.
           Try to have a shift in color between sections depending on mood and lyrics, while still making sense.`,
       },
       { role: "user", content: prompt },
