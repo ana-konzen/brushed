@@ -203,145 +203,173 @@
   ],
   "sections": [
     {
-      "explanation": "The first verse establishes imagery and begins the emotional narrative.",
+      "explanation": "First verse introduces the lyrics and sets a poetic and slightly melancholic tone.",
       "mood": [
-        "nostalgic",
-        "reflective"
+        "poetic",
+        "melancholic",
+        "serene"
+      ],
+      "chaos_level": 0.2,
+      "energy": 0.3,
+      "texture": 0.3,
+      "colors": [
+        "#241A1A",
+        "#6E4B4B",
+        "#BF6F6F",
+        "#998E8E",
+        "#4D3A3A"
+      ],
+      "harmony": 0.7,
+      "start": 10.42,
+      "duration": 28.27
+    },
+    {
+      "explanation": "Second verse explores deeper emotions of longing and bittersweetness.",
+      "mood": [
+        "longing",
+        "bittersweet",
+        "introspective"
       ],
       "chaos_level": 0.3,
       "energy": 0.4,
-      "texture": 0.6,
+      "texture": 0.4,
       "colors": [
-        "#3B3B3B",
-        "#514F59",
-        "#7D7E9E",
-        "#D8D5C9",
-        "#F2E7D5"
+        "#3C2A2A",
+        "#775151",
+        "#B28787",
+        "#9E5959",
+        "#503C3C"
       ],
-      "harmony": 0.8,
-      "start": 10.42,
-      "duration": 38.53
+      "harmony": 0.6,
+      "start": 48.95,
+      "duration": 20.5
     },
     {
-      "explanation": "First chorus expresses intense feelings of love and vulnerability.",
+      "explanation": "Chorus intensifies the emotional expression, highlighting themes of desperation and vulnerability.",
       "mood": [
-        "heartfelt",
+        "intense",
+        "desperate",
         "vulnerable"
       ],
       "chaos_level": 0.4,
       "energy": 0.5,
-      "texture": 0.7,
+      "texture": 0.5,
       "colors": [
-        "#542A44",
-        "#684A6B",
-        "#9D7FAB",
-        "#C9A9C1",
-        "#EBD9E9"
+        "#472B2B",
+        "#8F5E5E",
+        "#DC8C8C",
+        "#B26D6D",
+        "#6A4141"
       ],
-      "harmony": 0.9,
-      "start": 48.95,
-      "duration": 55.44
+      "harmony": 0.5,
+      "start": 67.45,
+      "duration": 34.83
     },
     {
-      "explanation": "Bridge and instrumental section transitions into a higher emotional intensity.",
+      "explanation": "Bridge provides a reflective, almost ethereal interlude, shifting the mood slightly.",
       "mood": [
+        "reflective",
         "ethereal",
-        "anticipatory"
+        "dreamlike"
       ],
-      "chaos_level": 0.5,
-      "energy": 0.6,
-      "texture": 0.8,
+      "chaos_level": 0.3,
+      "energy": 0.3,
+      "texture": 0.6,
       "colors": [
-        "#7A5C9D",
-        "#9D85B2",
-        "#B5A3C7",
-        "#D2C6DA",
-        "#F3E9F3"
+        "#1E2A2A",
+        "#4B6464",
+        "#6FBFBF",
+        "#517A7A",
+        "#2B4545"
       ],
-      "harmony": 0.8,
+      "harmony": 0.7,
       "start": 106.05,
       "duration": 29.33
     },
     {
-      "explanation": "Second verse explores themes of maturity and emotional growth.",
+      "explanation": "Next verse continues the narrative, revisiting themes with renewed depth and poignancy.",
       "mood": [
-        "introspective",
-        "wistful"
+        "poignant",
+        "nostalgic",
+        "introspective"
       ],
       "chaos_level": 0.3,
       "energy": 0.4,
-      "texture": 0.6,
+      "texture": 0.3,
       "colors": [
-        "#4B4A58",
-        "#606077",
-        "#8F8FA8",
-        "#D1CEDF",
-        "#F4EFE3"
+        "#2F2C2C",
+        "#5B5040",
+        "#8F8C6D",
+        "#73705A",
+        "#464338"
       ],
-      "harmony": 0.8,
+      "harmony": 0.6,
       "start": 135.38,
-      "duration": 28.67
+      "duration": 58.73
     },
     {
-      "explanation": "Final chorus conveys resolution and bittersweet reflection.",
+      "explanation": "Final chorus emphasizes the climax of the emotional journey before a reflective conclusion.",
       "mood": [
-        "resolved",
-        "bittersweet"
+        "climactic",
+        "emotional",
+        "reflective"
       ],
       "chaos_level": 0.4,
-      "energy": 0.5,
-      "texture": 0.7,
+      "energy": 0.6,
+      "texture": 0.6,
       "colors": [
-        "#3D2B56",
-        "#5C4D8A",
-        "#A48FC4",
-        "#CEB4E5",
-        "#F7E8FB"
+        "#363232",
+        "#716868",
+        "#AFA493",
+        "#8F8579",
+        "#5A5147"
       ],
-      "harmony": 0.9,
-      "start": 253.28,
-      "duration": 25.446531000000046
+      "harmony": 0.5,
+      "start": 221.89,
+      "duration": 37.15
     }
   ],
   "song_start": {
-    "explanation": "The song starts with a mellow introduction, setting the emotional tone.",
+    "explanation": "The song begins with a gentle instrumental introduction, setting the tone for an introspective and deeply emotional journey.",
     "mood": [
-      "melancholic",
-      "introspective"
+      "introductory",
+      "reflective",
+      "subdued"
     ],
-    "chaos_level": 0.2,
-    "energy": 0.3,
-    "texture": 0.5,
+    "chaos_level": 0.1,
+    "energy": 0.2,
+    "texture": 0.2,
     "colors": [
-      "#1A1A1A",
-      "#2C2C54",
-      "#3B97D3",
-      "#E1E1E1",
-      "#F6E27F"
+      "#242424",
+      "#8C8C8C",
+      "#FFFFFF",
+      "#646464",
+      "#A8A8A8"
     ],
-    "harmony": 0.7,
+    "harmony": 0.8,
     "start": 0,
     "duration": 10.42
   },
   "song_end": {
-    "explanation": "The song ends with a gentle outro, leaving an emotional impact.",
+    "explanation": "The song closes with an instrumental outro, fading gently to silence.",
     "mood": [
-      "peaceful",
-      "melancholic"
+      "calm",
+      "reflective",
+      "wistful"
     ],
-    "chaos_level": 0.2,
+    "chaos_level": 0.1,
     "energy": 0.2,
-    "texture": 0.5,
+    "texture": 0.2,
     "colors": [
-      "#181818",
-      "#242437",
-      "#4A4A6A",
-      "#B7B7D3",
-      "#F5F5F5"
+      "#0D0D0D",
+      "#2D2D2D",
+      "#525252",
+      "#6B6B6B",
+      "#A3A3A3"
     ],
     "harmony": 0.8,
-    "start": 278.726531,
-    "duration": 0
+    "start": 259.03999999999996,
+    "duration": 19.68653100000006
   },
   "mp3_file": "first-love--late-spring-mitski.mp3"
 }

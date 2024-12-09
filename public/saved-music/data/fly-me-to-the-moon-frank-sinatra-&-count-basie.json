@@ -3,7 +3,6 @@
   "artists": "Frank Sinatra & Count Basie",
   "title": "Fly Me to the Moon",
   "duration": 147.552,
-  "mp3_file": "fly-me-to-the-moon-frank-sinatra-&-count-basie.mp3",
   "lyrics": [
     {
       "timeStamp": 6.21,
@@ -102,70 +101,131 @@
   ],
   "sections": [
     {
-      "explanation": "The first verse begins with 'Fly me to the moon', introducing the romantic and dreamy theme of the song.",
-      "mood": ["romantic", "dreamy", "optimistic"],
-      "chaos_level": 0.2,
-      "energy": 0.3,
-      "texture": 0.3,
-      "colors": ["#1E90FF", "#87CEEB", "#FFD700", "#DAA520", "#FFC0CB"],
-      "harmony": 0.9,
-      "start": 6.21,
-      "duration": 33.71
-    },
-    {
-      "explanation": "The chorus begins with 'Fill my heart with song', increasing the intensity of the song.",
-      "mood": ["passionate", "joyful", "expressive"],
-      "chaos_level": 0.4,
-      "energy": 0.5,
-      "texture": 0.5,
-      "colors": ["#FF4500", "#FFD700", "#FFFFFF", "#FF69B4", "#32CD32"],
-      "harmony": 0.8,
-      "start": 39.92,
-      "duration": 24.12
-    },
-    {
-      "explanation": "The second verse commences, mirroring the sentiments of the first verse.",
-      "mood": ["romantic", "dreamy", "hopeful"],
+      "explanation": "First verse, where the lyrics 'Fly me to the moon...' begin. Establishes the dreamy and romantic mood of the song.",
+      "mood": [
+        "romantic",
+        "dreamy",
+        "hopeful"
+      ],
       "chaos_level": 0.3,
-      "energy": 0.4,
+      "energy": 0.5,
       "texture": 0.4,
-      "colors": ["#1E90FF", "#FFD700", "#32CD32", "#FF69B4", "#87CEEB"],
-      "harmony": 0.85,
-      "start": 104.57,
-      "duration": 33.36
+      "colors": [
+        "#F5DEB3",
+        "#FFE4E1",
+        "#FFD700",
+        "#F0E68C",
+        "#FFA07A"
+      ],
+      "harmony": 0.8,
+      "start": 6.21,
+      "duration": 26.8
     },
     {
-      "explanation": "The second chorus echoes the sentiments of the first chorus, reiterating the song's theme.",
-      "mood": ["passionate", "intense", "affectionate"],
+      "explanation": "Chorus, emphasizing the deep affection and love.",
+      "mood": [
+        "passionate",
+        "loving",
+        "sentimental"
+      ],
       "chaos_level": 0.4,
       "energy": 0.6,
       "texture": 0.5,
-      "colors": ["#FF4500", "#FFFFFF", "#FFD700", "#FF69B4", "#32CD32"],
+      "colors": [
+        "#FF69B4",
+        "#FFB6C1",
+        "#FF4500",
+        "#FF6347",
+        "#EE82EE"
+      ],
       "harmony": 0.8,
-      "start": 121.92,
-      "duration": 24.08
+      "start": 39.92,
+      "duration": 31.64
+    },
+    {
+      "explanation": "Second verse, reiterates affectionate themes with slight variations.",
+      "mood": [
+        "affectionate",
+        "intimate",
+        "focused"
+      ],
+      "chaos_level": 0.3,
+      "energy": 0.5,
+      "texture": 0.4,
+      "colors": [
+        "#DC143C",
+        "#8B0000",
+        "#A52A2A",
+        "#B22222",
+        "#CD5C5C"
+      ],
+      "harmony": 0.7,
+      "start": 104.57,
+      "duration": 33.3
+    },
+    {
+      "explanation": "Final chorus and outro, bringing the song to a reflective and loving closure.",
+      "mood": [
+        "reflective",
+        "romantic",
+        "timeless"
+      ],
+      "chaos_level": 0.3,
+      "energy": 0.6,
+      "texture": 0.5,
+      "colors": [
+        "#FFFAF0",
+        "#FFEFD5",
+        "#FFDAB9",
+        "#F0FFF0",
+        "#F5FFFA"
+      ],
+      "harmony": 0.8,
+      "start": 137.39,
+      "duration": 9.4
     }
   ],
   "song_start": {
-    "explanation": "The song starts with a soft, jazzy instrumental introduction.",
-    "mood": ["romantic", "dreamy", "calm"],
-    "chaos_level": 0.3,
-    "energy": 0.2,
-    "texture": 0.2,
-    "colors": ["#1E90FF", "#FFFFFF", "#FFD700", "#32CD32", "#FF69B4"],
+    "explanation": "The introduction of the song, beginning with an instrumental section.",
+    "mood": [
+      "calm",
+      "anticipative",
+      "elegant"
+    ],
+    "chaos_level": 0.2,
+    "energy": 0.4,
+    "texture": 0.3,
+    "colors": [
+      "#ADD8E6",
+      "#C0C0C0",
+      "#708090",
+      "#778899",
+      "#4682B4"
+    ],
     "harmony": 0.8,
     "start": 0,
     "duration": 6.21
   },
   "song_end": {
-    "explanation": "The song concludes with a diminuendo, emphasizing the final lyrics 'I love you!'",
-    "mood": ["tender", "resolute", "romantic"],
-    "chaos_level": 0.2,
-    "energy": 0.3,
+    "explanation": "Outro fades out tranquil and heartwarming.",
+    "mood": [
+      "happy",
+      "satisfied",
+      "serene"
+    ],
+    "chaos_level": 0.1,
+    "energy": 0.2,
     "texture": 0.2,
-    "colors": ["#1E90FF", "#FF69B4", "#FFD700", "#32CD32", "#FFFFFF"],
-    "harmony": 0.95,
-    "start": 146,
-    "duration": 1.5519999999999925
-  }
+    "colors": [
+      "#F5F5F5",
+      "#FAFAD2",
+      "#FFF8DC",
+      "#FDF5E6",
+      "#FFFACD"
+    ],
+    "harmony": 0.9,
+    "start": 146.79,
+    "duration": 0.7620000000000005
+  },
+  "mp3_file": "fly-me-to-the-moon-frank-sinatra-&-count-basie.mp3"
 }

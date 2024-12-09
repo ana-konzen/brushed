@@ -48,9 +48,11 @@ video {
   position: fixed;
   z-index: -1;
   display: block;
-  width: 102vw;
-  height: 100vh;
-  object-fit: cover;
+  width: auto;
+  height: 140vh;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
   opacity: 0.6;
   transition: opacity 800ms;
 }
