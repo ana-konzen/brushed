@@ -4,6 +4,8 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  text-transform: lowercase;
+
   -ms-overflow-style: none;
   scrollbar-width: none;
   height: 25em;
@@ -19,7 +21,7 @@
   /* background: rgb(198, 198, 198); */
   backdrop-filter: blur(10px);
   background: rgba(104, 104, 104, 0.069);
-  font-family: "Spectral", serif;
+  font-family: "fraktion mono";
   transition: opacity 500ms, transform 500ms;
 }
 
@@ -39,7 +41,9 @@ h1 {
   font-size: 1.5em;
   margin: 0;
   padding: 0;
-  font-weight: 400;
+  font-weight: bold;
+  font-family: "fraktion mono", monospace;
+
 }
 
 .inactive-back {
@@ -54,7 +58,9 @@ h1 {
 
 #start-menu h1 {
   font-size: 5em;
-  letter-spacing: 0.2em;
+  letter-spacing: .2em;
+  font-weight: 100;
+  font-family: "fraktion mono", monospace;
 }
 
 #start-menu p {
@@ -88,6 +94,7 @@ h1 {
 #song-list .headers div {
   box-sizing: border-box;
   padding: 0.5em;
+  font-weight: bold;
   margin: 0.5em 0;
   text-align: center;
 }
@@ -123,7 +130,10 @@ h1 {
   position: relative;
   text-align: center;
   align-items: center;
+  text-transform: lowercase;
+
   transition: 500ms;
+  font-weight: 100;
 }
 
 .song-option div {
@@ -166,7 +176,7 @@ h1 {
 .sub-button {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
-  font-family: "Spectral", serif;
+  font-family: "fraktion mono";
   color: rgb(63, 63, 63);
   background: transparent;
   font-size: 1em;
@@ -178,7 +188,7 @@ h1 {
 }
 
 .arrow-button {
-  font-family: "Spectral", serif;
+  font-family: "fraktion mono";
   color: rgb(63, 63, 63);
   background: transparent;
   transition: 500ms;
@@ -199,12 +209,12 @@ h1 {
 }
 
 .arrow-button.next::after {
-  content: ">";
+  content: "→";
   margin-left: 0.5em;
 }
 
 .arrow-button.back::before {
-  content: "<";
+  content: "←";
   margin-right: 0.5em;
 }
 
@@ -223,8 +233,9 @@ label {
   margin: 0;
   padding: 0;
   font-weight: 400;
-  font-family: "Spectral", serif;
+  font-family: "fraktion mono", monospace;
   margin-top: 2em;
+  margin-bottom: .8em;
 }
 
 .form-cont {
@@ -237,10 +248,12 @@ label {
 .form-cont input[type="text"] {
   margin: 0.5em;
   padding: 0.5em;
-  border-radius: 0.5em;
+  border-radius: 0;
   border: none;
+  text-transform: lowercase;
+  border-bottom: solid black 1px;
   background: transparent;
-  box-shadow: 0px 2px 4px rgba(62, 62, 62, 0.37);
-  font-family: "Spectral", serif;
+  /* box-shadow: 0px 2px 4px rgba(62, 62, 62, 0.37); */
+  font-family: "fraktion mono";
   font-size: 1em;
 }

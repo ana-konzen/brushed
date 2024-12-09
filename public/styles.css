@@ -1,3 +1,39 @@
+@font-face {
+  font-family: "fraktion mono";
+  src: url("fonts/PPFraktionMono-Regular.otf");
+  weight: normal;
+}
+
+@font-face {
+  font-family: "fraktion mono";
+  src: url("fonts/PPFraktionMono-bold.otf");
+  weight: bold;
+}
+
+@font-face {
+  font-family: "fraktion mono";
+  src: url("fonts/PPFraktionMono-light.otf");
+  weight: 100;
+}
+
+@font-face {
+  font-family: "fraktion";
+  src: url("fonts/PPFraktionSans-Light.otf");
+  weight: normal;
+}
+
+@font-face {
+  font-family: "fraktion";
+  src: url("fonts/PPFraktionSans-Bold.otf");
+  weight: bold;
+}
+
+@font-face {
+  font-family: "fraktion";
+  src: url("fonts/PPFraktionSans-thin.otf");
+  weight: 100;
+}
+
 body {
   margin: 0;
   background: rgb(230, 230, 230);
@@ -62,7 +98,7 @@ canvas {
 
 #info div {
   margin: 0 25px;
-  font-family: "Spectral", serif;
+  font-family: "fraktion mono", monospace;
   font-size: 1em;
 }
 
@@ -79,7 +115,7 @@ canvas {
 
 #play-button {
   background: transparent;
-  font-family: "Spectral", serif;
+  font-family: "fraktion mono";
   font-size: 1.2em;
   margin: 0 -25px;
   color: rgb(63, 63, 63);
@@ -88,16 +124,19 @@ canvas {
 .menu-button {
   position: fixed;
   top: 20px;
-  font-family: "Spectral", serif;
+  font-family: "fraktion mono";
   border-radius: 0.5em;
   padding: 0.25em 0.5em;
   font-size: 1em;
   z-index: 2;
-  backdrop-filter: blur(10px);
-  background: rgba(104, 104, 104, 0.069);
+  border: solid black 1px;
+
+  /* backdrop-filter: blur(10px);
+  background: rgba(104, 104, 104, 0.069); */
   color: rgb(0, 0, 0);
+  background: transparent;
   cursor: pointer;
-  box-shadow: 0 0 10px rgba(54, 54, 54, 0.188);
+  /* box-shadow: 0 0 10px rgba(54, 54, 54, 0.188); */
 }
 
 #save-button {
@@ -117,7 +156,7 @@ canvas {
 
 #loading-buffer {
   display: none;
-  font-family: "Spectral", serif;
+  font-family: "fraktion mono";
   font-size: 1.2em;
   position: fixed;
   width: 300px;
@@ -143,7 +182,7 @@ canvas {
 
 #start {
   display: none;
-  font-family: "Spectral", serif;
+  font-family: "fraktion mono";
   font-size: 1.2em;
   position: fixed;
   text-align: center;

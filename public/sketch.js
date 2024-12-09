@@ -41,6 +41,8 @@ let ellapsedTime = 0;
 
 let soundLoaded = false;
 
+let songEnded = false;
+
 function setup() {
   cnv = createCanvas(windowWidth, windowHeight);
   angleMode(DEGREES);
@@ -130,10 +132,10 @@ function mouseMoved() {
 function togglePlay(s) {
   if (s.isPlaying()) {
     s.pause();
-    select("#play-button").html("⏵︎");
+    select("#play-button").html("▶");
   } else {
     s.play();
-    select("#play-button").html("⏸︎");
+    select("#play-button").html("⬛");
   }
 }
 
