@@ -347,165 +347,93 @@
   ],
   "sections": [
     {
-      "explanation": "The first verse sets up the theme of questioning organized religion while expressing reverence for love and a personal connection.",
-      "mood": [
-        "contemplative",
-        "reverent"
-      ],
+      "explanation": "The first verse starts, establishing a personal and metaphoric description of the subject.",
+      "mood": ["introspective", "mournful"],
       "chaos_level": 0.3,
-      "energy": 0.4,
-      "texture": 0.3,
-      "colors": [
-        "#4682B4",
-        "#5F9EA0",
-        "#6495ED",
-        "#708090",
-        "#2E8B57"
-      ],
-      "harmony": 0.8,
-      "start": 1.08,
-      "duration": 44
+      "energy": 0.5,
+      "texture": 0.4,
+      "colors": ["#4A525A", "#9BA6B3", "#263849", "#6D7C91", "#B4C5D3"],
+      "harmony": 0.5,
+      "start": 0,
+      "duration": 42
     },
     {
-      "explanation": "The first chorus builds in intensity, emphasizing the plea of the song's protagonist for connection and truth.",
-      "mood": [
-        "pleading",
-        "intense"
-      ],
+      "explanation": "The pre-chorus highlights the emotional conflict in the lyrics.",
+      "mood": ["passionate", "emotional"],
       "chaos_level": 0.5,
-      "energy": 0.7,
-      "texture": 0.5,
-      "colors": [
-        "#483D8B",
-        "#6A5ACD",
-        "#8A2BE2",
-        "#7B68EE",
-        "#4A708B"
-      ],
-      "harmony": 0.7,
-      "start": 56.88,
+      "energy": 0.6,
+      "texture": 0.6,
+      "colors": ["#2C2F37", "#46545C", "#798993", "#9AA6AE", "#C6D0D6"],
+      "harmony": 0.4,
+      "start": 42,
       "duration": 14
     },
     {
-      "explanation": "The second verse adds more complexity to the narrative, exploring the contradictions of love and societal judgment.",
-      "mood": [
-        "reflective",
-        "intense"
-      ],
-      "chaos_level": 0.4,
-      "energy": 0.5,
-      "texture": 0.4,
-      "colors": [
-        "#5F9EA0",
-        "#4682B4",
-        "#6495ED",
-        "#6B8E23",
-        "#556B2F"
-      ],
-      "harmony": 0.8,
-      "start": 88.67,
+      "explanation": "The chorus presents a heightened emotional and musical intensity.",
+      "mood": ["intense", "pleading"],
+      "chaos_level": 0.6,
+      "energy": 0.8,
+      "texture": 0.7,
+      "colors": ["#232428", "#4E575E", "#728090", "#B2BCC4", "#DCE4E8"],
+      "harmony": 0.5,
+      "start": 56,
       "duration": 27
     },
     {
-      "explanation": "The second chorus repeats the intensity of the earlier chorus sections, solidifying the song's emotional plea.",
-      "mood": [
-        "pleading",
-        "emotional"
-      ],
-      "chaos_level": 0.5,
-      "energy": 0.7,
-      "texture": 0.5,
-      "colors": [
-        "#483D8B",
-        "#6A5ACD",
-        "#8A2BE2",
-        "#7B68EE",
-        "#4A708B"
-      ],
-      "harmony": 0.7,
-      "start": 120.26,
-      "duration": 12
-    },
-    {
-      "explanation": "The bridge section is a reflective moment, a lament about humanity, innocence, and the complexity of human relationships.",
-      "mood": [
-        "melancholic",
-        "hopeful"
-      ],
-      "chaos_level": 0.3,
+      "explanation": "The second verse adds layers to the song's narrative, with richer instrumentation.",
+      "mood": ["poetic", "contemplative"],
+      "chaos_level": 0.4,
       "energy": 0.5,
-      "texture": 0.4,
-      "colors": [
-        "#708090",
-        "#2E8B57",
-        "#4682B4",
-        "#556B2F",
-        "#4B0082"
-      ],
-      "harmony": 0.9,
-      "start": 151.82,
-      "duration": 23
+      "texture": 0.5,
+      "colors": ["#373F46", "#B4B8C2", "#5A6A78", "#8F9BAB", "#C6D1E0"],
+      "harmony": 0.6,
+      "start": 83,
+      "duration": 39
     },
     {
-      "explanation": "A final repetition of the chorus, driving the song to its emotional conclusion.",
-      "mood": [
-        "pleading",
-        "resolute"
-      ],
+      "explanation": "The bridge section enters, signifying a tonal shift and different perspective.",
+      "mood": ["reflective", "soulful"],
       "chaos_level": 0.5,
       "energy": 0.7,
-      "texture": 0.5,
-      "colors": [
-        "#483D8B",
-        "#6A5ACD",
-        "#8A2BE2",
-        "#7B68EE",
-        "#4A708B"
-      ],
-      "harmony": 0.7,
-      "start": 197.7,
-      "duration": 42
+      "texture": 0.6,
+      "colors": ["#1E1F22", "#4A4F55", "#6C747D", "#88929A", "#B8C0C8"],
+      "harmony": 0.8,
+      "start": 122,
+      "duration": 30
+    },
+    {
+      "explanation": "The song returns to the chorus, reinforcing the main themes.",
+      "mood": ["resolute", "emotional"],
+      "chaos_level": 0.7,
+      "energy": 0.9,
+      "texture": 0.8,
+      "colors": ["#1C1C1E", "#35393D", "#636B74", "#AAB1BA", "#C8D0D7"],
+      "harmony": 0.6,
+      "start": 152,
+      "duration": 50
     }
   ],
   "song_start": {
-    "explanation": "The song opens with a stripped-down arrangement featuring just the vocals and subtle instrumentation. The lyrics introduce the thematic elements of the song.",
-    "mood": [
-      "introspective",
-      "emotional"
-    ],
+    "explanation": "The song opens with an introspective verse that introduces the thematic elements of the lyrics.",
+    "mood": ["introspective", "solemn", "reflective"],
     "chaos_level": 0.2,
-    "energy": 0.3,
-    "texture": 0.2,
-    "colors": [
-      "#B0C4DE",
-      "#4682B4",
-      "#778899",
-      "#4169E1",
-      "#5F9EA0"
-    ],
-    "harmony": 0.9,
+    "energy": 0.4,
+    "texture": 0.3,
+    "colors": ["#2B303A", "#A9B6C3", "#3C4F68", "#8392A9", "#D0E4F2"],
+    "harmony": 0.6,
     "start": 0,
-    "duration": 1.08
+    "duration": 0
   },
   "song_end": {
-    "explanation": "The song concludes with the instrumental fading out, leaving a reflective silence.",
-    "mood": [
-      "contemplative",
-      "resolved"
-    ],
-    "chaos_level": 0.1,
-    "energy": 0.2,
-    "texture": 0.1,
-    "colors": [
-      "#B0C4DE",
-      "#4682B4",
-      "#778899",
-      "#4169E1",
-      "#5F9EA0"
-    ],
-    "harmony": 0.9,
-    "start": 239.7,
-    "duration": 0.652653000000015
+    "explanation": "The song winds down with a subdued outro.",
+    "mood": ["somber", "reflective"],
+    "chaos_level": 0.3,
+    "energy": 0.4,
+    "texture": 0.2,
+    "colors": ["#2E3337", "#6E777F", "#A2A8AF", "#CDD3D8", "#E4E8EB"],
+    "harmony": 0.7,
+    "start": 202,
+    "duration": 38.352653000000004
   },
   "mp3_file": "take-me-to-church-hozier.mp3"
 }
