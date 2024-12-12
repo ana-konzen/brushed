@@ -63,126 +63,66 @@
   "sections": [
     {
       "explanation": "The first verse begins, introducing the shark metaphor and the concept of a tense and painful relationship.",
-      "mood": [
-        "intense",
-        "emotional",
-        "painful"
-      ],
+      "mood": ["intense", "emotional", "painful"],
       "chaos_level": 0.4,
       "energy": 0.5,
       "texture": 0.6,
-      "colors": [
-        "#331919",
-        "#553232",
-        "#774B4B",
-        "#996464",
-        "#BB7D7D"
-      ],
+      "colors": ["#331919", "#553232", "#774B4B", "#996464", "#BB7D7D"],
       "harmony": 0.7,
       "start": 0,
       "duration": 30
     },
     {
       "explanation": "The chorus emphasizes the triangle metaphor, comparing love and relationships to geometric and mathematical principles.",
-      "mood": [
-        "philosophical",
-        "reflective",
-        "enigmatic"
-      ],
+      "mood": ["philosophical", "reflective", "enigmatic"],
       "chaos_level": 0.3,
       "energy": 0.6,
       "texture": 0.5,
-      "colors": [
-        "#3A2B2B",
-        "#5C4242",
-        "#7E5959",
-        "#A07070",
-        "#C28787"
-      ],
+      "colors": ["#3A2B2B", "#5C4242", "#7E5959", "#A07070", "#C28787"],
       "harmony": 0.8,
       "start": 30,
       "duration": 20
     },
     {
       "explanation": "The second verse expands on the shark metaphor, discussing the aftermath of an emotional confrontation.",
-      "mood": [
-        "somber",
-        "contemplative",
-        "emotional"
-      ],
+      "mood": ["somber", "contemplative", "emotional"],
       "chaos_level": 0.3,
       "energy": 0.4,
       "texture": 0.5,
-      "colors": [
-        "#2C2623",
-        "#4B403C",
-        "#6A5A56",
-        "#897470",
-        "#A88E8A"
-      ],
+      "colors": ["#2C2623", "#4B403C", "#6A5A56", "#897470", "#A88E8A"],
       "harmony": 0.7,
       "start": 50,
       "duration": 40
     },
     {
       "explanation": "A bridge section with a change in tone, using metaphors of guns and a standoff to represent the love triangle.",
-      "mood": [
-        "tense",
-        "conflicted",
-        "intense"
-      ],
+      "mood": ["tense", "conflicted", "intense"],
       "chaos_level": 0.5,
       "energy": 0.7,
       "texture": 0.6,
-      "colors": [
-        "#202A30",
-        "#33434A",
-        "#476054",
-        "#5A7C66",
-        "#6D9978"
-      ],
+      "colors": ["#202A30", "#33434A", "#476054", "#5A7C66", "#6D9978"],
       "harmony": 0.6,
       "start": 90,
       "duration": 30
     },
     {
       "explanation": "A reflective and emotional passage, expressing lingering feelings and memories.",
-      "mood": [
-        "nostalgic",
-        "heartfelt",
-        "resigned"
-      ],
+      "mood": ["nostalgic", "heartfelt", "resigned"],
       "chaos_level": 0.2,
       "energy": 0.5,
       "texture": 0.4,
-      "colors": [
-        "#2A1C1E",
-        "#473838",
-        "#645454",
-        "#826F70",
-        "#9E8B8C"
-      ],
+      "colors": ["#2A1C1E", "#473838", "#645454", "#826F70", "#9E8B8C"],
       "harmony": 0.8,
       "start": 120,
       "duration": 30
     },
     {
       "explanation": "The outro revisits the chorus, emphasizing the theme of tessellation and closure.",
-      "mood": [
-        "resolute",
-        "philosophical",
-        "reflective"
-      ],
+      "mood": ["resolute", "philosophical", "reflective"],
       "chaos_level": 0.2,
       "energy": 0.4,
       "texture": 0.5,
-      "colors": [
-        "#23252C",
-        "#3C3F4B",
-        "#525A6A",
-        "#6A7390",
-        "#818CB5"
-      ],
+      "colors": ["#23252C", "#3C3F4B", "#525A6A", "#6A7390", "#818CB5"],
       "harmony": 0.9,
       "start": 150,
       "duration": 38
@@ -190,42 +130,22 @@
   ],
   "song_start": {
     "explanation": "The song opens with a haunting and atmospheric instrumental introduction, setting the tone for the complex and metaphorical lyrics to come.",
-    "mood": [
-      "mysterious",
-      "atmospheric",
-      "anticipatory"
-    ],
+    "mood": ["mysterious", "atmospheric", "anticipatory"],
     "chaos_level": 0.2,
     "energy": 0.3,
     "texture": 0.4,
-    "colors": [
-      "#1A1F3A",
-      "#2F415E",
-      "#445880",
-      "#586B9F",
-      "#6C7EC0"
-    ],
+    "colors": ["#1A1F3A", "#2F415E", "#445880", "#586B9F", "#6C7EC0"],
     "harmony": 0.8,
     "start": 0,
     "duration": 0
   },
   "song_end": {
     "explanation": "The song ends with an instrumental fade-out, leaving a lingering, reflective mood.",
-    "mood": [
-      "reflective",
-      "melancholic",
-      "serene"
-    ],
+    "mood": ["reflective", "melancholic", "serene"],
     "chaos_level": 0.1,
     "energy": 0.2,
     "texture": 0.3,
-    "colors": [
-      "#121212",
-      "#2A2A2A",
-      "#424242",
-      "#5C5C5C",
-      "#767676"
-    ],
+    "colors": ["#121212", "#2A2A2A", "#424242", "#5C5C5C", "#767676"],
     "harmony": 0.9,
     "start": 188,
     "duration": 0.10775499999999738
