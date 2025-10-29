@@ -1,11 +1,13 @@
 {
-  "key": "3",
-  "mode": "1",
-  "valence": "0.327",
-  "danceability": "0.454",
-  "energy": "0.4",
-  "tempo": "93.719",
-  "genre": "ambient",
+  "spotifyInfo": {
+    "key": "3",
+    "mode": "1",
+    "valence": "0.327",
+    "danceability": "0.454",
+    "energy": "0.4",
+    "tempo": "93.719",
+    "genre": "ambient"
+  },
   "artists": "Cigarettes After Sex",
   "title": "K.",
   "duration": 317.152653,
@@ -142,100 +144,55 @@
   "sections": [
     {
       "explanation": "The first lyrics are sung, recalling the beginning of a special connection.",
-      "mood": [
-        "nostalgic",
-        "affectionate"
-      ],
+      "mood": ["nostalgic", "affectionate"],
       "chaos_level": 0.2,
       "energy": 0.35,
       "texture": 0.4,
-      "colors": [
-        "#002244",
-        "#003366",
-        "#224466",
-        "#446688",
-        "#6688AA"
-      ],
+      "colors": ["#002244", "#003366", "#224466", "#446688", "#6688AA"],
       "harmony": 0.85,
       "start": 42.42,
       "duration": 40
     },
     {
       "explanation": "A description of meaningful past moments with the loved one.",
-      "mood": [
-        "sentimental",
-        "romantic"
-      ],
+      "mood": ["sentimental", "romantic"],
       "chaos_level": 0.2,
       "energy": 0.4,
       "texture": 0.5,
-      "colors": [
-        "#313639",
-        "#515960",
-        "#939FA5",
-        "#C7D1D6",
-        "#ECF5F9"
-      ],
+      "colors": ["#313639", "#515960", "#939FA5", "#C7D1D6", "#ECF5F9"],
       "harmony": 0.9,
       "start": 124.88,
       "duration": 40
     },
     {
       "explanation": "A repetition of the chorus, emphasizing longing and closeness.",
-      "mood": [
-        "romantic",
-        "intimate"
-      ],
+      "mood": ["romantic", "intimate"],
       "chaos_level": 0.2,
       "energy": 0.4,
       "texture": 0.45,
-      "colors": [
-        "#1F2A38",
-        "#324659",
-        "#4B657A",
-        "#6789A1",
-        "#90B3C9"
-      ],
+      "colors": ["#1F2A38", "#324659", "#4B657A", "#6789A1", "#90B3C9"],
       "harmony": 0.9,
       "start": 165.89,
       "duration": 40
     },
     {
       "explanation": "A tender and loving moment is described, reinforcing the emotional connection.",
-      "mood": [
-        "intimate",
-        "melancholic"
-      ],
+      "mood": ["intimate", "melancholic"],
       "chaos_level": 0.3,
       "energy": 0.35,
       "texture": 0.4,
-      "colors": [
-        "#223344",
-        "#445566",
-        "#667788",
-        "#8A9BAF",
-        "#B3C4D9"
-      ],
+      "colors": ["#223344", "#445566", "#667788", "#8A9BAF", "#B3C4D9"],
       "harmony": 0.85,
       "start": 206.28,
       "duration": 40
     },
     {
       "explanation": "The final section reflects longing and intimacy in its reprise of the chorus.",
-      "mood": [
-        "yearning",
-        "romantic"
-      ],
+      "mood": ["yearning", "romantic"],
       "chaos_level": 0.2,
       "energy": 0.4,
       "texture": 0.45,
-      "colors": [
-        "#112233",
-        "#334455",
-        "#556677",
-        "#778899",
-        "#99BBCC"
-      ],
+      "colors": ["#112233", "#334455", "#556677", "#778899", "#99BBCC"],
       "harmony": 0.9,
       "start": 267.36,
       "duration": 50
@@ -243,41 +200,22 @@
   ],
   "song_start": {
     "explanation": "The song begins with a calm and gentle introduction, setting a romantic and reflective mood.",
-    "mood": [
-      "romantic",
-      "calm",
-      "reflective"
-    ],
+    "mood": ["romantic", "calm", "reflective"],
     "chaos_level": 0.2,
     "energy": 0.3,
     "texture": 0.4,
-    "colors": [
-      "#001F3F",
-      "#012E67",
-      "#466A9F",
-      "#8BACD9",
-      "#D0EFFF"
-    ],
+    "colors": ["#001F3F", "#012E67", "#466A9F", "#8BACD9", "#D0EFFF"],
     "harmony": 0.8,
     "start": 0,
     "duration": 42.42
   },
   "song_end": {
     "explanation": "The song concludes softly, leaving a lingering reflective tone.",
-    "mood": [
-      "reflective",
-      "melancholic"
-    ],
+    "mood": ["reflective", "melancholic"],
     "chaos_level": 0.2,
     "energy": 0.3,
     "texture": 0.4,
-    "colors": [
-      "#0A1E30",
-      "#143B55",
-      "#285B80",
-      "#4D82A9",
-      "#79B0D4"
-    ],
+    "colors": ["#0A1E30", "#143B55", "#285B80", "#4D82A9", "#79B0D4"],
     "harmony": 0.8,
     "start": 317.36,
     "duration": -0.20734700000002704

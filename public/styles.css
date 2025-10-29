@@ -1,42 +1,7 @@
-@font-face {
-  font-family: "fraktion mono";
-  src: url("fonts/PPFraktionMono-Regular.otf");
-  weight: normal;
-}
-
-@font-face {
-  font-family: "fraktion mono";
-  src: url("fonts/PPFraktionMono-bold.otf");
-  weight: bold;
-}
-
-@font-face {
-  font-family: "fraktion mono";
-  src: url("fonts/PPFraktionMono-light.otf");
-  weight: 100;
-}
-
-@font-face {
-  font-family: "fraktion";
-  src: url("fonts/PPFraktionSans-Light.otf");
-  weight: normal;
-}
-
-@font-face {
-  font-family: "fraktion";
-  src: url("fonts/PPFraktionSans-Bold.otf");
-  weight: bold;
-}
-
-@font-face {
-  font-family: "fraktion";
-  src: url("fonts/PPFraktionSans-thin.otf");
-  weight: 100;
-}
-
 body {
   margin: 0;
-  background: rgb(230, 230, 230);
+  background: rgb(235, 230, 223);
+  font-family: "neue-haas-grotesk-text", sans-serif;
 }
 
 button {
@@ -58,7 +23,7 @@ video {
 }
 
 label {
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
   font-size: 14px;
 }
 
@@ -95,13 +60,13 @@ canvas {
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  font-size: 0.9em;
   z-index: 2;
 }
 
 #info div {
   margin: 0 25px;
-  font-family: "fraktion mono", monospace;
-  font-size: 1em;
+  font-size: 0.9em;
 }
 
 #info div.half {
@@ -117,8 +82,7 @@ canvas {
 
 #play-button {
   background: transparent;
-  font-family: "fraktion mono";
-  font-size: 1.2em;
+  font-size: 0.7em;
   margin: 0 -25px;
   color: rgb(63, 63, 63);
 }
@@ -126,10 +90,9 @@ canvas {
 .menu-button {
   position: fixed;
   top: 20px;
-  font-family: "fraktion mono";
   border-radius: 0.5em;
   padding: 0.25em 0.5em;
-  font-size: 1em;
+  font-size: 0.8em;
   z-index: 2;
   border: solid black 1px;
 
@@ -145,8 +108,6 @@ canvas {
   right: 20px;
 }
 
-
-
 #start-button {
   position: fixed;
   top: 10px;
@@ -158,7 +119,6 @@ canvas {
 
 #loading-buffer {
   display: none;
-  font-family: "fraktion mono";
   font-size: 1.2em;
   position: fixed;
   width: 300px;
@@ -184,13 +144,95 @@ canvas {
 
 #start {
   display: none;
-  font-family: "fraktion mono";
   font-size: 1.2em;
   position: fixed;
   text-align: center;
   top: 45vh;
   left: 50%;
   transform: translateX(-50%);
+}
+
+#song-info {
+  display: none;
+  flex-direction: column;
+  z-index: 100;
+  opacity: 1;
+  position: fixed;
+  top: 100px;
+  left: -280px;
+  height: 70vh;
+  width: 250px;
+  font-size: 0.8em;
+  border-radius: 30px;
+  padding: 20px;
+  backdrop-filter: blur(10px);
+  transition: left 300ms;
+  background-color: rgb(235, 230, 223, 0.6);
+}
+
+#hover-arrow {
+  position: absolute;
+  top: 30px;
+  right: -20px;
+  width: 80px;
+  height: 100px;
+  cursor: pointer;
+  writing-mode: vertical-rl;
+  /* font-weight: bold; */
+}
+
+#features-cont {
+  padding: 0px 20px;
+}
+
+#song-info:has(#hover-arrow:hover),
+#song-info:hover {
+  left: 0px;
+}
+
+#sections-cont {
+  margin-top: 40px;
+  height: auto;
+  overflow-y: scroll;
+}
+
+#sections {
+  overflow-y: scroll;
+}
+
+.section-item {
+  padding: 10px;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  background-color: rgba(200, 200, 200, 0.4);
+  padding: 20px 25px;
+}
+
+.section-header {
+  font-size: 1em;
+  margin-bottom: 10px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+
+.color-swatch {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  margin-right: 5px;
+  /* border: solid black 1px; */
+}
+
+.feature-item {
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.active-info-section {
+  background-color: rgba(54, 54, 54, 0.4);
+  color: white;
 }
 
 @keyframes loading {
@@ -207,4 +249,3 @@ canvas {
     left: 100%;
   }
 }
-

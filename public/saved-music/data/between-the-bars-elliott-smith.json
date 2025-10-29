@@ -1,11 +1,13 @@
 {
-  "key": "7",
-  "mode": "0",
-  "valence": "0.342",
-  "danceability": "0.522",
-  "energy": "0.074",
-  "tempo": "135.298",
-  "genre": "indie-pop",
+  "spotifyInfo": {
+    "key": "7",
+    "mode": "0",
+    "valence": "0.342",
+    "danceability": "0.522",
+    "energy": "0.074",
+    "tempo": "135.298",
+    "genre": "indie-pop"
+  },
   "artists": "Elliott Smith",
   "title": "Between the Bars",
   "duration": 138.213878,
@@ -184,100 +186,55 @@
   "sections": [
     {
       "explanation": "The first verse introduces the theme of longing and potential.",
-      "mood": [
-        "yearning",
-        "reflective"
-      ],
+      "mood": ["yearning", "reflective"],
       "chaos_level": 0.2,
       "energy": 0.3,
       "texture": 0.3,
-      "colors": [
-        "#B7C0C5",
-        "#96A3A8",
-        "#798C91",
-        "#596C72",
-        "#394D52"
-      ],
+      "colors": ["#B7C0C5", "#96A3A8", "#798C91", "#596C72", "#394D52"],
       "harmony": 0.85,
       "start": 11.19,
       "duration": 14.69
     },
     {
       "explanation": "The second verse delves into the struggles of escaping pressures and memories.",
-      "mood": [
-        "troubled",
-        "hopeful"
-      ],
+      "mood": ["troubled", "hopeful"],
       "chaos_level": 0.35,
       "energy": 0.4,
       "texture": 0.4,
-      "colors": [
-        "#C1C5B7",
-        "#A8AB96",
-        "#919379",
-        "#727359",
-        "#524939"
-      ],
+      "colors": ["#C1C5B7", "#A8AB96", "#919379", "#727359", "#524939"],
       "harmony": 0.75,
       "start": 25.88,
       "duration": 23.57
     },
     {
       "explanation": "The chorus emphasizes the escapism presented by alcohol, with recurring imagery of stillness and isolation.",
-      "mood": [
-        "escapist",
-        "melancholic"
-      ],
+      "mood": ["escapist", "melancholic"],
       "chaos_level": 0.25,
       "energy": 0.5,
       "texture": 0.3,
-      "colors": [
-        "#C5B7B8",
-        "#AB9697",
-        "#91797A",
-        "#73595A",
-        "#523939"
-      ],
+      "colors": ["#C5B7B8", "#AB9697", "#91797A", "#73595A", "#523939"],
       "harmony": 0.8,
       "start": 52.26,
       "duration": 22.92
     },
     {
       "explanation": "The third verse offers a subtle shift, introducing an ethereal quality with the imagery of stars.",
-      "mood": [
-        "ethereal",
-        "longing"
-      ],
+      "mood": ["ethereal", "longing"],
       "chaos_level": 0.3,
       "energy": 0.6,
       "texture": 0.4,
-      "colors": [
-        "#B7C5B7",
-        "#96ABA9",
-        "#79A091",
-        "#597C72",
-        "#396052"
-      ],
+      "colors": ["#B7C5B7", "#96ABA9", "#79A091", "#597C72", "#396052"],
       "harmony": 0.75,
       "start": 74.18,
       "duration": 25.19
     },
     {
       "explanation": "The outro returns to the repetitive chorus, emphasizing the cyclical nature of the narrative.",
-      "mood": [
-        "resigned",
-        "cyclical"
-      ],
+      "mood": ["resigned", "cyclical"],
       "chaos_level": 0.25,
       "energy": 0.45,
       "texture": 0.3,
-      "colors": [
-        "#C5C5B7",
-        "#ABAB96",
-        "#919179",
-        "#727259",
-        "#525239"
-      ],
+      "colors": ["#C5C5B7", "#ABAB96", "#919179", "#727259", "#525239"],
       "harmony": 0.8,
       "start": 116.24,
       "duration": 20.5
@@ -285,40 +242,22 @@
   ],
   "song_start": {
     "explanation": "The song begins with a gentle introduction, setting the tone of melancholy and introspection.",
-    "mood": [
-      "melancholic",
-      "introspective"
-    ],
+    "mood": ["melancholic", "introspective"],
     "chaos_level": 0.2,
     "energy": 0.2,
     "texture": 0.2,
-    "colors": [
-      "#A9B7C1",
-      "#839DA4",
-      "#6D848D",
-      "#577078",
-      "#3F575F"
-    ],
+    "colors": ["#A9B7C1", "#839DA4", "#6D848D", "#577078", "#3F575F"],
     "harmony": 0.8,
     "start": 0,
     "duration": 11.19
   },
   "song_end": {
     "explanation": "The song ends quietly, leaving an impression of unresolved emotions and lingering melancholy.",
-    "mood": [
-      "melancholic",
-      "unresolved"
-    ],
+    "mood": ["melancholic", "unresolved"],
     "chaos_level": 0.15,
     "energy": 0.2,
     "texture": 0.2,
-    "colors": [
-      "#B7C1C5",
-      "#96A9AB",
-      "#798F91",
-      "#596F72",
-      "#394F52"
-    ],
+    "colors": ["#B7C1C5", "#96A9AB", "#798F91", "#596F72", "#394F52"],
     "harmony": 0.85,
     "start": 136.74,
     "duration": 1.473877999999985

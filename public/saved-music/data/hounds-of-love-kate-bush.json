@@ -1,11 +1,13 @@
 {
-  "key": "5",
-  "mode": "1",
-  "valence": "0.9",
-  "danceability": "0.546",
-  "energy": "0.748",
-  "tempo": "145.582",
-  "genre": "piano",
+  "spotifyInfo": {
+    "key": "5",
+    "mode": "1",
+    "valence": "0.9",
+    "danceability": "0.546",
+    "energy": "0.748",
+    "tempo": "145.582",
+    "genre": "piano"
+  },
   "artists": "Kate Bush",
   "title": "Hounds of Love",
   "duration": 182.909388,

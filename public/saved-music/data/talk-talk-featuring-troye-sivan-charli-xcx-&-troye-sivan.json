@@ -1,5 +1,5 @@
 {
-  "incomplete": true,
+  "spotifyInfo": { "incomplete": true },
   "artists": "Charli xcx & Troye Sivan",
   "title": "Talk talk featuring troye sivan",
   "duration": 173.191837,
@@ -320,105 +320,55 @@
   "sections": [
     {
       "explanation": "The first verse establishes the intimate and conversational tone of the song.",
-      "mood": [
-        "intimate",
-        "conversational",
-        "reflective"
-      ],
+      "mood": ["intimate", "conversational", "reflective"],
       "chaos_level": 0.4,
       "energy": 0.5,
       "texture": 0.3,
-      "colors": [
-        "#F39C93",
-        "#F5A623",
-        "#FFE6C9",
-        "#C8E6C9",
-        "#FFEB3B"
-      ],
+      "colors": ["#F39C93", "#F5A623", "#FFE6C9", "#C8E6C9", "#FFEB3B"],
       "harmony": 0.7,
       "start": 7.52,
       "duration": 11.96
     },
     {
       "explanation": "The chorus emphasizes the catchy, repetitive elements and the multilingual communication.",
-      "mood": [
-        "playful",
-        "multilingual",
-        "catchy"
-      ],
+      "mood": ["playful", "multilingual", "catchy"],
       "chaos_level": 0.6,
       "energy": 0.8,
       "texture": 0.4,
-      "colors": [
-        "#E57373",
-        "#FF8A65",
-        "#FFCC80",
-        "#B3E5FC",
-        "#D81B60"
-      ],
+      "colors": ["#E57373", "#FF8A65", "#FFCC80", "#B3E5FC", "#D81B60"],
       "harmony": 0.9,
       "start": 24.87,
       "duration": 21.83
     },
     {
       "explanation": "The second verse reinforces themes of connection and intimacy.",
-      "mood": [
-        "intimate",
-        "romantic",
-        "dreamy"
-      ],
+      "mood": ["intimate", "romantic", "dreamy"],
       "chaos_level": 0.4,
       "energy": 0.5,
       "texture": 0.3,
-      "colors": [
-        "#FFCDD2",
-        "#FFF9C4",
-        "#CE93D8",
-        "#80CBC4",
-        "#CFD8DC"
-      ],
+      "colors": ["#FFCDD2", "#FFF9C4", "#CE93D8", "#80CBC4", "#CFD8DC"],
       "harmony": 0.8,
       "start": 46.7,
       "duration": 17.13
     },
     {
       "explanation": "The bridge introduces a narrative shift, focusing on future plans and connections.",
-      "mood": [
-        "anticipatory",
-        "romantic",
-        "excited"
-      ],
+      "mood": ["anticipatory", "romantic", "excited"],
       "chaos_level": 0.5,
       "energy": 0.6,
       "texture": 0.4,
-      "colors": [
-        "#F8BBD0",
-        "#FF8A80",
-        "#FFD740",
-        "#29B6F6",
-        "#8E24AA"
-      ],
+      "colors": ["#F8BBD0", "#FF8A80", "#FFD740", "#29B6F6", "#8E24AA"],
       "harmony": 0.9,
       "start": 64.66,
       "duration": 23.88
     },
     {
       "explanation": "The final chorus intensifies the repetition and multilingual interaction, ending with a reflective outro.",
-      "mood": [
-        "reflective",
-        "multilingual",
-        "festive"
-      ],
+      "mood": ["reflective", "multilingual", "festive"],
       "chaos_level": 0.7,
       "energy": 0.9,
       "texture": 0.5,
-      "colors": [
-        "#FF7043",
-        "#C1C8E4",
-        "#F5E8CD",
-        "#F9B77E",
-        "#FF5252"
-      ],
+      "colors": ["#FF7043", "#C1C8E4", "#F5E8CD", "#F9B77E", "#FF5252"],
       "harmony": 0.85,
       "start": 120.6,
       "duration": 53.19
@@ -426,42 +376,22 @@
   ],
   "song_start": {
     "explanation": "The song starts with an ethereal introduction, setting the mood with laid-back vocals and a party invitation.",
-    "mood": [
-      "inviting",
-      "ethereal",
-      "exciting"
-    ],
+    "mood": ["inviting", "ethereal", "exciting"],
     "chaos_level": 0.3,
     "energy": 0.4,
     "texture": 0.2,
-    "colors": [
-      "#FFDDC1",
-      "#FFD700",
-      "#FF5733",
-      "#EA5C76",
-      "#F9A602"
-    ],
+    "colors": ["#FFDDC1", "#FFD700", "#FF5733", "#EA5C76", "#F9A602"],
     "harmony": 0.8,
     "start": 0,
     "duration": 7.52
   },
   "song_end": {
     "explanation": "The song ends with a reflective and calm outro, summarizing the celebratory themes.",
-    "mood": [
-      "calm",
-      "reflective",
-      "celebratory"
-    ],
+    "mood": ["calm", "reflective", "celebratory"],
     "chaos_level": 0.3,
     "energy": 0.5,
     "texture": 0.2,
-    "colors": [
-      "#FFE0B2",
-      "#FFCC80",
-      "#CFD8DC",
-      "#B2EBF2",
-      "#C8E6C9"
-    ],
+    "colors": ["#FFE0B2", "#FFCC80", "#CFD8DC", "#B2EBF2", "#C8E6C9"],
     "harmony": 0.9,
     "start": 173.79,
     "duration": -0.5981629999999996

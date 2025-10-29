@@ -1,0 +1,427 @@
+{
+  "spotifyInfo": {
+    "key": "1",
+    "mode": "0",
+    "valence": "0.201",
+    "danceability": "0.426",
+    "energy": "0.617",
+    "tempo": "92.002",
+    "genre": "alt-rock"
+  },
+  "artists": "The Strokes",
+  "title": "Ode to the Mets",
+  "duration": 353.36127,
+  "lyrics": [
+    {
+      "timeStamp": 48.13,
+      "lyrics": "Up on his horse, up on his horse"
+    },
+    {
+      "timeStamp": 53.5,
+      "lyrics": "Not gonna wake up here anymore"
+    },
+    {
+      "timeStamp": 58.72,
+      "lyrics": "Listen one time, it's not the truth"
+    },
+    {
+      "timeStamp": 63.93,
+      "lyrics": "It's just the story I tell to you"
+    },
+    {
+      "timeStamp": 69.48,
+      "lyrics": "Easy to say, easy to do"
+    },
+    {
+      "timeStamp": 74.57,
+      "lyrics": "But it's not easy, well maybe for you"
+    },
+    {
+      "timeStamp": 79.76,
+      "lyrics": "Hope that you find it, hope that it's good"
+    },
+    {
+      "timeStamp": 84.89,
+      "lyrics": "Hope that you read it, think that you should"
+    },
+    {
+      "timeStamp": 89.93,
+      "lyrics": "Cuts you some slack as he sits back"
+    },
+    {
+      "timeStamp": 95.27,
+      "lyrics": "Sizes you up, plans his attack"
+    },
+    {
+      "timeStamp": 101.56,
+      "lyrics": "Drums please, Fab"
+    },
+    {
+      "timeStamp": 105.65,
+      "lyrics": "And I got it all, I got it all"
+    },
+    {
+      "timeStamp": 110.83,
+      "lyrics": "Waitin' for me down on the street"
+    },
+    {
+      "timeStamp": 115.65,
+      "lyrics": "But now you gotta do somethin' special for me"
+    },
+    {
+      "timeStamp": 121.34,
+      "lyrics": "I'm gonna say what's on my mind"
+    },
+    {
+      "timeStamp": 126.5,
+      "lyrics": "Then I'll walk out, then I'll feel fine"
+    },
+    {
+      "timeStamp": 131.06,
+      "lyrics": "Yeah, I'm under his thumb, I'm on his back"
+    },
+    {
+      "timeStamp": 136.57,
+      "lyrics": "I will not show my teeth too quick"
+    },
+    {
+      "timeStamp": 141.62,
+      "lyrics": "I needed you there, I needed you there"
+    },
+    {
+      "timeStamp": 147.18,
+      "lyrics": "But I didn't know, I didn't know"
+    },
+    {
+      "timeStamp": 154.19,
+      "lyrics": ""
+    },
+    {
+      "timeStamp": 183.85,
+      "lyrics": "Back from his trip, he's at the door"
+    },
+    {
+      "timeStamp": 188.91,
+      "lyrics": "When he gets back, he's on the phone"
+    },
+    {
+      "timeStamp": 194.63,
+      "lyrics": "Innocent eye, innocent heart"
+    },
+    {
+      "timeStamp": 199.41,
+      "lyrics": "No, it's not wrong, but it's not right"
+    },
+    {
+      "timeStamp": 204.87,
+      "lyrics": "Innocent time, out on his own"
+    },
+    {
+      "timeStamp": 209.89,
+      "lyrics": "Not gonna do that, fuck, I'm out of control"
+    },
+    {
+      "timeStamp": 215.49,
+      "lyrics": "I was just bored, playin' the guitar"
+    },
+    {
+      "timeStamp": 220.39,
+      "lyrics": "Learned all your tricks, wasn't too hard"
+    },
+    {
+      "timeStamp": 224.72,
+      "lyrics": "It's the last one now, I can promise you that"
+    },
+    {
+      "timeStamp": 229.83,
+      "lyrics": "I'm gonna find out the truth when I get back"
+    },
+    {
+      "timeStamp": 236.81,
+      "lyrics": ""
+    },
+    {
+      "timeStamp": 258.09,
+      "lyrics": "Gone now are the old times"
+    },
+    {
+      "timeStamp": 263.26,
+      "lyrics": "Forgotten, time to hold on the railing"
+    },
+    {
+      "timeStamp": 271.04,
+      "lyrics": "The Rubik's Cube isn't solving for us"
+    },
+    {
+      "timeStamp": 279,
+      "lyrics": "Old friends, long forgotten"
+    },
+    {
+      "timeStamp": 283.89,
+      "lyrics": "They all wait at the bottom of"
+    },
+    {
+      "timeStamp": 289.02,
+      "lyrics": "The ocean now has swallowed"
+    },
+    {
+      "timeStamp": 294.38,
+      "lyrics": "The only thing that's left is us"
+    },
+    {
+      "timeStamp": 303.05,
+      "lyrics": "So pardon the silence that you're hearing"
+    },
+    {
+      "timeStamp": 309.92,
+      "lyrics": "Is turnin' into a deafening"
+    },
+    {
+      "timeStamp": 315.61,
+      "lyrics": "Painful, shameful roar"
+    },
+    {
+      "timeStamp": 321.8,
+      "lyrics": ""
+    }
+  ],
+  "lyricsAnnotations": [
+    {
+      "lyrics": "Hope that you find it, hope that it’s good\n Hope that you read it, think that you should\n Cuts you some slack as he sits back\n Sizes you up, plans his attack",
+      "annotation": [
+        "This sounds like a mix of sincerity and cynicism – wishing someone well but expecting to be judged or replaced. It’s a song filled with the contradictions of maturity: letting go, yet still clinging to the emotional weight of the past."
+      ]
+    },
+    {
+      "lyrics": "Easy to say, easy to do\n But it’s not easy, well, maybe for you",
+      "annotation": [
+        "There’s frustration here – maybe directed toward someone for whom things came easier, or maybe at his younger self when everything used to feel effortless (mirroring The Strokes’ early fame)."
+      ]
+    },
+    {
+      "lyrics": "The Rubik’s Cube isn’t solving for us",
+      "annotation": [
+        "Most likely, Julian is using the Rubik’s Cube—a symbol of the 80s and a challenging puzzle—as a metaphor of his unsolvable problems in his relationship or his life in general.\n\nThe influence of the 80s is clear in The Strokes, as multiple bands from that era influenced their musical style; furthermore, this decade is commonly viewed with a sense of nostalgia, given the musical flourishing that arose at that time. In this sense, this line may add an extra layer of melancholy for past times."
+      ]
+    },
+    {
+      "lyrics": "I’m gonna say what’s on my mind\n Then I’ll walk out, then I’ll feel fine",
+      "annotation": [
+        "Julian has now reverted to speaking in the first person, expressing that he feels he’s covered the main heavy influences on his thoughts and now once they’re expelled he can walk away and feel better about the situation."
+      ]
+    },
+    {
+      "lyrics": "And I got it all, I got it all\n Waitin’ for me down on the street\n But now you gotta do somethin’ special for me",
+      "annotation": [
+        "Julian is placing himself in the shoes of the main antagonist of the song – and as the motif implies the ‘main antagonist’ uses his power to accrue what he desires. Whether this alludes to his biological father or a potential father figure in his life – the title ‘Ode to the Mets’ pertains to much, but my speculation is; as many can recall their fathers being enthralled by sports, ode to the Mets could imply that Julian is praising the one thing he felt he could relate to his father to whilst still acknowledging his father/father figure was not a man he could relate to in most ways. In these particular lyrics, I imagine he’s speaking in the tense of said ‘father/father figure’ and the power they held over everyone they influenced."
+      ]
+    },
+    {
+      "lyrics": "Yeah, I’m under his thumb, I’m on his back\n I will not show my teeth too quick",
+      "annotation": [
+        "In a 2020 interview which discusses the song’s baseball origins, Casablancas describes himself waging “psychological warfare” against Giants pitcher Madison Bumgarner by heckling him from the crowd: he was watching the 2016 Wild Card game that originally inspired this song’s creation.\n\nIn a tense game which the Mets, beloved to Julian, lost 3-0, it’s clear the singer was on the edge of his seat, simultaneously silenced and spurred on by the pitcher who would go on to claim success by the game’s end."
+      ]
+    },
+    {
+      "lyrics": "So pardon the silence that you’re hearing\n It’s turnin’ into a deafening, painful, shameful roar",
+      "annotation": [
+        "Through an apologetic and negative tone, The Strokes communicate a clear sense of regret. This may be read in connection to the band’s recent the lack of music. The New Abnormal’s release date, seven years after their previous album, has closed the longest gap between any of The Strokes' releases, which was observed and referenced by critics upon the album’s release. There is a tangible dissonance in musical output here, especially when considering the band’s historic consistency.\n\nThe “deafening roar” of silence may be pressure, external or internal, to fill the space with new music, but there’s a specifically “painful” element to it. Whether due to a lack of desire to maintain musical output, or regret over the fact it has taken this long to release something new, it’s clear a sense of “shame” is central to Casablancas‘ feelings here.\n\nAs these are the final lyrics to both the song and the album, Casablancas' apology may be for the more literal silence that comes with this track ending. What comes after it is now down to The Strokes, and their foray into a new era of music for the band.\n\nThese adjectives may also double as a reference to the Mets, and the song’s origin. New York sports fans are loud, in both their joy and disappointment. A “deafening, painful, shameful roar” could describe the roar of the crowd at Shea Stadium/Citi Field after the Mets' significant loss in 2016, which originally inspired the song."
+      ]
+    },
+    {
+      "lyrics": "Up on his horse, up on his horse",
+      "annotation": [
+        "Potentially a call back to a lyric from their song Chances\n\nI take my chances alone\nGet on your horse and be gone"
+      ]
+    },
+    {
+      "lyrics": "He’s at the door",
+      "annotation": [
+        "Doors are a recurring motif throughout the album, most notably in the single “At The Door.” This verse references “At the Door” at its outset in order to call attention to the fact that this verse, like that single, focuses on the speaker’s coming-of-age. While “At the Door” finds the speaker trapped in his childhood (“I can’t escape it… I’m an ugly boy/ Holding out the night/ Lonely after light”) “Ode to the Mets” sees him age out of it. In this verse though, he’s back in his bedroom, hearing his dad return from a trip, and distracting himself by learning guitar. This resonates with Julian Casablancas' troubled relationship with his father, who traveled a lot for work as the head of a modelling agency, and the dependence on alcohol Julian exhibited as a young adult (“I’m out of control”). For Julian, as for the speaker of this song, music serves as an escape."
+      ]
+    },
+    {
+      "lyrics": "Drums please, Fab",
+      "annotation": [
+        "Fabrizio “Fab” Moretti is The Strokes' drummer and a founding member of the band. Prior to this point in the song, there is no live percussion from Moretti, but he comes in when Julian requests with this line.\n\nThis line became a meme within the band’s fandom when the song was debuted at The Strokes' 2019 New Years Eve concert and Julian said this line. Fans initially thought it was just Casablancas' speaking in an impromptu manner during the set, but it ended up on the studio recording of the track.\n\nMoretti explained to Les Inrocks why Casablancas mentions him in the recording:\n\nI think that’s when I went out to get a sandwich, just as the guys were starting to play. I got back behind my drums pretty quickly.\n\nThe Strokes address this line (albeit perhaps sarcastically) in their Reddit AMA. https://www.reddit.com/r/Music/comments/fyph8x/we_are_the_strokes_ask_us_anything/fn1c18q?utm_source=share&utm_medium=web2x"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "explanation": "First verse, begins with 'Up on his horse...' and sets a mood of resignation and bittersweet storytelling. The mood is reflective, with a subtle sense of frustration and letting go. Melody is subdued, with a dreamy alt-rock backdrop.",
+      "mood": [
+        "resigned",
+        "bittersweet",
+        "reflective",
+        "cynical"
+      ],
+      "chaos_level": 0.2,
+      "energy": 0.35,
+      "texture": 0.4,
+      "colors": [
+        "#B0B5C1",
+        "#4E5D6C",
+        "#F4D9AE",
+        "#8E8580",
+        "#A76F6F"
+      ],
+      "harmony": 0.75,
+      "start": 48.13,
+      "duration": 53.43
+    },
+    {
+      "explanation": "Second verse, exploring the push and pull of relationships, 'Easy to say, easy to do...' Heightened sense of frustration emerges, the lyrics dwell on the contradictions of maturity. The music swells a bit, hinting at underlying anxiety.",
+      "mood": [
+        "frustrated",
+        "yearning",
+        "disenchanted"
+      ],
+      "chaos_level": 0.25,
+      "energy": 0.42,
+      "texture": 0.45,
+      "colors": [
+        "#E2B07B",
+        "#CA876B",
+        "#30323D",
+        "#555862",
+        "#CDDDD0"
+      ],
+      "harmony": 0.6,
+      "start": 101.56,
+      "duration": 52.63
+    },
+    {
+      "explanation": "Pre-chorus/bridge, with 'And I got it all, I got it all...' Drums kick in ('Drums please, Fab'), the instrumental arrangement grows more confident. There's a shifting sense of anticipation and a kind of defiant vulnerability. The narrator asserts himself, preparing to let go of past attachments.",
+      "mood": [
+        "anticipatory",
+        "vulnerable",
+        "assertive"
+      ],
+      "chaos_level": 0.32,
+      "energy": 0.5,
+      "texture": 0.6,
+      "colors": [
+        "#6CB4EE",
+        "#F4A259",
+        "#224870",
+        "#B1624E",
+        "#556F44"
+      ],
+      "harmony": 0.65,
+      "start": 154.19,
+      "duration": 29.66
+    },
+    {
+      "explanation": "Mid-song reflection ('Back from his trip...'), strong themes of coming-of-age and coping with loss. The lyrics reference childhood, father figures, and emotional distance. The instrumentation is more layered, with a sense of subdued tension.",
+      "mood": [
+        "reflective",
+        "wistful",
+        "distant",
+        "tense"
+      ],
+      "chaos_level": 0.37,
+      "energy": 0.58,
+      "texture": 0.7,
+      "colors": [
+        "#A2A7A5",
+        "#C2B9B0",
+        "#B48B82",
+        "#3B3B58",
+        "#7B7B52"
+      ],
+      "harmony": 0.55,
+      "start": 183.85,
+      "duration": 74.24
+    },
+    {
+      "explanation": "Late-song, turning point ('Gone now are the old times...'), nostalgia deepens, and there's a pronounced sense of melancholy and loss. Metaphors like 'The Rubik's Cube isn't solving for us' evoke problems unsolved, relationships faded. The music becomes airier but more sorrowful.",
+      "mood": [
+        "melancholy",
+        "nostalgic",
+        "resigned",
+        "hopeless"
+      ],
+      "chaos_level": 0.45,
+      "energy": 0.6,
+      "texture": 0.7,
+      "colors": [
+        "#483D3F",
+        "#D6D1B1",
+        "#557C83",
+        "#8D847A",
+        "#E26D5A"
+      ],
+      "harmony": 0.5,
+      "start": 258.09,
+      "duration": 44.96
+    },
+    {
+      "explanation": "Final build and outro ('So pardon the silence that you're hearing...'), the song reaches its emotional peak. The arrangement grows dense and cathartic, the mood is regretful, aching, and climactic. The lyrics evoke shame, pain, and the deafening silence marking the end of an era. The music and emotion unravel, dissolving into silence.",
+      "mood": [
+        "regretful",
+        "aching",
+        "cathartic",
+        "resigned"
+      ],
+      "chaos_level": 0.5,
+      "energy": 0.64,
+      "texture": 0.85,
+      "colors": [
+        "#272932",
+        "#9E768F",
+        "#C6C5B9",
+        "#508CA4",
+        "#E36414"
+      ],
+      "harmony": 0.43,
+      "start": 303.05,
+      "duration": 50.31
+    }
+  ],
+  "song_start": {
+    "explanation": "The song opens with a drifting, slow instrumental, setting a nostalgic and bittersweet mood. It gradually pulls in the listener with its longing and introspective feel before vocals begin.",
+    "mood": [
+      "nostalgic",
+      "wistful",
+      "introspective",
+      "melancholy"
+    ],
+    "chaos_level": 0.15,
+    "energy": 0.3,
+    "texture": 0.35,
+    "colors": [
+      "#36454F",
+      "#69798C",
+      "#8A848A",
+      "#DCC6B0",
+      "#2B2D42"
+    ],
+    "harmony": 0.7,
+    "start": 0,
+    "duration": 48.13
+  },
+  "song_end": {
+    "explanation": "The song fades out with a lingering sense of unresolved emotion, gentle instrumentation dissipates, leaving a bittersweet aftertaste. The silence is as meaningful as the music — a quiet meditation on loss, acceptance, and the passage of time.",
+    "mood": [
+      "bittersweet",
+      "meditative",
+      "accepting",
+      "hollow"
+    ],
+    "chaos_level": 0.22,
+    "energy": 0.18,
+    "texture": 0.3,
+    "colors": [
+      "#6E7582",
+      "#B7C3F3",
+      "#706993",
+      "#E2E2DF",
+      "#96939B"
+    ],
+    "harmony": 0.7,
+    "start": 353.36,
+    "duration": 0.0012699999999767897
+  },
+  "mp3_file": "ode-to-the-mets-the-strokes.mp3"
+}

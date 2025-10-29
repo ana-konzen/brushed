@@ -1,11 +1,13 @@
 {
-  "key": "4",
-  "mode": "1",
-  "valence": "0.0857",
-  "danceability": "0.356",
-  "energy": "0.96",
-  "tempo": "125.921",
-  "genre": "emo",
+  "spotifyInfo": {
+    "key": "4",
+    "mode": "1",
+    "valence": "0.0857",
+    "danceability": "0.356",
+    "energy": "0.96",
+    "tempo": "125.921",
+    "genre": "emo"
+  },
   "artists": "My Chemical Romance",
   "title": "Helena",
   "duration": 210.494694,
@@ -252,123 +254,66 @@
   "sections": [
     {
       "explanation": "The first verse begins and introduces the melancholic tone of the song with lyrics reflecting loss.",
-      "mood": [
-        "melancholic",
-        "reflective"
-      ],
+      "mood": ["melancholic", "reflective"],
       "chaos_level": 0.3,
       "energy": 0.5,
       "texture": 0.4,
-      "colors": [
-        "#5A5A5A",
-        "#3C3C3C",
-        "#7A7A7A",
-        "#2F2F2F",
-        "#1C1C1C"
-      ],
+      "colors": ["#5A5A5A", "#3C3C3C", "#7A7A7A", "#2F2F2F", "#1C1C1C"],
       "harmony": 0.7,
       "start": 0.39,
       "duration": 42.08
     },
     {
       "explanation": "The first chorus introduces a more powerful and emotional melody, increasing energy significantly.",
-      "mood": [
-        "powerful",
-        "emotional",
-        "uplifting"
-      ],
+      "mood": ["powerful", "emotional", "uplifting"],
       "chaos_level": 0.5,
       "energy": 0.7,
       "texture": 0.6,
-      "colors": [
-        "#6F3B3B",
-        "#A44C4C",
-        "#D75A5A",
-        "#5A2020",
-        "#3A1414"
-      ],
+      "colors": ["#6F3B3B", "#A44C4C", "#D75A5A", "#5A2020", "#3A1414"],
       "harmony": 0.6,
       "start": 47.24,
       "duration": 14.81
     },
     {
       "explanation": "The second verse returns to a reflective tone but with an increased emotional depth.",
-      "mood": [
-        "reflective",
-        "sorrowful"
-      ],
+      "mood": ["reflective", "sorrowful"],
       "chaos_level": 0.4,
       "energy": 0.6,
       "texture": 0.5,
-      "colors": [
-        "#483948",
-        "#583958",
-        "#6B396B",
-        "#3A1F3A",
-        "#2A152A"
-      ],
+      "colors": ["#483948", "#583958", "#6B396B", "#3A1F3A", "#2A152A"],
       "harmony": 0.7,
       "start": 62.86,
       "duration": 42.08
     },
     {
       "explanation": "The second chorus repeats the powerful motif with slight variations to keep the listener engaged.",
-      "mood": [
-        "powerful",
-        "emotional",
-        "uplifting"
-      ],
+      "mood": ["powerful", "emotional", "uplifting"],
       "chaos_level": 0.5,
       "energy": 0.7,
       "texture": 0.6,
-      "colors": [
-        "#6F3B3B",
-        "#A44C4C",
-        "#D75A5A",
-        "#5A2020",
-        "#3A1414"
-      ],
+      "colors": ["#6F3B3B", "#A44C4C", "#D75A5A", "#5A2020", "#3A1414"],
       "harmony": 0.6,
       "start": 94.82,
       "duration": 42.08
     },
     {
       "explanation": "The bridge section brings a shift in energy with a more introspective and haunting sound.",
-      "mood": [
-        "introspective",
-        "haunting"
-      ],
+      "mood": ["introspective", "haunting"],
       "chaos_level": 0.6,
       "energy": 0.5,
       "texture": 0.7,
-      "colors": [
-        "#393B6F",
-        "#494CA4",
-        "#5A5AD7",
-        "#1F235A",
-        "#14143A"
-      ],
+      "colors": ["#393B6F", "#494CA4", "#5A5AD7", "#1F235A", "#14143A"],
       "harmony": 0.5,
       "start": 128.05,
       "duration": 26.36
     },
     {
       "explanation": "The final chorus and outro deliver the climax of the song, bringing all themes together.",
-      "mood": [
-        "emotional",
-        "powerful",
-        "climactic"
-      ],
+      "mood": ["emotional", "powerful", "climactic"],
       "chaos_level": 0.6,
       "energy": 0.8,
       "texture": 0.7,
-      "colors": [
-        "#6F3B3B",
-        "#A44C4C",
-        "#D75A5A",
-        "#5A2020",
-        "#3A1414"
-      ],
+      "colors": ["#6F3B3B", "#A44C4C", "#D75A5A", "#5A2020", "#3A1414"],
       "harmony": 0.6,
       "start": 159.65,
       "duration": 50.84
@@ -376,42 +321,22 @@
   ],
   "song_start": {
     "explanation": "The song begins with an instrumental introduction and the first lines of the verse, setting a somber and emotional tone.",
-    "mood": [
-      "somber",
-      "reflective",
-      "emotional"
-    ],
+    "mood": ["somber", "reflective", "emotional"],
     "chaos_level": 0.2,
     "energy": 0.4,
     "texture": 0.3,
-    "colors": [
-      "#3B3A30",
-      "#5C5B5B",
-      "#969696",
-      "#2E363F",
-      "#1A1E1A"
-    ],
+    "colors": ["#3B3A30", "#5C5B5B", "#969696", "#2E363F", "#1A1E1A"],
     "harmony": 0.8,
     "start": 0,
     "duration": 0.39
   },
   "song_end": {
     "explanation": "The song ends with the repeated lines of the outro, fading out emotionally.",
-    "mood": [
-      "somber",
-      "emotional",
-      "reflective"
-    ],
+    "mood": ["somber", "emotional", "reflective"],
     "chaos_level": 0.3,
     "energy": 0.4,
     "texture": 0.4,
-    "colors": [
-      "#3B3A30",
-      "#5C5B5B",
-      "#969696",
-      "#2E363F",
-      "#1A1E1A"
-    ],
+    "colors": ["#3B3A30", "#5C5B5B", "#969696", "#2E363F", "#1A1E1A"],
     "harmony": 0.8,
     "start": 210.49,
     "duration": 0.004694000000000642

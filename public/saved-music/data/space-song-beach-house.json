@@ -1,11 +1,13 @@
 {
-  "key": "0",
-  "mode": "0",
-  "valence": "0.625",
-  "danceability": "0.509",
-  "energy": "0.79",
-  "tempo": "147.073",
-  "genre": "indie-pop",
+  "spotifyInfo": {
+    "key": "0",
+    "mode": "0",
+    "valence": "0.625",
+    "danceability": "0.509",
+    "energy": "0.79",
+    "tempo": "147.073",
+    "genre": "indie-pop"
+  },
   "artists": "Beach House",
   "title": "Space Song",
   "duration": 320.496,

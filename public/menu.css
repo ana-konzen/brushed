@@ -20,8 +20,7 @@
   padding: 5em;
   /* background: rgb(198, 198, 198); */
   backdrop-filter: blur(10px);
-  background: rgba(104, 104, 104, 0.069);
-  font-family: "fraktion mono";
+  background: rgba(232, 219, 211, 0.069);
   transition: opacity 500ms, transform 500ms;
 }
 
@@ -42,8 +41,7 @@ h1 {
   margin: 0;
   padding: 0;
   font-weight: bold;
-  font-family: "fraktion mono", monospace;
-
+  /* font-family: "fraktion mono", monospace; */
 }
 
 .inactive-back {
@@ -58,9 +56,9 @@ h1 {
 
 #start-menu h1 {
   font-size: 5em;
-  letter-spacing: .2em;
-  font-weight: 100;
-  font-family: "fraktion mono", monospace;
+  font-family: "neue-haas-grotesk-display", sans-serif;
+  /* letter-spacing: 0.2em; */
+  font-weight: 600;
 }
 
 #start-menu p {
@@ -176,7 +174,6 @@ h1 {
 .sub-button {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
-  font-family: "fraktion mono";
   color: rgb(63, 63, 63);
   background: transparent;
   font-size: 1em;
@@ -188,7 +185,6 @@ h1 {
 }
 
 .arrow-button {
-  font-family: "fraktion mono";
   color: rgb(63, 63, 63);
   background: transparent;
   transition: 500ms;
@@ -198,11 +194,12 @@ h1 {
 
 .arrow-button.next {
   margin-top: 1em;
-  font-size: 1.5em;
+  font-size: 0.9em;
+  font-weight: 600;
 }
 
 .arrow-button.back {
-  font-size: 1em;
+  font-size: 0.9em;
   position: absolute;
   top: 1em;
   left: 1em;
@@ -233,9 +230,8 @@ label {
   margin: 0;
   padding: 0;
   font-weight: 400;
-  font-family: "fraktion mono", monospace;
   margin-top: 2em;
-  margin-bottom: .8em;
+  margin-bottom: 0.8em;
 }
 
 .form-cont {
@@ -254,6 +250,5 @@ label {
   border-bottom: solid black 1px;
   background: transparent;
   /* box-shadow: 0px 2px 4px rgba(62, 62, 62, 0.37); */
-  font-family: "fraktion mono";
   font-size: 1em;
 }

@@ -17,7 +17,12 @@ router.post("/api/music", async (ctx) => {
   const data = JSON.parse(JSONdata);
   console.log("data:", data);
 
-  const analysis = await getMusicAnalysis(data.artist, data.title, data.duration);
+  const analysis = await getMusicAnalysis(
+    data.artist,
+    data.title,
+    data.duration
+  );
+  console.log("analysis:", analysis);
   ctx.response.body = JSON.stringify(analysis, null, 2);
   // await saveMusic(analysis);
 

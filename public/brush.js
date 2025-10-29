@@ -126,7 +126,7 @@ class Brush {
     // this.setUp();
     // beginShape(POINTS);
     this.canvas.noStroke();
-    this.canvas.strokeWeight(map(this.pressure, 1, 15, 0.5, 4, true));
+    this.canvas.strokeWeight(map(this.pressure, 1, 20, 0.3, 7, true));
 
     this.drawShape(round, vertical);
     // endShape();

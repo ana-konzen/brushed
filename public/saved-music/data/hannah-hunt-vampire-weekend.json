@@ -1,5 +1,7 @@
 {
-  "incomplete": true,
+  "spotifyInfo": {
+    "incomplete": true
+  },
   "artists": "Vampire Weekend",
   "title": "Hannah Hunt",
   "duration": 238.027755,
@@ -202,100 +204,55 @@
   "sections": [
     {
       "explanation": "Introduction and first verse, where the narrator describes a gardener's claim and his journey with Hannah.",
-      "mood": [
-        "contemplative",
-        "wistful"
-      ],
+      "mood": ["contemplative", "wistful"],
       "chaos_level": 0.2,
       "energy": 0.4,
       "texture": 0.3,
-      "colors": [
-        "#6A9FB5",
-        "#82C7C1",
-        "#A4D7EA",
-        "#7FA1B2",
-        "#4987A0"
-      ],
+      "colors": ["#6A9FB5", "#82C7C1", "#A4D7EA", "#7FA1B2", "#4987A0"],
       "harmony": 0.85,
       "start": 17.87,
       "duration": 27.92
     },
     {
       "explanation": "The second verse, a man of faith talks to the narrator, and the journey continues.",
-      "mood": [
-        "introspective",
-        "calm"
-      ],
+      "mood": ["introspective", "calm"],
       "chaos_level": 0.25,
       "energy": 0.45,
       "texture": 0.35,
-      "colors": [
-        "#5E94C3",
-        "#A1D3E5",
-        "#CDEFF7",
-        "#789BB3",
-        "#364C63"
-      ],
+      "colors": ["#5E94C3", "#A1D3E5", "#CDEFF7", "#789BB3", "#364C63"],
       "harmony": 0.8,
       "start": 47.8,
       "duration": 49.83
     },
     {
       "explanation": "The chorus, reflecting on the relationship and their own sense of time.",
-      "mood": [
-        "nostalgic",
-        "serene"
-      ],
+      "mood": ["nostalgic", "serene"],
       "chaos_level": 0.3,
       "energy": 0.5,
       "texture": 0.4,
-      "colors": [
-        "#729DBA",
-        "#A0CFE3",
-        "#BFDFF4",
-        "#5B7C99",
-        "#3A4B63"
-      ],
+      "colors": ["#729DBA", "#A0CFE3", "#BFDFF4", "#5B7C99", "#3A4B63"],
       "harmony": 0.9,
       "start": 77.63,
       "duration": 21.96
     },
     {
       "explanation": "The third verse, detailing Hannah's emotional turmoil and actions.",
-      "mood": [
-        "melancholy",
-        "troubled"
-      ],
+      "mood": ["melancholy", "troubled"],
       "chaos_level": 0.4,
       "energy": 0.5,
       "texture": 0.5,
-      "colors": [
-        "#9DB6C2",
-        "#B2D8E8",
-        "#CAD8F6",
-        "#708997",
-        "#3D535E"
-      ],
+      "colors": ["#9DB6C2", "#B2D8E8", "#CAD8F6", "#708997", "#3D535E"],
       "harmony": 0.75,
       "start": 105.67,
       "duration": 50.9
     },
     {
       "explanation": "The final section shifts to a more intense and emotional repetition of key lines.",
-      "mood": [
-        "intense",
-        "somber"
-      ],
+      "mood": ["intense", "somber"],
       "chaos_level": 0.5,
       "energy": 0.6,
       "texture": 0.6,
-      "colors": [
-        "#7E9EB2",
-        "#80C1D6",
-        "#A9D9E8",
-        "#607893",
-        "#2A3E50"
-      ],
+      "colors": ["#7E9EB2", "#80C1D6", "#A9D9E8", "#607893", "#2A3E50"],
       "harmony": 0.7,
       "start": 179.42,
       "duration": 58.61
@@ -303,40 +260,22 @@
   ],
   "song_start": {
     "explanation": "The song begins with a soft and melancholic introduction, setting the reflective and emotional tone.",
-    "mood": [
-      "reflective",
-      "melancholic"
-    ],
+    "mood": ["reflective", "melancholic"],
     "chaos_level": 0.2,
     "energy": 0.3,
     "texture": 0.2,
-    "colors": [
-      "#4A90E2",
-      "#7B8DA3",
-      "#C8D6E5",
-      "#9BAEC6",
-      "#576574"
-    ],
+    "colors": ["#4A90E2", "#7B8DA3", "#C8D6E5", "#9BAEC6", "#576574"],
     "harmony": 0.8,
     "start": 0,
     "duration": 17.87
   },
   "song_end": {
     "explanation": "A calm resolution as the song fades out.",
-    "mood": [
-      "calm",
-      "reflective"
-    ],
+    "mood": ["calm", "reflective"],
     "chaos_level": 0.2,
     "energy": 0.3,
     "texture": 0.2,
-    "colors": [
-      "#4B708A",
-      "#6A98B5",
-      "#A2C4DC",
-      "#86A9C6",
-      "#50697E"
-    ],
+    "colors": ["#4B708A", "#6A98B5", "#A2C4DC", "#86A9C6", "#50697E"],
     "harmony": 0.85,
     "start": 238.02999999999997,
     "duration": -0.0022449999999594183

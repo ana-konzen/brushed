@@ -12,10 +12,7 @@
     <script src="spectral.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="https://use.typekit.net/pop4huo.css" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="menu.css" />
   </head>
@@ -23,14 +20,16 @@
     <div id="main-cont">
       <video src="gl.mp4" autoplay muted loop></video>
       <div id="start-menu" class="menu">
-        <h1>brushed</h1>
+        <h1>brushed.</h1>
         <p>Create a painting based on a song's audio features and lyrics.</p>
         <button class="arrow-button next">get started</button>
       </div>
 
       <div id="song-menu" class="menu inactive-next">
         <h1>pick a song</h1>
-        <button id="go-to-upload-button" class="sub-button">or upload your own</button>
+        <button id="go-to-upload-button" class="sub-button">
+          or upload your own
+        </button>
         <div id="song-list">
           <div class="headers">
             <div>artist(s)</div>
@@ -39,7 +38,9 @@
           </div>
           <div class="content"></div>
         </div>
-        <button id="load" class="arrow-button next disabled" disabled="true">next</button>
+        <button id="load" class="arrow-button next disabled" disabled="true">
+          next
+        </button>
       </div>
       <div id="upload-menu" class="menu inactive-next">
         <h1>upload song</h1>
@@ -52,7 +53,12 @@
           <input id="song-title" type="text" placeholder="Fly Me to the Moon" />
 
           <label for="audio-input">audio file</label>
-          <input type="file" id="audio-input" name="audio-input" accept="audio/mpeg" /><br /><br />
+          <input
+            type="file"
+            id="audio-input"
+            name="audio-input"
+            accept="audio/mpeg"
+          /><br /><br />
           <button id="send" class="arrow-button next">send</button>
         </div>
       </div>
@@ -71,13 +77,25 @@
         <div id="seed">seed: 99999</div>
 
         <div class="half">
-        <div id="artist">artist</div>
+          <div id="artist">artist</div>
         </div>
-       <button id="play-button">⬛</button>
-       <div class="half">
-        <div id="title">title</div>
+        <button id="play-button">⬛</button>
+        <div class="half">
+          <div id="title">title</div>
         </div>
-        <div id="time">0:00 / 0:00 </div>
+        <div id="time">0:00 / 0:00</div>
+      </div>
+
+      <div id="song-info">
+        <div id="hover-arrow">(more info)</div>
+        <div id="features-cont">
+          <!-- <h2>audio features</h2> -->
+          <div id="features"></div>
+        </div>
+        <div id="sections-cont">
+          <!-- <h2>song sections</h2> -->
+          <div id="sections"></div>
+        </div>
       </div>
     </div>
 
@@ -85,6 +103,7 @@
 
     <script src="loading.js"></script>
     <script src="menu.js"></script>
+    <script src="song-info.js"></script>
     <script src="script.js"></script>
     <script src="brush.js"></script>
     <script src="sketch.js"></script>

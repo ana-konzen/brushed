@@ -1,8 +1,10 @@
 {
-  "incomplete": true,
+  "spotifyInfo": {
+    "incomplete": true
+  },
   "artists": "Frank Sinatra & Count Basie",
   "title": "Fly Me to the Moon",
-  "duration": 147.552,
+  "duration": 147.52,
   "lyrics": [
     {
       "timeStamp": 6.21,
@@ -101,131 +103,93 @@
   ],
   "sections": [
     {
-      "explanation": "First verse, where the lyrics 'Fly me to the moon...' begin. Establishes the dreamy and romantic mood of the song.",
-      "mood": [
-        "romantic",
-        "dreamy",
-        "hopeful"
-      ],
-      "chaos_level": 0.3,
-      "energy": 0.5,
+      "explanation": "Sinatra begins singing, 'Fly me to the moon; let me play up there with those stars.' The lyrics are dreamy and aspirational, signifying a longing to escape and experience wonder with a loved one. The big band slowly builds behind him, with smooth horns and gentle percussion.",
+      "mood": ["dreamy", "aspirational", "romantic", "playful"],
+      "chaos_level": 0.2,
+      "energy": 0.32,
       "texture": 0.4,
-      "colors": [
-        "#F5DEB3",
-        "#FFE4E1",
-        "#FFD700",
-        "#F0E68C",
-        "#FFA07A"
-      ],
-      "harmony": 0.8,
-      "start": 6.21,
-      "duration": 26.8
+      "colors": ["#F6D4E5", "#BBDFFF", "#FDB813", "#7C90A0", "#362E75"],
+      "harmony": 0.9,
+      "start": 0,
+      "duration": 23.71
     },
     {
-      "explanation": "Chorus, emphasizing the deep affection and love.",
-      "mood": [
-        "passionate",
-        "loving",
-        "sentimental"
-      ],
-      "chaos_level": 0.4,
-      "energy": 0.6,
-      "texture": 0.5,
-      "colors": [
-        "#FF69B4",
-        "#FFB6C1",
-        "#FF4500",
-        "#FF6347",
-        "#EE82EE"
-      ],
-      "harmony": 0.8,
+      "explanation": "The lyrics shift to an intimate plea: 'In other words, hold my hand. In other words, darling, kiss me.' The music supports this with gentle swells, a slight rise in dynamics, and a close, warm feeling.",
+      "mood": ["tender", "intimate", "yearning"],
+      "chaos_level": 0.13,
+      "energy": 0.27,
+      "texture": 0.32,
+      "colors": ["#EFC3BE", "#F7DC91", "#B6C89F", "#62423B", "#BDD4EA"],
+      "harmony": 0.98,
+      "start": 23.71,
+      "duration": 16.21
+    },
+    {
+      "explanation": "Sinatra launches into the first true chorus-like section: 'Fill my heart with song. Let me swing forever more.' The energy lifts as the band swings. Lyrics highlight joy, worship, and adoration—emotional peak, with the horns more prominent.",
+      "mood": ["joyful", "uplifting", "swinging", "celebratory"],
+      "chaos_level": 0.42,
+      "energy": 0.76,
+      "texture": 0.56,
+      "colors": ["#F8E16C", "#96E3C2", "#F04240", "#8F3A84", "#282F44"],
+      "harmony": 0.88,
       "start": 39.92,
-      "duration": 31.64
+      "duration": 23.99
     },
     {
-      "explanation": "Second verse, reiterates affectionate themes with slight variations.",
-      "mood": [
-        "affectionate",
-        "intimate",
-        "focused"
-      ],
-      "chaos_level": 0.3,
-      "energy": 0.5,
-      "texture": 0.4,
-      "colors": [
-        "#DC143C",
-        "#8B0000",
-        "#A52A2A",
-        "#B22222",
-        "#CD5C5C"
-      ],
-      "harmony": 0.7,
+      "explanation": "A gentle bridge and emotional drop, with 'In other words, please be true. In other words, I love you.' The arrangement softens again, signaling longing and sincerity.",
+      "mood": ["sincere", "vulnerable", "hopeful"],
+      "chaos_level": 0.12,
+      "energy": 0.24,
+      "texture": 0.2,
+      "colors": ["#D3B5E5", "#91A6FF", "#E8C547", "#393E46", "#F7F7FF"],
+      "harmony": 1,
+      "start": 63.91,
+      "duration": 40.66
+    },
+    {
+      "explanation": "Second chorus, with an energetic return: 'You fill my heart with song...' The arrangement is brighter and more swinging, echoing the earlier chorus but with more big band flourish. The joy is accentuated, reflecting fulfillment and love.",
+      "mood": ["exuberant", "swinging", "fulfilled"],
+      "chaos_level": 0.51,
+      "energy": 0.82,
+      "texture": 0.69,
+      "colors": ["#FFD166", "#58B09C", "#EE6C4D", "#3A6EA5", "#22223B"],
+      "harmony": 0.84,
       "start": 104.57,
-      "duration": 33.3
+      "duration": 33.82
     },
     {
-      "explanation": "Final chorus and outro, bringing the song to a reflective and loving closure.",
-      "mood": [
-        "reflective",
-        "romantic",
-        "timeless"
-      ],
-      "chaos_level": 0.3,
-      "energy": 0.6,
-      "texture": 0.5,
-      "colors": [
-        "#FFFAF0",
-        "#FFEFD5",
-        "#FFDAB9",
-        "#F0FFF0",
-        "#F5FFFA"
-      ],
-      "harmony": 0.8,
+      "explanation": "Final outro: 'In other words, in other words, I love you!' Sinatra delivers the last line with flair and warmth. The band gives a final dramatic swell before fading out, leaving a lingering sense of romance and gratitude.",
+      "mood": ["romantic", "finale", "warm", "grateful"],
+      "chaos_level": 0.18,
+      "energy": 0.61,
+      "texture": 0.41,
+      "colors": ["#F3B0C3", "#AFCBFF", "#FFE156", "#A1A08B", "#36213E"],
+      "harmony": 0.97,
       "start": 137.39,
-      "duration": 9.4
+      "duration": 10.13
     }
   ],
   "song_start": {
-    "explanation": "The introduction of the song, beginning with an instrumental section.",
-    "mood": [
-      "calm",
-      "anticipative",
-      "elegant"
-    ],
-    "chaos_level": 0.2,
-    "energy": 0.4,
-    "texture": 0.3,
-    "colors": [
-      "#ADD8E6",
-      "#C0C0C0",
-      "#708090",
-      "#778899",
-      "#4682B4"
-    ],
-    "harmony": 0.8,
-    "start": 0,
-    "duration": 6.21
-  },
-  "song_end": {
-    "explanation": "Outro fades out tranquil and heartwarming.",
-    "mood": [
-      "happy",
-      "satisfied",
-      "serene"
-    ],
+    "explanation": "The song opens with a gentle introduction by the band, setting an intimate and classic jazz mood. The arrangement is smooth, inviting, and elegant, preparing the listener for Frank Sinatra's entrance.",
+    "mood": ["elegant", "romantic", "hopeful", "gentle"],
     "chaos_level": 0.1,
     "energy": 0.2,
-    "texture": 0.2,
-    "colors": [
-      "#F5F5F5",
-      "#FAFAD2",
-      "#FFF8DC",
-      "#FDF5E6",
-      "#FFFACD"
-    ],
-    "harmony": 0.9,
-    "start": 146.79,
-    "duration": 0.7620000000000005
+    "texture": 0.3,
+    "colors": ["#E7E5D1", "#B8C6DB", "#A1A3A9", "#7A6748", "#C2A77B"],
+    "harmony": 0.93,
+    "start": 0,
+    "duration": 0
+  },
+  "song_end": {
+    "explanation": "As the final note fades, there's a gentle diminuendo from the band—soft, contented, and nostalgic. The entire atmosphere settles, leaving the listener with the afterglow of love.",
+    "mood": ["content", "nostalgic", "peaceful"],
+    "chaos_level": 0.05,
+    "energy": 0.1,
+    "texture": 0.13,
+    "colors": ["#F2F2F2", "#BCB8B1", "#A7C7E7", "#F6CEEC", "#6C757D"],
+    "harmony": 1,
+    "start": 147.51999999999998,
+    "duration": 2.842170943040401e-14
   },
   "mp3_file": "fly-me-to-the-moon-frank-sinatra-&-count-basie.mp3"
 }

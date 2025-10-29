@@ -1,5 +1,7 @@
 {
-  "incomplete": true,
+  "spotifyInfo": {
+    "incomplete": true
+  },
   "artists": "Lorde",
   "title": "Green Light",
   "duration": 234.997551,
@@ -286,80 +288,44 @@
   "sections": [
     {
       "explanation": "This section introduces the story of her breakup and the emotional impact.",
-      "mood": [
-        "hurt",
-        "confused"
-      ],
+      "mood": ["hurt", "confused"],
       "chaos_level": 0.3,
       "energy": 0.4,
       "texture": 0.3,
-      "colors": [
-        "#4682B4",
-        "#556B2F",
-        "#008080",
-        "#483D8B",
-        "#2F4F4F"
-      ],
+      "colors": ["#4682B4", "#556B2F", "#008080", "#483D8B", "#2F4F4F"],
       "harmony": 0.7,
       "start": 0.16,
       "duration": 56.7
     },
     {
       "explanation": "The chorus begins, expressing the desire for closure and starting over.",
-      "mood": [
-        "longing",
-        "hopeful"
-      ],
+      "mood": ["longing", "hopeful"],
       "chaos_level": 0.5,
       "energy": 0.8,
       "texture": 0.5,
-      "colors": [
-        "#32CD32",
-        "#00FF00",
-        "#ADFF2F",
-        "#9ACD32",
-        "#66CDAA"
-      ],
+      "colors": ["#32CD32", "#00FF00", "#ADFF2F", "#9ACD32", "#66CDAA"],
       "harmony": 0.9,
       "start": 56.86,
       "duration": 74.47
     },
     {
       "explanation": "Continues the themes of heartbreak while exploring more of the narrator's emotions.",
-      "mood": [
-        "reflective",
-        "pensive"
-      ],
+      "mood": ["reflective", "pensive"],
       "chaos_level": 0.4,
       "energy": 0.6,
       "texture": 0.4,
-      "colors": [
-        "#4682B4",
-        "#556B2F",
-        "#6A5ACD",
-        "#8A2BE2",
-        "#2F4F4F"
-      ],
+      "colors": ["#4682B4", "#556B2F", "#6A5ACD", "#8A2BE2", "#2F4F4F"],
       "harmony": 0.8,
       "start": 131.33,
       "duration": 53.8
     },
     {
       "explanation": "Closing repetitions of the chorus with a triumph-like undertone.",
-      "mood": [
-        "resilient",
-        "assertive"
-      ],
+      "mood": ["resilient", "assertive"],
       "chaos_level": 0.6,
       "energy": 0.9,
       "texture": 0.6,
-      "colors": [
-        "#32CD32",
-        "#7FFF00",
-        "#ADFF2F",
-        "#9ACD32",
-        "#66CDAA"
-      ],
+      "colors": ["#32CD32", "#7FFF00", "#ADFF2F", "#9ACD32", "#66CDAA"],
       "harmony": 0.85,
       "start": 195.13,
       "duration": 39.86
@@ -367,40 +333,22 @@
   ],
   "song_start": {
     "explanation": "The song starts with an introductory verse, setting up the narrative of heartbreak, betrayal, and longing.",
-    "mood": [
-      "melancholic",
-      "reflective"
-    ],
+    "mood": ["melancholic", "reflective"],
     "chaos_level": 0.2,
     "energy": 0.3,
     "texture": 0.2,
-    "colors": [
-      "#4682B4",
-      "#5F9EA0",
-      "#6A5ACD",
-      "#8A2BE2",
-      "#9370DB"
-    ],
+    "colors": ["#4682B4", "#5F9EA0", "#6A5ACD", "#8A2BE2", "#9370DB"],
     "harmony": 0.8,
     "start": 0,
     "duration": 0.16
   },
   "song_end": {
     "explanation": "The song quiets down, ending on a reflective note.",
-    "mood": [
-      "melancholic",
-      "peaceful"
-    ],
+    "mood": ["melancholic", "peaceful"],
     "chaos_level": 0.2,
     "energy": 0.3,
     "texture": 0.2,
-    "colors": [
-      "#4682B4",
-      "#5F9EA0",
-      "#6A5ACD",
-      "#8A2BE2",
-      "#9370DB"
-    ],
+    "colors": ["#4682B4", "#5F9EA0", "#6A5ACD", "#8A2BE2", "#9370DB"],
     "harmony": 0.9,
     "start": 234.99,
     "duration": 0.007550999999978103

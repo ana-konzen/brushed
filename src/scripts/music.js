@@ -9,13 +9,19 @@ export async function getMusicData(
 ) {
   const geniusInfo = await getGeniusInfo(artistName, songTitle);
 
-  const spotifyInfo = await getSpotifyInfo(geniusInfo?.artists ?? artistName, geniusInfo?.title ?? songTitle);
-  console.log(spotifyInfo);
+  const spotifyInfo = await getSpotifyInfo(
+    geniusInfo?.artists ?? artistName,
+    geniusInfo?.title ?? songTitle
+  );
+  console.log("spotify info", spotifyInfo);
 
-  const lyrics = await getLyrics(geniusInfo?.artists ?? artistName, geniusInfo?.title ?? songTitle);
+  const lyrics = await getLyrics(
+    geniusInfo?.artists ?? artistName,
+    geniusInfo?.title ?? songTitle
+  );
 
   const trackInfo = {
-    ...spotifyInfo,
+    spotifyInfo: spotifyInfo || null,
     artists: geniusInfo?.artists ?? artistName,
     title: geniusInfo?.title ?? songTitle,
     duration: duration,

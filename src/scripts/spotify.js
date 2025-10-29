@@ -3,6 +3,7 @@ import Fuse from "https://esm.sh/fuse.js@6.4.1";
 import * as log from "../shared/logger.ts";
 
 export async function getSpotifyInfo(artistName, trackName) {
+  console.log("getting spotify info for:", artistName, trackName);
   const musicData = await fetchMusicData();
   const fuseOptions = {
     keys: ["artists", "track_name"],
@@ -10,13 +11,17 @@ export async function getSpotifyInfo(artistName, trackName) {
     ignoreLocation: true,
     useExtendedSearch: true,
   };
-
   const fuse = new Fuse(musicData, fuseOptions);
   const query = {
-    $and: [{ artists: artistName.replaceAll(" & ", ", ") }, { track_name: trackName }],
+    $and: [
+      { artists: artistName.replaceAll(" & ", ", ") },
+      { track_name: trackName },
+    ],
   };
   const searchResults = fuse.search(query);
   const spotifyInfo = searchResults[0]?.item;
+
+  console.log("spotify info found:", spotifyInfo);
 
   if (!spotifyInfo) {
     log.warn(`No track info found for ${trackName} by ${artistName}`);
@@ -37,7 +42,8 @@ export async function getSpotifyInfo(artistName, trackName) {
 }
 
 async function fetchMusicData() {
-  const musicDataUrl = "https://raw.githubusercontent.com/ana-konzen/music-data/refs/heads/main/dataset.json";
+  const musicDataUrl =
+    "https://raw.githubusercontent.com/ana-konzen/music-data/refs/heads/main/dataset.json";
   const response = await fetch(musicDataUrl);
 
   const data = await response.json();

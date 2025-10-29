@@ -11,8 +11,6 @@ let dataLoaded = false;
 getSavedMusic();
 
 sendButton.addEventListener("click", async () => {
-  console.log(songTitle.value);
-  console.log(artistName.value);
   const audioFile = audioInput.files[0];
 
   if (audioFile && audioFile.type === "audio/mpeg") {
@@ -58,6 +56,7 @@ loadButton.addEventListener("click", async () => {
 
   document.querySelector("#start").style.display = "block";
   document.querySelector("canvas").style.display = "block";
+  loadInfoPanel(songData);
 });
 
 async function getSavedMusic() {
@@ -70,14 +69,13 @@ async function getSavedMusic() {
       const music = await response.json();
       const songOption = document.createElement("div");
       songOption.classList.add("song-option");
-      songOption.innerHTML = `<div>${music.artists}</div><div>${music.title}</div><div>${secondsToMinutes(
-        music.duration
-      )}</div>`;
+      songOption.innerHTML = `<div>${music.artists}</div><div>${
+        music.title
+      }</div><div>${secondsToMinutes(music.duration)}</div>`;
       document.querySelector("#song-list .content").appendChild(songOption);
       songOption.addEventListener("click", () => {
         selectMusic(songOption);
         songData = music;
-        console.log(songData);
         loadButton.disabled = false;
         loadButton.classList.remove("disabled");
         audioUrl = `saved-music/mp3/${file.replace(".json", ".mp3")}`;

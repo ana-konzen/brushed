@@ -1,11 +1,13 @@
 {
-  "key": "4",
-  "mode": "0",
-  "valence": "0.437",
-  "danceability": "0.566",
-  "energy": "0.664",
-  "tempo": "128.945",
-  "genre": "singer-songwriter",
+  "spotifyInfo": {
+    "key": "4",
+    "mode": "0",
+    "valence": "0.437",
+    "danceability": "0.566",
+    "energy": "0.664",
+    "tempo": "128.945",
+    "genre": "singer-songwriter"
+  },
   "artists": "Hozier",
   "title": "Take Me to Church",
   "duration": 240.352653,

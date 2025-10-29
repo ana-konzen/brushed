@@ -4,13 +4,22 @@ import dedent from "npm:dedent";
 
 export async function getMusicAnalysis(artistName, songTitle, duration) {
   const musicData = await getMusicData(artistName, songTitle, duration);
-  const spotifyInfoPrompt = musicData.incomplete
+  const spotifyInfoPrompt = musicData.spotifyInfo.incomplete
     ? ""
     : dedent`Here is the info for the song as whole:
-  Valence, from 0 to 1 where 0 is very negative and 1 is very positive: ${musicData.valence};
-   Energy where 0 is very calm and 1 is very energetic: ${musicData.energy};
-    Danceability, from 0 to 1 where 0 is not danceable and 1 is very danceable: ${musicData.danceability};
-    The genre of the song is ${musicData.genre}.`;
+  Valence, from 0 to 1 where 0 is very negative and 1 is very positive: ${
+    musicData.spotifyInfo.valence
+  };
+   Energy where 0 is very calm and 1 is very energetic: ${
+     musicData.spotifyInfo.energy
+   };
+    Danceability, from 0 to 1 where 0 is not danceable and 1 is very danceable: ${
+      musicData.spotifyInfo.danceability
+    };
+    The genre of the song is ${musicData.spotifyInfo.genre};
+    The song is in ${
+      musicData.spotifyInfo.mode === 1 ? "major" : "minor"
+    } mode.`;
 
   const lyricsPrompt = musicData.lyricsAnnotations.instrumental
     ? "The song is instrumental;"
@@ -35,7 +44,8 @@ export async function getMusicAnalysis(artistName, songTitle, duration) {
     },
     mood: {
       type: "array",
-      description: "An array with keywords about the mood of the section, consider the mood and lyrics.",
+      description:
+        "An array with keywords about the mood of the section, consider the mood and lyrics.",
       items: {
         type: "string",
       },
@@ -52,7 +62,8 @@ export async function getMusicAnalysis(artistName, songTitle, duration) {
     },
     texture: {
       type: "number",
-      description: "texture of section if 0 is completely homophonic and 1 is completely polyphonic",
+      description:
+        "texture of section if 0 is completely homophonic and 1 is completely polyphonic",
     },
     colors: {
       type: "array",
@@ -75,8 +86,14 @@ export async function getMusicAnalysis(artistName, songTitle, duration) {
 
   const sectionProperties = {
     ...songProperties,
-    start: { type: "number", description: "The start timestamp of the section, in seconds." },
-    duration: { type: "number", description: "The duration of the section, in seconds." },
+    start: {
+      type: "number",
+      description: "The start timestamp of the section, in seconds.",
+    },
+    duration: {
+      type: "number",
+      description: "The duration of the section, in seconds.",
+    },
   };
 
   initOpenAI();
@@ -93,8 +110,8 @@ export async function getMusicAnalysis(artistName, songTitle, duration) {
       { role: "user", content: prompt },
     ],
     temperature: 0.9,
-    max_tokens: 2000,
-    model: "gpt-4o-2024-11-20",
+    max_tokens: 4000,
+    model: "gpt-4.1-2025-04-14",
     // seed: 256,
     response_format: {
       type: "json_schema",
@@ -107,7 +124,15 @@ export async function getMusicAnalysis(artistName, songTitle, duration) {
               type: "object",
               description: "The start of the song, starting at 0 seconds.",
               properties: songProperties,
-              required: ["explanation", "mood", "chaos_level", "energy", "texture", "colors", "harmony"],
+              required: [
+                "explanation",
+                "mood",
+                "chaos_level",
+                "energy",
+                "texture",
+                "colors",
+                "harmony",
+              ],
               additionalProperties: false,
             },
             sections: {
@@ -135,7 +160,15 @@ export async function getMusicAnalysis(artistName, songTitle, duration) {
               type: "object",
               description: "The end of the song.",
               properties: songProperties,
-              required: ["explanation", "mood", "chaos_level", "energy", "texture", "colors", "harmony"],
+              required: [
+                "explanation",
+                "mood",
+                "chaos_level",
+                "energy",
+                "texture",
+                "colors",
+                "harmony",
+              ],
               additionalProperties: false,
             },
           },
@@ -147,6 +180,9 @@ export async function getMusicAnalysis(artistName, songTitle, duration) {
     },
   });
 
+  // const songData = {
+
+  // }
   musicData.sections = result.parsed.sections;
   musicData.song_start = result.parsed.song_start;
   musicData.song_start.start = 0;

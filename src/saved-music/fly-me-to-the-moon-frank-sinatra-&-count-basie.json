@@ -1,0 +1,279 @@
+{
+  "spotifyInfo": {
+    "incomplete": true
+  },
+  "artists": "Frank Sinatra & Count Basie",
+  "title": "Fly Me to the Moon",
+  "duration": 147.52,
+  "lyrics": [
+    {
+      "timeStamp": 6.21,
+      "lyrics": "Fly me to the moon"
+    },
+    {
+      "timeStamp": 11.17,
+      "lyrics": "Let me play up there with those stars"
+    },
+    {
+      "timeStamp": 15.83,
+      "lyrics": "Let me see what life is like"
+    },
+    {
+      "timeStamp": 19.88,
+      "lyrics": "On Jupiter and Mars"
+    },
+    {
+      "timeStamp": 23.71,
+      "lyrics": "In other words, hold my hand"
+    },
+    {
+      "timeStamp": 31.84,
+      "lyrics": "In other words, darling, kiss me"
+    },
+    {
+      "timeStamp": 39.92,
+      "lyrics": "Fill my heart with song"
+    },
+    {
+      "timeStamp": 43.11,
+      "lyrics": "Let me swing for ever more"
+    },
+    {
+      "timeStamp": 47.96,
+      "lyrics": "You are all I long for"
+    },
+    {
+      "timeStamp": 51.16,
+      "lyrics": "All I worship and adore"
+    },
+    {
+      "timeStamp": 55.95,
+      "lyrics": "In other words, please be true"
+    },
+    {
+      "timeStamp": 63.91,
+      "lyrics": "In other words, I love you"
+    },
+    {
+      "timeStamp": 104.57,
+      "lyrics": "You fill my heart with song"
+    },
+    {
+      "timeStamp": 107.32,
+      "lyrics": "Let me sing for ever more because"
+    },
+    {
+      "timeStamp": 112.79,
+      "lyrics": "You are all I worship"
+    },
+    {
+      "timeStamp": 117.93,
+      "lyrics": "All I long for and adore"
+    },
+    {
+      "timeStamp": 121.92,
+      "lyrics": "In other words, please be true"
+    },
+    {
+      "timeStamp": 128.87,
+      "lyrics": "In other words, in other words"
+    },
+    {
+      "timeStamp": 137.39,
+      "lyrics": "I love you!"
+    },
+    {
+      "timeStamp": 146.8,
+      "lyrics": ""
+    }
+  ],
+  "lyricsAnnotations": [
+    {
+      "lyrics": "Fill my heart with song\n And let me sing forevermore\n You are all I long for\n All I worship and adore\n In other words, please be true\n In other words, I love you",
+      "annotation": [
+        "Kaye Ballard recorded this song first. Her recording was released by Decca Records in 1954.  Billboard (magazine) said that it was “A love song sung with feeling…” in a brief review published on 8 May 1954.\n\n\n\nThe girl fills him with a joy he has never had in his life before. She fills him with love and other powerful emotions he has never had and it makes him happy. He longs only to be her one and only, not her to be his. It’s true love."
+      ]
+    },
+    {
+      "lyrics": "And let me see what spring is like\n On a-Jupiter and Mars",
+      "annotation": [
+        "Frank Sinatra’s 1964 recording was played by the astronauts of Apollo 10 on their lunar-orbital mission and again on the moon itself by the astronaut Buzz Aldrin during the Apollo 11 landing.\n\nhttps://youtu.be/UITwhy5-Vas"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "explanation": "Sinatra begins singing, 'Fly me to the moon; let me play up there with those stars.' The lyrics are dreamy and aspirational, signifying a longing to escape and experience wonder with a loved one. The big band slowly builds behind him, with smooth horns and gentle percussion.",
+      "mood": [
+        "dreamy",
+        "aspirational",
+        "romantic",
+        "playful"
+      ],
+      "chaos_level": 0.2,
+      "energy": 0.32,
+      "texture": 0.4,
+      "colors": [
+        "#F6D4E5",
+        "#BBDFFF",
+        "#FDB813",
+        "#7C90A0",
+        "#362E75"
+      ],
+      "harmony": 0.9,
+      "start": 0,
+      "duration": 23.71
+    },
+    {
+      "explanation": "The lyrics shift to an intimate plea: 'In other words, hold my hand. In other words, darling, kiss me.' The music supports this with gentle swells, a slight rise in dynamics, and a close, warm feeling.",
+      "mood": [
+        "tender",
+        "intimate",
+        "yearning"
+      ],
+      "chaos_level": 0.13,
+      "energy": 0.27,
+      "texture": 0.32,
+      "colors": [
+        "#EFC3BE",
+        "#F7DC91",
+        "#B6C89F",
+        "#62423B",
+        "#BDD4EA"
+      ],
+      "harmony": 0.98,
+      "start": 23.71,
+      "duration": 16.21
+    },
+    {
+      "explanation": "Sinatra launches into the first true chorus-like section: 'Fill my heart with song. Let me swing forever more.' The energy lifts as the band swings. Lyrics highlight joy, worship, and adoration—emotional peak, with the horns more prominent.",
+      "mood": [
+        "joyful",
+        "uplifting",
+        "swinging",
+        "celebratory"
+      ],
+      "chaos_level": 0.42,
+      "energy": 0.76,
+      "texture": 0.56,
+      "colors": [
+        "#F8E16C",
+        "#96E3C2",
+        "#F04240",
+        "#8F3A84",
+        "#282F44"
+      ],
+      "harmony": 0.88,
+      "start": 39.92,
+      "duration": 23.99
+    },
+    {
+      "explanation": "A gentle bridge and emotional drop, with 'In other words, please be true. In other words, I love you.' The arrangement softens again, signaling longing and sincerity.",
+      "mood": [
+        "sincere",
+        "vulnerable",
+        "hopeful"
+      ],
+      "chaos_level": 0.12,
+      "energy": 0.24,
+      "texture": 0.2,
+      "colors": [
+        "#D3B5E5",
+        "#91A6FF",
+        "#E8C547",
+        "#393E46",
+        "#F7F7FF"
+      ],
+      "harmony": 1,
+      "start": 63.91,
+      "duration": 40.66
+    },
+    {
+      "explanation": "Second chorus, with an energetic return: 'You fill my heart with song...' The arrangement is brighter and more swinging, echoing the earlier chorus but with more big band flourish. The joy is accentuated, reflecting fulfillment and love.",
+      "mood": [
+        "exuberant",
+        "swinging",
+        "fulfilled"
+      ],
+      "chaos_level": 0.51,
+      "energy": 0.82,
+      "texture": 0.69,
+      "colors": [
+        "#FFD166",
+        "#58B09C",
+        "#EE6C4D",
+        "#3A6EA5",
+        "#22223B"
+      ],
+      "harmony": 0.84,
+      "start": 104.57,
+      "duration": 33.82
+    },
+    {
+      "explanation": "Final outro: 'In other words, in other words, I love you!' Sinatra delivers the last line with flair and warmth. The band gives a final dramatic swell before fading out, leaving a lingering sense of romance and gratitude.",
+      "mood": [
+        "romantic",
+        "finale",
+        "warm",
+        "grateful"
+      ],
+      "chaos_level": 0.18,
+      "energy": 0.61,
+      "texture": 0.41,
+      "colors": [
+        "#F3B0C3",
+        "#AFCBFF",
+        "#FFE156",
+        "#A1A08B",
+        "#36213E"
+      ],
+      "harmony": 0.97,
+      "start": 137.39,
+      "duration": 10.13
+    }
+  ],
+  "song_start": {
+    "explanation": "The song opens with a gentle introduction by the band, setting an intimate and classic jazz mood. The arrangement is smooth, inviting, and elegant, preparing the listener for Frank Sinatra's entrance.",
+    "mood": [
+      "elegant",
+      "romantic",
+      "hopeful",
+      "gentle"
+    ],
+    "chaos_level": 0.1,
+    "energy": 0.2,
+    "texture": 0.3,
+    "colors": [
+      "#E7E5D1",
+      "#B8C6DB",
+      "#A1A3A9",
+      "#7A6748",
+      "#C2A77B"
+    ],
+    "harmony": 0.93,
+    "start": 0,
+    "duration": 0
+  },
+  "song_end": {
+    "explanation": "As the final note fades, there's a gentle diminuendo from the band—soft, contented, and nostalgic. The entire atmosphere settles, leaving the listener with the afterglow of love.",
+    "mood": [
+      "content",
+      "nostalgic",
+      "peaceful"
+    ],
+    "chaos_level": 0.05,
+    "energy": 0.1,
+    "texture": 0.13,
+    "colors": [
+      "#F2F2F2",
+      "#BCB8B1",
+      "#A7C7E7",
+      "#F6CEEC",
+      "#6C757D"
+    ],
+    "harmony": 1,
+    "start": 147.51999999999998,
+    "duration": 2.842170943040401e-14
+  },
+  "mp3_file": "fly-me-to-the-moon-frank-sinatra-&-count-basie.mp3"
+}

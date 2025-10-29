@@ -1,8 +1,9 @@
 const margin = 80;
 const bufferSize = 1024;
 const dryInterval = 600;
-const dryDuration = 150;
-const threshold = 0.05;
+const dryDuration = 200;
+const minLevel = 0.05;
+const minDelta = 0.03;
 const decayRate = 0.95;
 
 const fields = {
@@ -14,6 +15,7 @@ const fields = {
 };
 
 let currentSection;
+let previousSection;
 let overallEnergy;
 let energy;
 let chaosLevel;
@@ -21,6 +23,7 @@ let density;
 
 let sound;
 let fft;
+let peak;
 let amplitude;
 
 let vorPoints;
@@ -36,12 +39,14 @@ let palette = [];
 
 const palettes = [];
 
-let triggerLevel = 0;
+let previousLevel = 0;
 let ellapsedTime = 0;
 
 let soundLoaded = false;
 
 let songEnded = false;
+
+let mouseOverInfo = false;
 
 function setup() {
   cnv = createCanvas(windowWidth, windowHeight);
@@ -57,7 +62,7 @@ function setup() {
   brushCanvas.noFill();
 
   select("#save-button").mousePressed(() => {
-    saveCanvas(cnv, "painting", "png");
+    saveCanvas(cnv, `${songData.artists}, ${songData.title}`, "png");
   });
 
   select("#play-button").mousePressed(() => {
@@ -74,6 +79,14 @@ function setup() {
     soundLoaded = false;
     dataLoaded = false;
   });
+
+  select("#song-info").mouseOver(() => {
+    mouseOverInfo = true;
+  });
+
+  select("#song-info").mouseOut(() => {
+    mouseOverInfo = false;
+  });
 }
 
 function draw() {
@@ -81,16 +94,19 @@ function draw() {
 
   if (soundLoaded) {
     if (songData.sections.indexOf(currentSection) >= 0) {
-      currentSection = songData.sections[songData.sections.indexOf(currentSection)];
+      currentSection =
+        songData.sections[songData.sections.indexOf(currentSection)];
     }
     palette = palettes[0].colors;
     if (sound.isPlaying()) {
-      if (frameCount % 200 === 0) {
+      if (frameCount % 200 === 0 && !mouseOverInfo) {
         select("#painting-menu").style("opacity", "0");
       }
 
       select("#time").html(
-        `${secondsToMinutes(sound.currentTime())} / ${secondsToMinutes(songData.duration)}`
+        `${secondsToMinutes(sound.currentTime())} / ${secondsToMinutes(
+          songData.duration
+        )}`
       );
       ellapsedTime++;
       songData.sections.forEach((section) => {
@@ -98,7 +114,8 @@ function draw() {
       });
 
       if (songData.sections.indexOf(currentSection) >= 0) {
-        palette = palettes[songData.sections.indexOf(currentSection) + 1].blendPalettes;
+        palette =
+          palettes[songData.sections.indexOf(currentSection) + 1].blendPalettes;
       }
 
       analyzeSection();
@@ -147,11 +164,25 @@ function setState() {
   songData.sections.forEach((section, i) => {
     const blendPalettes = [];
     const previousPalette = palettes[i].colors;
-    const colorSteps = map((section.energy + section.chaos_level) / 2, 0, 1, 20, 5, true);
+    const colorSteps = map(
+      (section.energy + section.chaos_level) / 2,
+      0,
+      1,
+      20,
+      5,
+      true
+    );
     const nextPalette =
-      i === songData.sections.length - 1 ? songData.song_end.colors : songData.sections[i + 1].colors;
+      i === songData.sections.length - 1
+        ? songData.song_end.colors
+        : songData.sections[i + 1].colors;
     nextPalette.forEach((color, j) => {
-      blendPalettes[j] = spectral.palette(previousPalette[j], color, colorSteps, spectral.RGBA);
+      blendPalettes[j] = spectral.palette(
+        previousPalette[j],
+        color,
+        colorSteps,
+        spectral.RGBA
+      );
     });
     palettes[i + 1] = {
       blendPalettes,
@@ -161,6 +192,7 @@ function setState() {
 
   document.querySelector("#start").style.display = "none";
   select("#painting-menu").style("display", "block");
+  select("#song-info").style("display", "flex");
   select("canvas").style("display", "block");
   select("canvas").style("opacity", "1");
   createVoronoi();
@@ -186,9 +218,11 @@ function setState() {
 function drawBrush(pitch, field, brushWidth, prop, round = false) {
   const positions = getPositions(field, chaosLevel);
 
-  let level = amplitude.getLevel();
-  if (level > triggerLevel && level > threshold) {
-    triggerLevel = level;
+  const level = amplitude.getLevel();
+  const ampDelta = level - previousLevel;
+
+  if (ampDelta > minDelta && level > minLevel) {
+    previousLevel = level;
 
     const brush = new Brush(brushCanvas);
     brush.fill(setColor(field));
@@ -202,12 +236,13 @@ function drawBrush(pitch, field, brushWidth, prop, round = false) {
       positions.x + random(-chaosLevel / 2, chaosLevel / 2),
       positions.y + random(-chaosLevel / 2, chaosLevel / 2)
     );
-    const ang = map(energy, 0, 1, 0, 180);
+    // const ang = map(chaosLevel, 0, 1, 0, 180);
+    ang = chaosLevel;
     brush.rotate(random(-ang, ang));
 
     field.history.push(brush);
   } else {
-    triggerLevel *= decayRate;
+    previousLevel *= decayRate;
   }
 
   if (field.history.length > 1) {
@@ -243,8 +278,8 @@ function setColor(field) {
   const r = constrain(c.levels[0] + random(-colorJitter, colorJitter), 0, 255);
   const g = constrain(c.levels[1] + random(-colorJitter, colorJitter), 0, 255);
   const b = constrain(c.levels[2] + random(-colorJitter, colorJitter), 0, 255);
-  // const a = map(energy, 0, 1, 3, 8);
-  const c2 = color(r, g, b, 8);
+  const a = map(energy, 0, 1, 3, 8);
+  const c2 = color(r, g, b, a);
   return c2;
 }
 
@@ -259,7 +294,11 @@ function getPosIndex(arr, chaosLevel) {
     )
   );
   return floor(
-    abs(index + arr.length / 2 + random(-(chaosLevel * energy) * 2, chaosLevel * energy * 2)) % arr.length
+    abs(
+      index +
+        arr.length / 2 +
+        random(-(chaosLevel * energy) * 2, chaosLevel * energy * 2)
+    ) % arr.length
   );
 }
 
@@ -291,25 +330,38 @@ function getPositions(field, chaosLevel) {
 function createVoronoi() {
   vorPoints = d3
     .range(Object.keys(fields).length)
-    .map(() => [random(margin, brushCanvas.width - margin), random(margin, brushCanvas.height - margin)]);
+    .map(() => [
+      random(margin, brushCanvas.width - margin),
+      random(margin, brushCanvas.height - margin),
+    ]);
   const delaunay = d3.Delaunay.from(vorPoints);
-  voronoi = delaunay.voronoi([margin, margin, brushCanvas.width - margin, brushCanvas.height - margin]);
+  voronoi = delaunay.voronoi([
+    margin,
+    margin,
+    brushCanvas.width - margin,
+    brushCanvas.height - margin,
+  ]);
 }
 
 function analyzeSection() {
-  overallEnergy = songData.incomplete ? Number(currentSection.energy) : Number(songData.energy);
+  overallEnergy = songData.spotifyInfo.incomplete
+    ? Number(currentSection.energy)
+    : Number(songData.spotifyInfo.energy);
 
   energy = (Number(currentSection.energy) + overallEnergy) / 2;
 
-  pressure = map(energy, 0, 1, 1, 15, true);
+  pressure = map(energy, 0, 1, 1, 20, true);
 
-  density = map(Number(currentSection.texture), 0, 1, 20, 1, true);
-  const harmony = map(Number(currentSection.harmony), 0, 1, 1, 0, true);
-  chaosLevel = ((Number(currentSection.chaos_level) + harmony) / 2) * 150;
+  density = map(Number(currentSection.texture), 0, 1, 15, 1, true);
+  const harmony = map(Number(currentSection.harmony), 0, 1, 2, 0, true);
+  chaosLevel = ((Number(currentSection.chaos_level) + harmony) / 2) * 180;
 }
 
 function drawBrushCanvas() {
-  const imageRatio = min((width - margin) / brushCanvas.width, (height - margin) / brushCanvas.height);
+  const imageRatio = min(
+    (width - margin) / brushCanvas.width,
+    (height - margin) / brushCanvas.height
+  );
   noStroke();
   tint(255, 100);
   image(
@@ -324,21 +376,43 @@ function drawBrushCanvas() {
 function updateSection(section) {
   if (sound.currentTime() < Number(songData.sections[0].start)) {
     currentSection = songData.song_start;
-    resetPositions();
   } else if (
     sound.currentTime() >= Number(section.start) &&
     sound.currentTime() <= Number(section.start) + Number(section.duration)
   ) {
     currentSection = section;
-    resetPositions();
   } else if (
     sound.currentTime() >
     Number(songData.sections[songData.sections.length - 1].start) +
       Number(songData.sections[songData.sections.length - 1].duration)
   ) {
     currentSection = songData.song_end;
+  }
+  if (currentSection !== previousSection) {
+    console.log("section switched to", currentSection);
+    let sectionIndex = 0;
+    if (currentSection === songData.song_start) {
+      sectionIndex = 0;
+    } else if (currentSection === songData.song_end) {
+      sectionIndex = songData.sections.length + 1;
+    } else {
+      sectionIndex = songData.sections.indexOf(currentSection) + 1;
+    }
+    updateSectionInfo(sectionIndex);
     resetPositions();
   }
+  previousSection = currentSection;
+}
+
+function updateSectionInfo(sectionIndex) {
+  if (sectionIndex === undefined) return;
+  document.querySelectorAll(".section-item").forEach((item) => {
+    item.classList.remove("active-info-section");
+  });
+  select(`.section-item-${sectionIndex}`).addClass("active-info-section");
+  document
+    .querySelector(`.section-item-${sectionIndex}`)
+    .scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
 function drawFields() {
@@ -352,9 +426,9 @@ function drawFields() {
 
   setPositions();
 
-  drawBrush(bass, fields.bass, 35, 2.8, true);
-  drawBrush(treble, fields.treble, 60, 1.5);
-  drawBrush(highMid, fields.highMid, 60, 1.5);
-  drawBrush(mid, fields.mid, 40, 2.8);
-  drawBrush(lowMid, fields.lowMid, 35, 2.8, true);
+  drawBrush(bass, fields.bass, 50, 2.8, true);
+  drawBrush(treble, fields.treble, 70, 1.5);
+  drawBrush(highMid, fields.highMid, 70, 1.5);
+  drawBrush(mid, fields.mid, 50, 2.8);
+  drawBrush(lowMid, fields.lowMid, 45, 2.8, true);
 }

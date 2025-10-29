@@ -47,7 +47,7 @@ interface SpinnerOptions {
 export async function promptGPT(
   prompt: string,
   params: Partial<OpenAIChatParams> = {},
-  options: Partial<SpinnerOptions> = {},
+  options: Partial<SpinnerOptions> = {}
 ): Promise<string> {
   params.messages = [{ role: "user", content: prompt }];
   const message = await gpt(params, options);
@@ -56,7 +56,7 @@ export async function promptGPT(
 
 export async function gpt(
   params: Partial<OpenAIChatParams> = {},
-  spinnerOptions: Partial<SpinnerOptions> = {},
+  spinnerOptions: Partial<SpinnerOptions> = {}
 ): Promise<OpenAI.ChatCompletionMessage> {
   // initialize openai if this is the first call
   if (!openai) initOpenAI();
@@ -71,7 +71,7 @@ export async function gpt(
     // logit_bias: {},
     // logprobs: null,
     // top_logprobs: null,
-    max_tokens: 128,
+    // max_tokens: 128,
     // n: 1,
     // presence_penalty: 0,
     // response_format: { type: "text" },
@@ -134,14 +134,18 @@ export async function gpt(
     if (spinner) {
       let message = spinnerOptions.successMessage ?? "";
       if (spinnerOptions.showStats) {
-        message += " " + colors.gray(formatStats(
-          chatParams.model,
-          p_tokens,
-          c_tokens,
-          seconds,
-          cost,
-          totalCost,
-        ));
+        message +=
+          " " +
+          colors.gray(
+            formatStats(
+              chatParams.model,
+              p_tokens,
+              c_tokens,
+              seconds,
+              cost,
+              totalCost
+            )
+          );
       }
       spinner.stopWithFlair(message.trim(), colors.green("✔"));
     }
@@ -176,7 +180,7 @@ function formatStats(
   c_tokens: number,
   seconds: number,
   cost: number,
-  t_cost: number,
+  t_cost: number
 ) {
   const costF = isNaN(cost) ? "?" : roundToDecimalPlaces(cost, 2, 4);
   const t_costF = roundToDecimalPlaces(t_cost, 2, 4);
@@ -188,7 +192,7 @@ type DalleImageParams = OpenAI.Images.ImageGenerateParams;
 
 export async function promptDalle(
   prompt: string,
-  params: Partial<DalleImageParams> = {},
+  params: Partial<DalleImageParams> = {}
 ): Promise<OpenAI.Images.Image> {
   if (!openai) initOpenAI();
 
@@ -225,7 +229,7 @@ export async function promptDalle(
 
   spinner.stopWithFlair(
     colors.gray(`${dalleParams.model} ${seconds}s $${cost}`),
-    colors.green("✔"),
+    colors.green("✔")
   );
 
   log.info(imageResponse.data[0].revised_prompt);

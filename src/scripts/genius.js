@@ -23,10 +23,13 @@ export async function getGeniusInfo(artistName, songTitle) {
 
 async function getAnnotations(songId, token) {
   try {
-    const response = await fetch(`https://api.genius.com/referents?text_format=plain&song_id=${songId}`, {
-      method: "GET",
-      headers: { Authorization: "Bearer " + token },
-    });
+    const response = await fetch(
+      `https://api.genius.com/referents?text_format=plain&song_id=${songId}`,
+      {
+        method: "GET",
+        headers: { Authorization: "Bearer " + token },
+      }
+    );
     if (!response.ok) {
       throw new Error("Error fetching annotations");
     }
@@ -39,7 +42,9 @@ async function getAnnotations(songId, token) {
     const referents = rawReferents.map((referent) => {
       return {
         lyrics: referent.fragment.trim(),
-        annotation: referent.annotations.map((annotation) => annotation.body.plain.trim()),
+        annotation: referent.annotations.map((annotation) =>
+          annotation.body.plain.trim()
+        ),
       };
     });
     return referents;
@@ -51,10 +56,13 @@ async function getAnnotations(songId, token) {
 
 async function getDescription(songId, token) {
   try {
-    const response = await fetch(`https://api.genius.com/songs/${songId}?text_format=plain`, {
-      method: "GET",
-      headers: { Authorization: "Bearer " + token },
-    });
+    const response = await fetch(
+      `https://api.genius.com/songs/${songId}?text_format=plain`,
+      {
+        method: "GET",
+        headers: { Authorization: "Bearer " + token },
+      }
+    );
     const songInfo = await response.json();
     const description = songInfo?.response?.song?.description?.plain;
     if (!description) {
@@ -70,10 +78,13 @@ async function getDescription(songId, token) {
 
 async function getSongInfo(artistName, songTitle, token) {
   try {
-    const response = await fetch(`https://api.genius.com/search?q=${songTitle}_${artistName}`, {
-      method: "GET",
-      headers: { Authorization: "Bearer " + token },
-    });
+    const response = await fetch(
+      `https://api.genius.com/search?q=${songTitle}_${artistName}`,
+      {
+        method: "GET",
+        headers: { Authorization: "Bearer " + token },
+      }
+    );
     if (!response.ok) {
       throw new Error("Error fetching song info");
     }
