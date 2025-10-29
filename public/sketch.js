@@ -1,10 +1,13 @@
-const margin = 80;
+const margin = 130;
 const bufferSize = 1024;
 const dryInterval = 600;
 const dryDuration = 200;
 const minLevel = 0.05;
 const minDelta = 0.03;
 const decayRate = 0.95;
+
+const brushCanvasWidth = 1400;
+const brushCanvasHeight = 1100;
 
 const fields = {
   bass: { index: 0, positions: [], history: [] },
@@ -54,7 +57,7 @@ function setup() {
   colorMode(RGB);
   noFill();
 
-  brushCanvas = createGraphics(1200, 900, WEBGL);
+  brushCanvas = createGraphics(brushCanvasWidth, brushCanvasHeight, WEBGL);
   brushCanvas.translate(-brushCanvas.width / 2, -brushCanvas.height / 2);
   brushCanvas.setAttributes({ alpha: true });
   brushCanvas.angleMode(DEGREES);

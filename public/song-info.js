@@ -2,7 +2,13 @@ const featuresCont = document.getElementById("features-cont");
 const featuresList = document.getElementById("features");
 const sectionsList = document.getElementById("sections");
 
+function resetInfoPanel() {
+  featuresList.innerHTML = "";
+  sectionsList.innerHTML = "";
+}
+
 function loadInfoPanel(songData) {
+  resetInfoPanel();
   console.log("song data loaded:", songData);
   if (songData.spotifyInfo.incomplete) {
     featuresCont.style.display = "none";
@@ -20,25 +26,29 @@ function loadInfoPanel(songData) {
       featuresList.appendChild(featureItem);
     }
   }
-  createSectionItem(songData.song_start, 0);
+  const indexOffset = songData.song_start.duration > 0 ? 1 : 0;
+  if (songData.song_start.duration > 0)
+    createSectionItem(songData.song_start, 0);
   songData.sections.forEach((section, index) => {
-    createSectionItem(section, index + 1);
+    createSectionItem(section, index + 1, indexOffset);
   });
-  createSectionItem(songData.song_end, songData.sections.length);
+
+  if (songData.song_end.duration > 0)
+    createSectionItem(songData.song_end, songData.sections.length);
 
   document
     .querySelector(".section-item-0")
     .classList.add("active-info-section");
 }
 
-function createSectionItem(section, index) {
+function createSectionItem(section, index, indexOffset = 1) {
   const sectionItem = document.createElement("div");
   sectionItem.classList.add("section-item");
   sectionItem.classList.add(`section-item-${index}`);
   const header = document.createElement("div");
   header.classList.add("section-header");
   header.innerHTML = `<div>section ${
-    index + 1
+    index + indexOffset
   }</div><div class="section-time">${secondsToMinutes(
     section.start
   )} — ${secondsToMinutes(section.start + section.duration)}</div>`;

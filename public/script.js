@@ -42,6 +42,7 @@ sendButton.addEventListener("click", async () => {
 
       document.querySelector("#start").style.display = "block";
       document.querySelector("canvas").style.display = "block";
+      loadInfoPanel(songData);
     } catch (error) {
       console.error(error);
     }
